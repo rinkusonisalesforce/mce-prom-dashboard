@@ -1,5 +1,5 @@
 // MCE (Marketing Cloud Engagement) Proactive Monitoring Data
-// Auto-generated on 2026-06-20
+// Auto-generated on 2026-06-22
 // Source: UTDP Exports + Org62 Service Contracts
 
 // ============================================================================
@@ -396,7 +396,7 @@ export const mceRegionalBreakdown = [
 // ============================================================================
 
 export const dataMetadata = {
-  "lastUpdated": "2026-06-20",
+  "lastUpdated": "2026-06-22",
   "dataSource": {
     "monitoring": "UTDP Exports (CSV files)",
     "contracts": "/Users/rinku.soni/prom-signature-extension/sample/contracts.csv",
