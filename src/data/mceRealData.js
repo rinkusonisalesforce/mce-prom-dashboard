@@ -8601,7 +8601,7 @@ export const dataMetadata = {
   "lastUpdated": "2026-06-22",
   "dataSource": {
     "monitoring": "UTDP Exports (CSV files)",
-    "contracts": "/Users/rinku.soni/prom-signature-extension/data/contracts.xlsx",
+    "contracts": "/Users/rinku.soni/prom-signature-extension/data/Contracts_June2026.xlsx",
     "matchingLogic": "Tenant ID (EID) cross-reference"
   },
   "generationScript": "generateMCEData.py",

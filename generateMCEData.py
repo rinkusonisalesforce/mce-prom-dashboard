@@ -25,8 +25,10 @@ CSV_DIR = DATA_DIR
 
 # Try to find contracts file in multiple formats
 CONTRACTS_FILE = None
-for ext in ['.xlsx', '.csv']:
-    candidate = DATA_DIR / f'contracts{ext}'
+
+# Try new filename first (with status column)
+for filename in ['Contracts_June2026.xlsx', 'contracts.xlsx', 'contracts.csv']:
+    candidate = DATA_DIR / filename
     if candidate.exists():
         CONTRACTS_FILE = candidate
         break
@@ -204,16 +206,28 @@ def load_contracts():
                 if pd.isna(account_name):
                     account_name = ''
 
-                contracts.append({
-                    'accountName': str(account_name),
-                    'tenantId': str(tenant_id),
-                    'normalizedTenantId': normalized_id,
-                    'contractName': str(contract_name),
-                    'status': row.get('Status') or row.get('Service_Contract_Status__c') or 'Active',
-                    'signaturePlan': str(contract_name),
-                    'endDate': str(row.get('EndDate') or ''),
-                    'isSignature': True
-                })
+                # Get status - check multiple column name variations
+                status = None
+                for status_col in ['Service Contract Status', 'Service_Contract_Status__c', 'Status']:
+                    if status_col in row:
+                        status = row[status_col]
+                        break
+
+                if pd.isna(status):
+                    status = 'Active'  # Default if missing
+
+                # ONLY include ACTIVE signature contracts
+                if str(status).strip().lower() == 'active':
+                    contracts.append({
+                        'accountName': str(account_name),
+                        'tenantId': str(tenant_id),
+                        'normalizedTenantId': normalized_id,
+                        'contractName': str(contract_name),
+                        'status': str(status),
+                        'signaturePlan': str(contract_name),
+                        'endDate': str(row.get('EndDate') or ''),
+                        'isSignature': True
+                    })
     else:
         # Read CSV
         print(f'Reading CSV file: {CONTRACTS_FILE}')
