@@ -69,8 +69,8 @@ function App() {
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
 
-        {/* 7 Metric Cards - 4 cols then 3 cols */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
+        {/* 7 Metric Cards - 3 cols + 3 cols + 1 col */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
           <StatCard
             title="MCE Signature Accounts"
             value={(stats.totalSignatureAccounts || 0).toLocaleString()}
@@ -84,12 +84,6 @@ function App() {
             icon="✅"
           />
           <StatCard
-            title="ProM Enabled MCE Tenants"
-            value={(stats.promEnabledTenants || 0).toLocaleString()}
-            subtitle="Active tenant IDs with monitoring"
-            icon="🔍"
-          />
-          <StatCard
             title="Signature w/ ProM Not Leveraged"
             value={(stats.signatureNotLeveraged || 0).toLocaleString()}
             subtitle="Signature accounts without ProM"
@@ -98,6 +92,12 @@ function App() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+          <StatCard
+            title="ProM Enabled MCE Tenants"
+            value={(stats.promEnabledTenants || 0).toLocaleString()}
+            subtitle="Active tenant IDs with monitoring"
+            icon="🔍"
+          />
           <StatCard
             title="Non-Signature w/ ProM"
             value={(stats.nonSignatureWithProm || 0).toLocaleString()}
