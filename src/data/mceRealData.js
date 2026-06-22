@@ -11,7 +11,7 @@ export const mceSummaryStats = {
   "signatureWithProm": 481,
   "promEnabledTenants": 836,
   "signatureNotLeveraged": 308,
-  "nonSignatureWithProm": 201,
+  "nonSignatureWithProm": 103,
   "totalAlerts": 2428
 };
 
@@ -7756,6 +7756,16 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
+    "accountName": "UNIONBANK OF THE PHILIPPINES",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": false,
+    "eids": [
+      "E100011352"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
     "accountName": "Under_Armour",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
@@ -8264,6 +8274,16 @@ export const mceLeverageAccounts = [
     "eids": [
       "M6193684",
       "M6193685"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Takeda Pharmaceuticals International AG",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": false,
+    "eids": [
+      "E510958197"
     ],
     "isLeveraged": true,
     "hasMonitoring": true

@@ -303,23 +303,33 @@ def match_data(monitoring_data, contracts):
                 })
 
     # Find non-signature accounts with monitoring
-    # Exclude ANY account that has a signature contract (even if only some tenants leveraging)
-    signature_account_names = set(
-        account['accountName'].lower().strip()
-        for account in account_map.values()
-    )
-
-    # Also exclude by tenant ID (in case account names don't match between sources)
-    signature_tenant_ids = set(
+    # ONLY exclude specific EIDs that have ACTIVE signature contracts
+    active_signature_tenant_ids = set(
         normalize_contract_tenant_id(c['tenantId'])
         for c in contracts
+        if c['status'].lower() == 'active'
     )
 
-    non_signature_with_prom = [
+    # Get monitoring records where EID has NO active signature contract
+    non_sig_monitoring = [
         m for m in monitoring_data
-        if m['normalizedEid'] not in signature_tenant_ids
-        and m['customerName'].lower().strip() not in signature_account_names
+        if m['normalizedEid'] not in active_signature_tenant_ids
     ]
+
+    # Group by account name to get unique ACCOUNTS (not EIDs)
+    non_sig_accounts = {}
+    for m in non_sig_monitoring:
+        acc_name = m['customerName']
+        if acc_name not in non_sig_accounts:
+            non_sig_accounts[acc_name] = {
+                'customerName': acc_name,
+                'tenantIds': [],
+                'monitors': 0
+            }
+        non_sig_accounts[acc_name]['tenantIds'].append(m['tenantId'])
+        non_sig_accounts[acc_name]['monitors'] += m['monitors']
+
+    non_signature_with_prom = list(non_sig_accounts.values())
 
     return {
         'signatureLeveraged': signature_leveraged,
@@ -429,21 +439,16 @@ def generate_leverage_accounts(matched, monitoring_by_eid):
         })
 
     # Non-signature accounts with ProM
-    non_sig_accounts = {}
-    for m in matched['nonSignatureWithProm']:
-        acc_name = m['customerName']
-        if acc_name not in non_sig_accounts:
-            non_sig_accounts[acc_name] = {
-                'accountName': acc_name,
-                'serviceProvider': 'Marketing Cloud',
-                'isSignature': False,
-                'eids': [],
-                'isLeveraged': True,
-                'hasMonitoring': True
-            }
-        non_sig_accounts[acc_name]['eids'].append(m['tenantId'])
-
-    leverage_accounts.extend(non_sig_accounts.values())
+    # Now matched['nonSignatureWithProm'] is already grouped by account
+    for acc in matched['nonSignatureWithProm']:
+        leverage_accounts.append({
+            'accountName': acc['customerName'],
+            'serviceProvider': 'Marketing Cloud',
+            'isSignature': False,
+            'eids': acc.get('tenantIds', []),
+            'isLeveraged': True,
+            'hasMonitoring': True
+        })
 
     return leverage_accounts
 
