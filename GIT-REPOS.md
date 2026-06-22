@@ -14,6 +14,7 @@ Your MCE ProM Dashboard is now on **TWO** repositories!
 ### git.soma (Internal Salesforce)
 **URL:** https://git.soma.salesforce.com/rinku-soni/mce-prom-dashboard  
 **Use for:** Internal team collaboration, secure access  
+**Live Dashboard:** https://git.soma.salesforce.com/pages/rinku-soni/mce-prom-dashboard/  
 **Access:** Salesforce employees only
 
 ---
@@ -71,9 +72,14 @@ git commit -m "Update dashboard - July 2026 data"
 ./push-both.sh
 ```
 
-### 4. Deploy GitHub Pages
+### 4. Deploy to Both Pages
 ```bash
-npm run deploy
+./deploy-both.sh
+```
+
+Or deploy individually:
+```bash
+npm run deploy        # GitHub Pages only
 ```
 
 ---
@@ -87,7 +93,12 @@ https://rinkusonisalesforce.github.io/mce-prom-dashboard/
 ```
 
 ### For Salesforce Team (Internal Only)
-Share the **git.soma** repository:
+Share the **git.soma Pages** live dashboard:
+```
+https://git.soma.salesforce.com/pages/rinku-soni/mce-prom-dashboard/
+```
+
+Or share the **git.soma** repository:
 ```
 https://git.soma.salesforce.com/rinku-soni/mce-prom-dashboard
 ```
@@ -130,7 +141,9 @@ git branch -a
 - ✅ GitHub repository: **Active**
 - ✅ git.soma repository: **Active**
 - ✅ GitHub Pages: **Deployed**
+- ✅ git.soma Pages: **Deployed** (enable in Settings → Pages)
 - ✅ Push helper script: **Created** (`push-both.sh`)
+- ✅ Deploy helper script: **Created** (`deploy-both.sh`)
 
 ---
 
