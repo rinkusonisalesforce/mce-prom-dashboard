@@ -302,7 +302,14 @@ def match_data(monitoring_data, contracts):
                     'eidsWithProm': []
                 })
 
-    # Find non-signature tenants with monitoring
+    # Find non-signature accounts with monitoring
+    # Exclude ANY account that has a signature contract (even if only some tenants leveraging)
+    signature_account_names = set(
+        account['accountName'].lower().strip()
+        for account in account_map.values()
+    )
+
+    # Also exclude by tenant ID (in case account names don't match between sources)
     signature_tenant_ids = set(
         normalize_contract_tenant_id(c['tenantId'])
         for c in contracts
@@ -311,6 +318,7 @@ def match_data(monitoring_data, contracts):
     non_signature_with_prom = [
         m for m in monitoring_data
         if m['normalizedEid'] not in signature_tenant_ids
+        and m['customerName'].lower().strip() not in signature_account_names
     ]
 
     return {

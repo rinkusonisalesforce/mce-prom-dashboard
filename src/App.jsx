@@ -78,13 +78,13 @@ function App() {
             icon="📋"
           />
           <StatCard
-            title="Signature w/ ProM Enabled"
+            title="Signature Account - MCE ProM Leveraged"
             value={(stats.signatureWithProm || 0).toLocaleString()}
             subtitle="Signature accounts leveraging ProM"
             icon="✅"
           />
           <StatCard
-            title="Signature w/ ProM Not Leveraged"
+            title="Signature Account - MCE ProM Not Leveraged"
             value={(stats.signatureNotLeveraged || 0).toLocaleString()}
             subtitle="Signature accounts without ProM"
             icon="⚠️"
@@ -99,7 +99,7 @@ function App() {
             icon="🔍"
           />
           <StatCard
-            title="Non-Signature w/ ProM"
+            title="NON Signature Account - MCE ProM Leveraged"
             value={(stats.nonSignatureWithProm || 0).toLocaleString()}
             subtitle="Non-signature accounts using ProM"
             icon="ℹ️"
