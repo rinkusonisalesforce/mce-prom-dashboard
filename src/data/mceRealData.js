@@ -8,11 +8,11 @@
 
 export const mceSummaryStats = {
   "totalSignatureAccounts": 789,
-  "signatureWithProm": 481,
-  "promEnabledTenants": 836,
-  "signatureNotLeveraged": 308,
+  "signatureWithProm": 491,
+  "promEnabledTenants": 847,
+  "signatureNotLeveraged": 298,
   "nonSignatureWithProm": 103,
-  "totalAlerts": 2428
+  "totalAlerts": 2476
 };
 
 // ============================================================================
@@ -21,9 +21,19 @@ export const mceSummaryStats = {
 
 export const mceMonthlyGrowth = [
   {
-    "month": "Jun 2026",
+    "month": "Apr 6, 2026",
+    "signatureAccounts": 789,
+    "accountsLeveragingProm": 457
+  },
+  {
+    "month": "Jun 7, 2026",
     "signatureAccounts": 789,
     "accountsLeveragingProm": 481
+  },
+  {
+    "month": "Jun 22, 2026",
+    "signatureAccounts": 789,
+    "accountsLeveragingProm": 491
   }
 ];
 
@@ -1628,6 +1638,17 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [
       "6270246"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true,
+    "reason": null
+  },
+  {
+    "accountName": "ROYAL CANIN JAPON, INC.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546001427"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -3658,6 +3679,17 @@ export const mceLeverageAccounts = [
     "reason": null
   },
   {
+    "accountName": "Link Logistics Real Estate LLC, a Delaware limited liability company",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534002570"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true,
+    "reason": null
+  },
+  {
     "accountName": "Abbott Laboratories",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
@@ -5028,6 +5060,17 @@ export const mceLeverageAccounts = [
     "reason": null
   },
   {
+    "accountName": "Kogan Australia Pty Ltd",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534004806"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true,
+    "reason": null
+  },
+  {
     "accountName": "NS2.COM INTERNET S.A.",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
@@ -5061,11 +5104,33 @@ export const mceLeverageAccounts = [
     "reason": null
   },
   {
+    "accountName": "Banco Hipotecario S A",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546006093"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true,
+    "reason": null
+  },
+  {
     "accountName": "The Travelers Indemnity Company",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [
       "10964289"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true,
+    "reason": null
+  },
+  {
+    "accountName": "Skis Rossignol SAS",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100009763"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -5193,6 +5258,28 @@ export const mceLeverageAccounts = [
     "reason": null
   },
   {
+    "accountName": "Experiencias Xcaret Parques SAPI de CV",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7296069"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true,
+    "reason": null
+  },
+  {
+    "accountName": "Fundaci\u00f3 Banc\u00e0ria \"La Caixa\"",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100009717"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true,
+    "reason": null
+  },
+  {
     "accountName": "Oriflame Cosmetics AB",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
@@ -5264,6 +5351,17 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [
       "6172748"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true,
+    "reason": null
+  },
+  {
+    "accountName": "L'OREAL Europe - MC B2B",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "500009808"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -5429,6 +5527,28 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [
       "515008015"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true,
+    "reason": null
+  },
+  {
+    "accountName": "White Fox Boutique",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "526003700"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true,
+    "reason": null
+  },
+  {
+    "accountName": "Fever Labs Inc",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100006044"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -5624,15 +5744,6 @@ export const mceLeverageAccounts = [
   },
   {
     "accountName": "Heathrow Airport Limited",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": true,
-    "eids": [],
-    "isLeveraged": false,
-    "hasMonitoring": false,
-    "reason": null
-  },
-  {
-    "accountName": "ROYAL CANIN JAPON, INC.",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [],
@@ -5885,15 +5996,6 @@ export const mceLeverageAccounts = [
   },
   {
     "accountName": "Rakuten Group, Inc.",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": true,
-    "eids": [],
-    "isLeveraged": false,
-    "hasMonitoring": false,
-    "reason": null
-  },
-  {
-    "accountName": "Link Logistics Real Estate LLC, a Delaware limited liability company",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [],
@@ -6802,15 +6904,6 @@ export const mceLeverageAccounts = [
     "reason": null
   },
   {
-    "accountName": "Kogan Australia Pty Ltd",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": true,
-    "eids": [],
-    "isLeveraged": false,
-    "hasMonitoring": false,
-    "reason": null
-  },
-  {
     "accountName": "Crohns & Colitis Foundation Inc.",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
@@ -6884,24 +6977,6 @@ export const mceLeverageAccounts = [
   },
   {
     "accountName": "Ual\u00e1",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": true,
-    "eids": [],
-    "isLeveraged": false,
-    "hasMonitoring": false,
-    "reason": null
-  },
-  {
-    "accountName": "Banco Hipotecario S A",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": true,
-    "eids": [],
-    "isLeveraged": false,
-    "hasMonitoring": false,
-    "reason": null
-  },
-  {
-    "accountName": "Skis Rossignol SAS",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [],
@@ -7109,24 +7184,6 @@ export const mceLeverageAccounts = [
   },
   {
     "accountName": "Suncorp New Zealand Services Limited",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": true,
-    "eids": [],
-    "isLeveraged": false,
-    "hasMonitoring": false,
-    "reason": null
-  },
-  {
-    "accountName": "Experiencias Xcaret Parques SAPI de CV",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": true,
-    "eids": [],
-    "isLeveraged": false,
-    "hasMonitoring": false,
-    "reason": null
-  },
-  {
-    "accountName": "Fundaci\u00f3 Banc\u00e0ria \"La Caixa\"",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [],
@@ -7361,15 +7418,6 @@ export const mceLeverageAccounts = [
   },
   {
     "accountName": "L'Oreal Australia Pty Ltd",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": true,
-    "eids": [],
-    "isLeveraged": false,
-    "hasMonitoring": false,
-    "reason": null
-  },
-  {
-    "accountName": "L'OREAL Europe - MC B2B",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [],
@@ -8035,15 +8083,6 @@ export const mceLeverageAccounts = [
     "reason": null
   },
   {
-    "accountName": "White Fox Boutique",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": true,
-    "eids": [],
-    "isLeveraged": false,
-    "hasMonitoring": false,
-    "reason": null
-  },
-  {
     "accountName": "Prodesp - Empresa de TI do Estado de S\u00e3o Paulo_PPT",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
@@ -8063,15 +8102,6 @@ export const mceLeverageAccounts = [
   },
   {
     "accountName": "Selfridges Retail Ltd.",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": true,
-    "eids": [],
-    "isLeveraged": false,
-    "hasMonitoring": false,
-    "reason": null
-  },
-  {
-    "accountName": "Fever Labs Inc",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [],
@@ -8981,7 +9011,6 @@ export const mceLeverageAccounts = [
       "M7229612",
       "M7309124",
       "M7318031",
-      "M7322836",
       "M510007820"
     ],
     "isLeveraged": true,
@@ -9498,8 +9527,8 @@ export const dataMetadata = {
   },
   "generationScript": "generateMCEData.py",
   "stats": {
-    "totalMonitoring": 836,
+    "totalMonitoring": 847,
     "totalSignatureAccounts": 789,
-    "signatureWithProm": 481
+    "signatureWithProm": 491
   }
 };

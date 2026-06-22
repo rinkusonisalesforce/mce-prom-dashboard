@@ -3,6 +3,8 @@ import { useState } from 'react';
 function SignatureLeverageTable({ accounts }) {
   const [filter, setFilter] = useState('all');
   const [searchTerm, setSearchTerm] = useState('');
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 10;
 
   // Filter accounts based on selected filter
   let filteredAccounts = accounts || [];
@@ -36,6 +38,23 @@ function SignatureLeverageTable({ accounts }) {
     );
   }
 
+  // Pagination
+  const totalPages = Math.ceil(filteredAccounts.length / itemsPerPage);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const paginatedAccounts = filteredAccounts.slice(startIndex, endIndex);
+
+  // Reset to page 1 when filter or search changes
+  const handleFilterChange = (newFilter) => {
+    setFilter(newFilter);
+    setCurrentPage(1);
+  };
+
+  const handleSearchChange = (e) => {
+    setSearchTerm(e.target.value);
+    setCurrentPage(1);
+  };
+
   return (
     <div className="bg-white rounded-lg shadow-md p-6">
       <h2 className="text-xl font-semibold mb-4">Signature Leverage by Account</h2>
@@ -46,7 +65,7 @@ function SignatureLeverageTable({ accounts }) {
           type="text"
           placeholder="Search account name, provider, EID..."
           value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
+          onChange={handleSearchChange}
           className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
       </div>
@@ -54,7 +73,7 @@ function SignatureLeverageTable({ accounts }) {
       {/* Filter Tabs */}
       <div className="flex gap-2 mb-4 flex-wrap">
         <button
-          onClick={() => setFilter('signature')}
+          onClick={() => handleFilterChange('signature')}
           className={`px-4 py-2 rounded-md font-medium transition-colors ${
             filter === 'signature'
               ? 'bg-blue-600 text-white'
@@ -64,7 +83,7 @@ function SignatureLeverageTable({ accounts }) {
           Signature Accounts
         </button>
         <button
-          onClick={() => setFilter('not-leveraged')}
+          onClick={() => handleFilterChange('not-leveraged')}
           className={`px-4 py-2 rounded-md font-medium transition-colors ${
             filter === 'not-leveraged'
               ? 'bg-yellow-600 text-white'
@@ -74,7 +93,7 @@ function SignatureLeverageTable({ accounts }) {
           Not Leveraged
         </button>
         <button
-          onClick={() => setFilter('leveraged')}
+          onClick={() => handleFilterChange('leveraged')}
           className={`px-4 py-2 rounded-md font-medium transition-colors ${
             filter === 'leveraged'
               ? 'bg-green-600 text-white'
@@ -84,7 +103,7 @@ function SignatureLeverageTable({ accounts }) {
           Leveraged Only
         </button>
         <button
-          onClick={() => setFilter('non-sig')}
+          onClick={() => handleFilterChange('non-sig')}
           className={`px-4 py-2 rounded-md font-medium transition-colors ${
             filter === 'non-sig'
               ? 'bg-indigo-600 text-white'
@@ -94,7 +113,7 @@ function SignatureLeverageTable({ accounts }) {
           Non-Sig with ProM
         </button>
         <button
-          onClick={() => setFilter('all')}
+          onClick={() => handleFilterChange('all')}
           className={`px-4 py-2 rounded-md font-medium transition-colors ${
             filter === 'all'
               ? 'bg-gray-700 text-white'
@@ -110,43 +129,43 @@ function SignatureLeverageTable({ accounts }) {
         <table className="min-w-full divide-y divide-gray-200">
           <thead className="bg-gray-50">
             <tr>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-1/6">
                 Account
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-1/8">
                 Service Provider
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-20">
                 Signature
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-1/5">
                 EIDs (ProM)
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-32">
                 Operational Status
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-40">
                 Reason
               </th>
             </tr>
           </thead>
           <tbody className="bg-white divide-y divide-gray-200">
-            {filteredAccounts.length === 0 ? (
+            {paginatedAccounts.length === 0 ? (
               <tr>
-                <td colSpan="6" className="px-6 py-4 text-center text-gray-500">
+                <td colSpan="6" className="px-4 py-4 text-center text-gray-500">
                   No accounts found
                 </td>
               </tr>
             ) : (
-              filteredAccounts.map((account, index) => (
+              paginatedAccounts.map((account, index) => (
                 <tr key={index} className="hover:bg-gray-50">
-                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                  <td className="px-4 py-3 text-sm font-medium text-gray-900">
                     {account.accountName || '-'}
                   </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-500">
                     {account.serviceProvider || 'Marketing Cloud'}
                   </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm">
+                  <td className="px-4 py-3 whitespace-nowrap text-sm">
                     {account.isSignature ? (
                       <span className="px-2 py-1 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-100 text-blue-800">
                         Yes
@@ -157,13 +176,12 @@ function SignatureLeverageTable({ accounts }) {
                       </span>
                     )}
                   </td>
-                  <td className="px-6 py-4 text-sm text-gray-900">
+                  <td className="px-4 py-3 text-sm text-gray-900">
                     {(account.eids && account.eids.length > 0) ? (
-                      <div className="flex flex-wrap gap-2">
+                      <div className="flex flex-wrap gap-1">
                         {account.eids.map((eid, i) => (
-                          <span key={i} className="flex items-center gap-1">
-                            <span className="text-green-500 font-bold">●</span>
-                            <span className="text-gray-700">{eid}</span>
+                          <span key={i} className="text-gray-700">
+                            {eid}{i < account.eids.length - 1 ? ',' : ''}
                           </span>
                         ))}
                       </div>
@@ -171,7 +189,7 @@ function SignatureLeverageTable({ accounts }) {
                       <span className="text-gray-400">-</span>
                     )}
                   </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm">
+                  <td className="px-4 py-3 whitespace-nowrap text-sm">
                     {account.isLeveraged ? (
                       <span className="px-2 py-1 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                         Leveraged
@@ -182,7 +200,7 @@ function SignatureLeverageTable({ accounts }) {
                       </span>
                     )}
                   </td>
-                  <td className="px-6 py-4 text-sm text-gray-500">
+                  <td className="px-4 py-3 text-sm text-gray-500 whitespace-nowrap">
                     {account.reason || '-'}
                   </td>
                 </tr>
@@ -192,8 +210,47 @@ function SignatureLeverageTable({ accounts }) {
         </table>
       </div>
 
-      <div className="mt-4 text-sm text-gray-500">
-        Showing {filteredAccounts.length} of {accounts.length} accounts
+      {/* Pagination Controls */}
+      <div className="mt-4 flex items-center justify-between">
+        <div className="text-sm text-gray-500">
+          Showing {startIndex + 1}-{Math.min(endIndex, filteredAccounts.length)} of {filteredAccounts.length} accounts
+        </div>
+
+        {totalPages > 1 && (
+          <div className="flex gap-2">
+            <button
+              onClick={() => setCurrentPage(prev => Math.max(1, prev - 1))}
+              disabled={currentPage === 1}
+              className="px-3 py-1 border border-gray-300 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              Previous
+            </button>
+
+            <div className="flex gap-1">
+              {[...Array(totalPages)].map((_, i) => (
+                <button
+                  key={i}
+                  onClick={() => setCurrentPage(i + 1)}
+                  className={`px-3 py-1 border rounded-md text-sm font-medium ${
+                    currentPage === i + 1
+                      ? 'bg-blue-600 text-white border-blue-600'
+                      : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
+                  }`}
+                >
+                  {i + 1}
+                </button>
+              ))}
+            </div>
+
+            <button
+              onClick={() => setCurrentPage(prev => Math.min(totalPages, prev + 1))}
+              disabled={currentPage === totalPages}
+              className="px-3 py-1 border border-gray-300 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              Next
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );

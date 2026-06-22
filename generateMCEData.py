@@ -46,12 +46,9 @@ SIGNATURE_PATTERNS = [
 ]
 
 MONTHS = [
-    {'name': 'january', 'year': 2026, 'label': 'Jan 2026'},
-    {'name': 'february', 'year': 2026, 'label': 'Feb 2026'},
-    {'name': 'march', 'year': 2026, 'label': 'Mar 2026'},
-    {'name': 'april', 'year': 2026, 'label': 'Apr 2026'},
-    {'name': 'may', 'year': 2026, 'label': 'May 2026'},
-    {'name': 'june', 'year': 2026, 'label': 'Jun 2026'},
+    {'date': '6', 'month': 'April', 'year': '2026', 'label': 'Apr 6, 2026', 'combined': True},
+    {'date': '7', 'month': 'June', 'year': '2026', 'label': 'Jun 7, 2026', 'combined': False},
+    {'date': '22', 'month': 'June', 'year': '2026', 'label': 'Jun 22, 2026', 'combined': False},
 ]
 
 def parse_csv(filepath):
@@ -106,22 +103,41 @@ def is_signature_contract(contract_name):
 
     return False
 
-def load_monitoring_data(month_name, year):
-    """Load monitoring data for a specific month"""
-    na_file = CSV_DIR / f'NA_{month_name}{year}.csv'
-    eu_file = CSV_DIR / f'EU_{month_name}{year}.csv'
+def load_monitoring_data(date, month, year, combined=False):
+    """Load monitoring data for a specific date
 
+    File naming: NAandEU_6April2026.csv (combined) or NA_7June2026.csv / EU_7June2026.csv (separate)
+    """
     data = []
 
-    if na_file.exists():
-        rows = parse_csv(na_file)
-        for row in rows:
-            data.append({**row, 'region': 'NA'})
+    if combined:
+        # Load combined file: NAandEU_6April2026.csv
+        combined_file = CSV_DIR / f'NAandEU_{date}{month}{year}.csv'
+        if combined_file.exists():
+            rows = parse_csv(combined_file)
+            for row in rows:
+                # No region specified in combined file
+                data.append({**row, 'region': 'Combined'})
+        else:
+            print(f'   ⚠️  Combined file not found: {combined_file}')
+    else:
+        # Load separate NA and EU files: NA_7June2026.csv, EU_7June2026.csv
+        na_file = CSV_DIR / f'NA_{date}{month}{year}.csv'
+        eu_file = CSV_DIR / f'EU_{date}{month}{year}.csv'
 
-    if eu_file.exists():
-        rows = parse_csv(eu_file)
-        for row in rows:
-            data.append({**row, 'region': 'EU'})
+        if na_file.exists():
+            rows = parse_csv(na_file)
+            for row in rows:
+                data.append({**row, 'region': 'NA'})
+        else:
+            print(f'   ⚠️  NA file not found: {na_file}')
+
+        if eu_file.exists():
+            rows = parse_csv(eu_file)
+            for row in rows:
+                data.append({**row, 'region': 'EU'})
+        else:
+            print(f'   ⚠️  EU file not found: {eu_file}')
 
     # Process and filter
     processed = []
@@ -376,11 +392,16 @@ def generate_summary_stats(monitoring_data, matched):
     }
 
 def generate_growth_trend(contracts):
-    """Generate monthly growth trend - NEW METRICS"""
+    """Generate growth trend - NEW METRICS"""
     trend = []
 
-    for month in MONTHS:
-        monitoring = load_monitoring_data(month['name'], month['year'])
+    for month_data in MONTHS:
+        monitoring = load_monitoring_data(
+            month_data['date'],
+            month_data['month'],
+            month_data['year'],
+            month_data.get('combined', False)
+        )
 
         if not monitoring:
             continue
@@ -394,7 +415,7 @@ def generate_growth_trend(contracts):
         )
 
         trend.append({
-            'month': month['label'],
+            'month': month_data['label'],
             'signatureAccounts': total_signature_accounts,
             'accountsLeveragingProm': len(matched['signatureLeveraged'])
         })
@@ -534,10 +555,15 @@ def main():
     print(f'  Output File:      {OUTPUT_FILE}')
     print()
 
-    # Load latest month monitoring data
-    latest_month = MONTHS[-1]
-    print(f"📊 Loading monitoring data for {latest_month['label']}...")
-    monitoring_data = load_monitoring_data(latest_month['name'], latest_month['year'])
+    # Load latest monitoring data
+    latest = MONTHS[-1]
+    print(f"📊 Loading monitoring data for {latest['label']}...")
+    monitoring_data = load_monitoring_data(
+        latest['date'],
+        latest['month'],
+        latest['year'],
+        latest.get('combined', False)
+    )
     print(f'   Found {len(monitoring_data)} tenants')
     print()
 
