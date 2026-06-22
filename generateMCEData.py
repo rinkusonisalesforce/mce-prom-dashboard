@@ -232,18 +232,18 @@ def load_contracts():
                 if pd.isna(status):
                     status = 'Active'  # Default if missing
 
-                # ONLY include ACTIVE signature contracts
-                if str(status).strip().lower() == 'active':
-                    contracts.append({
-                        'accountName': str(account_name),
-                        'tenantId': str(tenant_id),
-                        'normalizedTenantId': normalized_id,
-                        'contractName': str(contract_name),
-                        'status': str(status),
-                        'signaturePlan': str(contract_name),
-                        'endDate': str(row.get('EndDate') or ''),
-                        'isSignature': True
-                    })
+                # Store ALL signature contracts (Active, Expired, Cancelled, etc.)
+                # We'll filter by status later when needed
+                contracts.append({
+                    'accountName': str(account_name),
+                    'tenantId': str(tenant_id),
+                    'normalizedTenantId': normalized_id,
+                    'contractName': str(contract_name),
+                    'status': str(status).strip(),
+                    'signaturePlan': str(contract_name),
+                    'endDate': str(row.get('EndDate') or ''),
+                    'isSignature': True
+                })
     else:
         # Read CSV
         print(f'Reading CSV file: {CONTRACTS_FILE}')
@@ -340,6 +340,14 @@ def match_data(monitoring_data, contracts):
         if c['status'].lower() == 'active'
     )
 
+    # Build a lookup: EID → Contract Status (for inactive contracts)
+    eid_to_inactive_status = {}
+    for c in contracts:
+        normalized_id = normalize_contract_tenant_id(c['tenantId'])
+        if c['status'].lower() != 'active' and normalized_id:
+            # Store the most relevant inactive status
+            eid_to_inactive_status[normalized_id] = c['status']
+
     # Get monitoring records where EID has NO active signature contract
     non_sig_monitoring = [
         m for m in monitoring_data
@@ -350,11 +358,20 @@ def match_data(monitoring_data, contracts):
     non_sig_accounts = {}
     for m in non_sig_monitoring:
         acc_name = m['customerName']
+        normalized_eid = m['normalizedEid']
+
+        # Determine reason
+        if normalized_eid in eid_to_inactive_status:
+            reason = f"Signature Contract {eid_to_inactive_status[normalized_eid]}"
+        else:
+            reason = "No Signature Contract"
+
         if acc_name not in non_sig_accounts:
             non_sig_accounts[acc_name] = {
                 'customerName': acc_name,
                 'tenantIds': [],
-                'monitors': 0
+                'monitors': 0,
+                'reason': reason  # Use first reason found
             }
         non_sig_accounts[acc_name]['tenantIds'].append(m['tenantId'])
         non_sig_accounts[acc_name]['monitors'] += m['monitors']
@@ -485,7 +502,7 @@ def generate_leverage_accounts(matched, monitoring_by_eid):
             'eids': acc.get('tenantIds', []),
             'isLeveraged': True,
             'hasMonitoring': True,
-            'reason': 'No Signature Contract'
+            'reason': acc.get('reason', 'No Signature Contract')  # Use determined reason
         })
 
     return leverage_accounts
