@@ -7,11 +7,11 @@
 // ============================================================================
 
 export const mceSummaryStats = {
-  "totalSignatureAccounts": 3,
-  "signatureWithProm": 2,
+  "totalSignatureAccounts": 789,
+  "signatureWithProm": 481,
   "promEnabledTenants": 836,
-  "signatureNotLeveraged": 1,
-  "nonSignatureWithProm": 834,
+  "signatureNotLeveraged": 308,
+  "nonSignatureWithProm": 203,
   "totalAlerts": 2428
 };
 
@@ -22,8 +22,8 @@ export const mceSummaryStats = {
 export const mceMonthlyGrowth = [
   {
     "month": "Jun 2026",
-    "signatureAccounts": 3,
-    "accountsLeveragingProm": 2
+    "signatureAccounts": 789,
+    "accountsLeveragingProm": 481
   }
 ];
 
@@ -49,7 +49,7 @@ export const topMCETenants = [
     "monitors": 12,
     "alerts": 12,
     "region": "NA",
-    "isSignature": false,
+    "isSignature": true,
     "status": "Active"
   },
   {
@@ -59,7 +59,7 @@ export const topMCETenants = [
     "monitors": 11,
     "alerts": 11,
     "region": "NA",
-    "isSignature": false,
+    "isSignature": true,
     "status": "Active"
   },
   {
@@ -69,7 +69,7 @@ export const topMCETenants = [
     "monitors": 11,
     "alerts": 11,
     "region": "NA",
-    "isSignature": false,
+    "isSignature": true,
     "status": "Active"
   },
   {
@@ -79,7 +79,7 @@ export const topMCETenants = [
     "monitors": 10,
     "alerts": 10,
     "region": "NA",
-    "isSignature": false,
+    "isSignature": true,
     "status": "Active"
   },
   {
@@ -99,7 +99,7 @@ export const topMCETenants = [
     "monitors": 10,
     "alerts": 10,
     "region": "NA",
-    "isSignature": false,
+    "isSignature": true,
     "status": "Active"
   },
   {
@@ -109,7 +109,7 @@ export const topMCETenants = [
     "monitors": 10,
     "alerts": 10,
     "region": "NA",
-    "isSignature": false,
+    "isSignature": true,
     "status": "Active"
   },
   {
@@ -119,7 +119,7 @@ export const topMCETenants = [
     "monitors": 10,
     "alerts": 10,
     "region": "NA",
-    "isSignature": false,
+    "isSignature": true,
     "status": "Active"
   },
   {
@@ -129,7 +129,7 @@ export const topMCETenants = [
     "monitors": 9,
     "alerts": 9,
     "region": "NA",
-    "isSignature": false,
+    "isSignature": true,
     "status": "Active"
   }
 ];
@@ -140,17 +140,1408 @@ export const topMCETenants = [
 
 export const mceLeverageAccounts = [
   {
-    "accountName": "Globex",
+    "accountName": "The National Trust for Places of Historic Interest or Natural Beauty",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [
-      "524004459"
+      "510004949"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
   },
   {
-    "accountName": "Initech",
+    "accountName": "Metropolitan Transportation Authority",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "526003260"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Matalan Retail Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "500009120"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Bath & Body Works, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7303808"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "SHUTTERSTOCK, INC.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546002279"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Sirius XM Radio LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546000856"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Axos Financial, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6241641"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Meta Platforms Inc - HR / Recruiting",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "526003412"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Barclays Execution Services Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100010776",
+      "510003825"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Aerov\u00edas de M\u00e9xico S.A. de C.V.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7289990"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Enlarged Europe MC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "510008490"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Cisco Systems Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "110004736"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Westpac Banking Corporation",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7286792",
+      "7219149"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "The Gap, Inc.****",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7000682",
+      "6426366"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Woolworths Group Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6370104"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Philip Morris International IT Service Center S\u00e0rl",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7297301",
+      "510006456",
+      "510000729",
+      "100024142",
+      "100014861",
+      "100019531"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Liberty Mutual Insurance Company (IA Dist)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10977889"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Nestl\u00e9 Operational Services Worldwide (NOSW) S.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7237233",
+      "10958513"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "JOHN LEWIS PLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6275805"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "URBN US Retail LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514010445"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "TD Bank",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6425848",
+      "6425646"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Aetna Life Insurance Company iqbs",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534005284",
+      "100010605"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Live Nation Entertainment, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7220265",
+      "1313665",
+      "1063224",
+      "10520839",
+      "7294910"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Amazon.com Services LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "110007343"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Pearson Education, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514013485",
+      "110006164",
+      "7209172"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "United Healthcare Services, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7003799",
+      "524002965",
+      "10848680"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Johnson and Johnson Services, Inc**",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536002503",
+      "7290789"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Wells Fargo Bank, N.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7225669"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Best Buy Purchasing LLC**",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "97338",
+      "7210119"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Teladoc Health, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "518006854"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Dell USA, L.P.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "515011075",
+      "100029263"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "AbbVie",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "523003299"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Allwyn Entertainment Ltd",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536002948"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Albertsons Companies, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514030743"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "National University of Singapore",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546005997"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Sky Deutschland Fernsehen GmbH & Co. KG",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "500009454"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Rogers Communications Canada Inc.*",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6422421"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Genesco Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "526001209"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Banco Bradesco S.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "110006066"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "American Express Travel Related Services Company, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7201234"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Banco Bradesco S.A. (DRC)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514008236"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "TOTALIZATOR SPORTOWY SP Z O O",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536001819"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "MS Financing LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7226039",
+      "7232216"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Atlassian Pty Ltd.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10991049"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "TARGET CORPORATION",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100019535",
+      "7282972"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Private National Mortgage Acceptance Company, LLC (BDL Org) - TPO Business Line",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "110006185"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Massachusetts Mutual Life Insurance Company",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100019299"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Rona Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "110004791"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Pearson Education, Inc. One CRM",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "510002549"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "AUCHAN RETAIL INTERNATIONAL SA",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100002818"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "SMBC CONSUMER FINANCE CO., LTD.(\u4fdd\u8a3c\u55b6\u696d)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "518005576"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Regeneron Healthcare Solutions (CDP org)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534000170"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Vanquis Bank Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "510004632"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Caleres, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7221103"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "United States Olympic Paralympic Committee",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534004934"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "800-Flowers, Inc. (Marketing & Slack)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6211892"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Kohl's, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6241319"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Herbalife International of America, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10193058"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "BBVA Seguros Argentina S.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "520000654"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "BBVA Global Architecture",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "500007993"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Banco BBVA Per\u00fa",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100002531"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "BCBSM (Michigan) - ISV, MC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10976446"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "The Bessemer Group, Incorporated",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7204586"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Google LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7200675"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "BBVA M\u00e9xico, Sociedad An\u00f3nima, Instituci\u00f3n de Banca M\u00faltiple, Grupo BBVA M\u00e9xico",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100015594"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Reckitt Benckiser Corporate Services Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6231186"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Lululemon Athletica Canada, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514002114"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Banco BBVA Argentina SA",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6426511"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "BBVA Colombia",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100001800"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "JPMorgan Chase Bank, N.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7209790"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Expedia, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "526001067",
+      "526000870"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Six Continents Hotels, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514005412"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Adidas AG",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10958454"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Citibank, N.A..",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "110006009"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "USA TODAY Media Corp. (Marketing)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10684711"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "AT&T Services, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514005240"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Ford Retail - NA",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534002172"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Ford Pro",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534000225"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Robert Half International Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100008070",
+      "515010912"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Euromarket Designs, Inc. (Crate and Barrel)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7200632"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Align Technology, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6419324"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Newell Brands Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "110006176"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "TIAA",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6272710"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "PricewaterhouseCoopers Global Licensing Services Corporation",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "500008504"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "CDK Global, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7290888"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Zappos IP LLC (B2C)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "523014047"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Bop LLC Shopbop.com (B2C)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7286983"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "The RealReal",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7200793"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "SCENE Limited Partnership",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7296813"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "DataRobot",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534000667"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Navy Federal Credit Union (MC CDP)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534000270"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Deluxe Corporation",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "110004930"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "News Corporate Services, Inc. for the purposes of Realtor.com",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100008823"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Sobeys Capital Incorporated",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "110004425"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Centene Corporation",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100005162"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Bungie, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7004658"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Universities And Colleges Admissions Service",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7237230"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Bloomberg Industry Group",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534001995"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "GoDaddy Main",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514000558"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Voya Services Company",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7213559"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Mahindra & Mahindra Ltd. (CDP)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "110005509"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Asda Stores Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536000811"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Farmers Group, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10967003"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Caesars Enterprise Services, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6236232"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Williams-Sonoma, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514023470"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Tokio Marine & Nichido Fire Insurance Co., Ltd.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7231532",
+      "518004860"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "World Economic Forum",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6262751"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "JPMorgan Chase Bank, National Association",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514003104",
+      "534005544"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Toyota Motor North America, Inc (Fleet)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7001109"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Toyota Motor Sales, U.S.A., Inc",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "1065513"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Sony Interactive Entertainment LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534001074",
+      "6151033"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "American Honda Finance Corporation",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7225058"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Google Fiber Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546007103"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "United Airlines, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534008072",
+      "526002069"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "ALL NIPPON AIRWAYS CO., LTD.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100027122"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Serasa S.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514009687"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Casey's Retail Company",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100016075"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Saks.com LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546003201"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Humana Corporate Initiatives",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546007827",
+      "514000810"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Saks OFF 5TH, LLC * Commerce",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546007841"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "SCOOT PTE. LTD.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6236592"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Banco Macro S.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534002277"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Fisher & Paykel Appliances Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "1373480"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "PAPYLESS CO., LTD.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534004094"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Webhost Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536001665"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Advance Stores Company, Incorporated",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100001952"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Iren Mercato",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10958547"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Sentara Healthcare",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100012732"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "The Board of Trustees of Western Michigan University on behalf of WMUx/OIT",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534004830"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "HSBC Global Services (UK) Ltd",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100001734"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Mars Information Services, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10785911"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Medical Management International, Inc. dba Banfield Pet Hospital\u00ae",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6134033"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Royal Canin Canada Inc",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6270246"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Royal Canin SAS",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536005649"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Champion Petfoods Holding Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "110006385"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "AniCura AB",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100021500"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Royal Canin M\u00e9xico, S.A de C.V",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534006563"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "GEICO Corporation Main Org",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [
@@ -160,7 +1551,3454 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "Umbrella",
+    "accountName": "Highmark, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "524008125",
+      "518000136",
+      "10765352"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Mars Petcare UK",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536003127"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "CarMax Enterprise Services, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10977912"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "HHS NIH - All of Us Research Program (AOU)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546005081"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Lowe's Companies, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "1059618"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Rocket Mortgage, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100015922"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Credit One Bank, N.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100039462"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Charles Schwab & Co., Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "515010813",
+      "7231213"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "NVIDIA Corporation",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534000734"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Hilti Corporation",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "500008259"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Summit Health Management LLC (AfterCare)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100023657"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "St. James's Place Management Services Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "510000892"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Bank of America, N.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "522000104"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Warner-Elektra-Atlantic Corp",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7000789"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Vision Service Plan",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514003105"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "bp International Ltd",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "500009924"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "School Specialty, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7289353"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Bouygues Telecom Marketing",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7211327"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "American Lebanese Syrian Associated Charities, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "524004459"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Allegis Group, Inc.**",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7280184"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Heineken International BV - 1",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "510000373"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Citizens Telecom Services Company L.L.C.   d/b/a Frontier Communications",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546004687"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Banco Santander Chile",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "110005986"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Cornerstone Shared Services, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6234139"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "HEINEKEN AMER MC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534001895"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Heineken International BV - Europe",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536000894"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Pharma Plus, S.A. de C.V.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514010426"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Molina Healthcare  Enterprise CRM [Molina 5]",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "110004916"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Seminole Hard Rock Support Services, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "526001024"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Churchill Downs Incorporated",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "526003480",
+      "526001028"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "WIN TECHNOLOGIES (UK) LIMITED",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "1007307"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Versant Media, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7208686"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Experian Services Corp. (Mktg)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7325858"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Southern Cross Austereo Pty Ltd",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534000890"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Experian Ltd",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "510003078"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Progressive Casualty Insurance Company",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7000168"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Ally Bank",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "155657"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Penney OpCo LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "526003439"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Schwarz Digits IT KG",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7237442"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "LendingClub Corporation - (Main)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "520000291"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Connect Holding II LLC d/b/a Brightspeed",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534001698"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "HD Supply Facilities Maintenance*",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10960660"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Gocompare.Com Ltd.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7269357"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Hartford Fire Insurance Company",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "159662"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Capital One Services, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7257764"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "NewDay Technology Ltd",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7236234",
+      "510002839"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Uber Technologies, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "520002927"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "TD US CDP",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6425645"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Federal Express Corporation",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7209290"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Verizon Sourcing LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100005777"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Southern New Hampshire University*",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7314446"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Bloomingdale's, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "110007381"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Hughes Network Systems, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10958464"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "LVMH Moet Hennessy - Louis Vuitton SE",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7288722",
+      "7225755"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Victoria\u2019s Secret Stores Brand Management, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7210036"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Lumen Technologies (MM Copper)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100021545"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Security Service Federal Credit Union",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546000939"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Walmart Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7283989"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Mary Kay Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10984347"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "J.F. Shea Co., Inc. (New Org)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546002794"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Independence Pet Group, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514030707"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "2U LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100021306"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Merck Sharp & Dohme LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7276545"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "RENAULT SAS",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536004325"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "AMERICAN CANCER SOCIETY, INC.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7296043"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Disney Entertainment & Sports LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534004205"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "The Kroger Co.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7200428"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Meta Platforms, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100011073"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Meta Platforms, Inc. UX Research",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514005924"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Paramount Global",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514000224"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Tapestry, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100025030"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "CBS Interactive Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7208814"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "CCI Corporate Services, LLC.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "526000883"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "El Corte Ingl\u00e9s SA",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100003861"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Nueva Elektra del Milenio S.A de CV - TAX ID: ECE9610253TA",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546002639"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Meritage Homes Corporation",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100017112"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Goosehead Insurance",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514003039"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Progress Residential",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100006303"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Randstad North America*",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "510004860"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Charter Spectrum Reach (Ad Sales) [MC]",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100024529"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Revvity Health Sciences, Inc. (Viacord Org.)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "526001718"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Ford Retail - Europe",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536004706"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "BOTICARIO PRODUTOS DE BELEZA LTDA",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100022917"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "PVH Corp",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100024991"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Smile Doctors, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "526001885"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Banco Pichincha C.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100017188"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Lionheart Systems Inc. (S. O. Asher)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546001841"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "LEGRAND SNC (Europe)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "510005195"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Geisinger System Services",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100025067"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Takeda Pharmaceuticals International AG OBU (515002200)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "515002200"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "JCB Co., Ltd.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7295798"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Archer Daniels Midland Company",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "526002293"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "WHR Operations, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6134973"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "General Motors Holdings, LLC.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546005605"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "AEG Presents LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514009229"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "AES US Services, LLC*",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100013270"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Delta Air Lines, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10965567"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Toyota Motor Credit Corporation",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100008634"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Royal Bank of Canada*",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100026341",
+      "1080352",
+      "1065704"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "VODAFONE PROCUREMENT COMPANY S.A R.L.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100020302"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "The Boeing Company",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7200860"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Pagseguro Pagbank",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546003761"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "AstraZeneca CDP - UK",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536004629"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Domino's Pizza LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514011443"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Principal Life Insurance Company",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7304350"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "KLM N.V.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536005337"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Electronic Arts Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7225794"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "CDW LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "1052136"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Kimberly-Clark Corporation*",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7234146"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Sysco Corporation",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10965172"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "AARP Volunteer Organization",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "1062583"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "PetSmart LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514005410"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "T-Mobile USA Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "526000750"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "National Grid USA Service Company - Gas",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100011295"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Lyondell Chemical Company",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546002546"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Regeneron Healthcare Solutions, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514011412"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Laboratory Corporation Of America Holdings",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100021437"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "MVW Services Corporation",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7325424",
+      "1085014"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Coventry University",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100018563"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Thrivent Financial - CRM HUB (Main)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546002638"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Regeneron Ireland Designated Activity Company",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536004077"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Boston Scientific Corporation**",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6371011"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Schneider Electric Industries SAS",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536001940"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Ulta Inc",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514008253"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Beiersdorf Shared Services GmbH",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10965385"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "RTL Nederland B.V.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "500008710"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "IAG Transform Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "500009926"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "The Vanguard Group, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7201448"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "City National Bank*",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10908528"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "\u304b\u3093\u307d\u30b7\u30b9\u30c6\u30e0\u30bd\u30ea\u30e5\u30fc\u30b7\u30e7\u30f3\u30ba\u682a\u5f0f\u4f1a\u793e",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534006534"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Warner Bros Entertainment Inc.*",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6012074"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Volvo Car Corporation",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7279664"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "TITAN COMPANY LTD",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546000459"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "GoodRx CDP (2nd Org)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546001022"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "BGE E&U Cloud",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536000822"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Diageo Great Britain Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "510004804"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Canadian Imperial Bank of Commerce",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514010025"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Natura & Co",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514006344"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "L'Oreal USA S/D, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7201265"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Sunwing Vacations Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534001657"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Penn Medicine",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100024741"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Maryville University of St. Louis",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546004158"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Colt Technology Services",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536005114"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Mr. Cooper",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6235230"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "The Reinalt-Thomas Corporation",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "1045947",
+      "1045947"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Hancock Whitney Bank - Main",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546004744"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Certinia",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546004764"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "PGA TOUR Superstore",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "526003662"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Arc\u2019teryx Equipment, a division of Amer Sports Canada Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "520001999"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Wingstop Restaurants Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10787378"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Disney Streaming Services LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "1064447"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Trends International (Main)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546003944",
+      "546003944"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "United Wholesale Mortgage, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "1397554"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Fisher Asset Management, LLC (d/b/a Fisher Investments)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534003102"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Hilton Grand Vacations (Bluegreen)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100009180"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Otsuka America Pharmaceutical, Inc",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100017800"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Rutgers, The State University of New Jersey",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100026753"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "The University of Tennessee, Knoxville (MAIN)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534006200"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Dentsu UK Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536007058"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Xcel Energy (MC Org)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "218224"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Taxact",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514008604"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "iFood.com Agencia de Restaurantes Online S.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514002867"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Landmark Properties Management, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546011383"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Medtronic - MedCloud",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "526001052"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Ig Index",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10980772"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "DECATHLON SE",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7237433"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "BASF SE (MVP ORG for Mktg)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "500008067"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Alice + Olivia, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514012486"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Chevron Technical Center, a division of Chevron U.S.A. Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100019619"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Raia Drogasil",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "110007689"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Martins Com\u00e9rcio e Servi\u00e7o de Distribui\u00e7\u00e3o",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546011821"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "SavvyMoney",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100016677"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Take-Two Interactive Software, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6185511"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Chico's FAS   Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514011392"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Carnival Cruise Line, a division of Carnival Corporation",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7219942"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Distribuidora La Florida",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100009461"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "AXS Group LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514035855"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Laboratoires de Biologie Vegetale Yves Rocher SA",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100011745"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Abbott Laboratories",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "1051632",
+      "518000436",
+      "7295445"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "NCL (Bahamas) Ltd.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534000696"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Vaillant GmbH",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100006096"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Formula One Management Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536001458"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Enel Global Services S.r.l.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7295600",
+      "510000484"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "THE STANDARD BANK of SOUTH AFRICA LTD",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "510001313"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "ADT LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514002908"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Amadeus Data Cloud + MC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536007689"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Zoox, Inc. DBA in California as Zoox Labs, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546013446"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Edgepark Medical Supplies (RGH Enterprises)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10410312"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "SEG Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514011696"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Richemont International S.A",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "500008430"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Move On B&B Hotels",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10962788"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "KPMG LLP",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514007235"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "BANCO SANTANDER MEXICO S.A, INSTITUCION DE BANCA MULTIPLE",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100012062"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "AGCO Corporation NA*",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100009182"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Royal Caribbean Cruises Ltd.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "1332579"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "DaVita Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546001874"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Trimble Illuminate",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546013415"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "PepsiCo, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546002027",
+      "510001704",
+      "100019596"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "reMarkable AS",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536001209"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Vizio Inc. (MAIN)(Walmart)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10958523"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Independence Pet Holdings, Inc. Together with it's affiliates and subsidiaries",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100009662"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Citibank, N.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7289665"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "O'Reilly Automotive Stores, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514010103"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Telecom Argentina S.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546003764"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Sams West, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100024869"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "California Physicians' Service d/b/a Blue Shield of California",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514004935"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Totalplay Telecomunicaciones SAPI de CV // TPT890516JP5",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7295172"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "HelloFresh SE",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "500009790"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Amica Mutual Insurance Company",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546000639"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Telstra Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100017400"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "PVR INOX Ltd",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "526001231"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Wealth Enhancement Group, Llc",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10960058"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Cushman & Wakefield Global, Inc",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514010868"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "CSL Plasma",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534002550"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "LeafFilter North, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546014208"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Brew Culture, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546014230"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Disney Worldwide Services, Inc",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534002674"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "NMDP - MC Org",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100004329"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Boozt Fashion AB",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7275509"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "CMG Strategy Co., LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "110007397"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Insulet Corporation - Classic Org",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100006260"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "CIELO S.A - INSTITUICAO DE PAGAMENTO",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100026160"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Foodstuffs Rewards Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534016651"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Southwest Airlines Co. - Employee Experience (HR)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514021290"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Marriott International Administrative Services, Inc.*",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534005545"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Unicomer",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100023982"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Insulet Corporation_",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "510002585"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Old Dominion University (Main)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100026640"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Logitech Europe S.A",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546006378"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "The Pap\u00e9 Group Inc",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546001711"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Banco do Brasil SA",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546001350"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Affirm (Sales & Mktg)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "110005314"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Univest Financial Corporation",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100022116"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Banco Del Estado De Chile",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514002097"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "PeopleConnect, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534017027"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "vidaXL B.V. - MC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536001960"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "NEWORCH SAS",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100009348"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Xerox Corporation",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546005609"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Australian Postal Corporation",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10689512"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "GRUPO CASAS BAHIA S.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514001899"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "The Warehouse Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7205264"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "PRUDENTIAL VIETNAM ASSURANCE PRIVATE LIMITED",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "515014149"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "PruLife Insurance Corporation of U.K",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "515014150"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Unique Travel Corp",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546011419"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Prudential BSN Takaful Berhad (Active org)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "515014802"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Anti-Defamation League HQ",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10966182"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Education.com",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7220054"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Optus Systems Pty Ltd**",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "520001846"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Booking.com BV - B2B Accommodations",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536002488"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Zoro Tools, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100002903"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "BANCO NACIONAL DE MEXICO S.A., INTEGRANTE DEL GRUPO FINANCIERO BANAMEX",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546009404"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Devry University, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100011269"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "AbbVie Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7281696",
+      "500008867"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "BACCARAT sa",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "510002789"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Abbvie Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "110007944"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Kumon North America, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "110007815"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Treasure Island Resort & Casino",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "3842"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Bristol Myers Squibb - Data Cloud & Commercial Marketing Cloud - Production Org",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "110007257"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Aesio Mutuelle",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "510000996"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "athenahealth Inc. *",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7234369"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Crocs, Inc. (Consumer Org)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10518406"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Skechers USA, Inc",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100006009"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Build-A-Bear Workshop, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6242205"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Board of Supervisors of Louisiana State University and A&M College",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546000887"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "*Claro S.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514006915"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Under Armour, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "518000448"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Farm Credit Mid-America - MC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534002155"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "FARMACITY S.A",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534005506"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Marcus & Millichap Real Estate Investment Services MMI",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "110007887"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Servus Credit Union Ltd.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "526003681"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Natural Resources Defense Council, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "526003688"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "PostNL Holding BV",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10958449"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "PICPAY INSTITUI\u00c7\u00c3O DE PAGAMENTO S/A",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546001846"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Kwik Trip, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514001309"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "NTUC Fairprice Co-operative Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "110006393"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "British American Shared Services (GSD) Limited*",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "500007429"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Penn State World Campus & Graduate School",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534004098"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "BECU",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7000878"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Consorcio Ecuatoriano de Telecomunicaciones S.A. CONECEL",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546000451"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "The Capital Group Companies, Inc. (MC Account)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10765366"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Campus Crusade for Christ, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534006091"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Harmony Public Schools",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546002789"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "HomeServe USA Corp. (HSNA)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546013621"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "SanCor Salud",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "526001240"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Comporium Communications",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534000686"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Indiana Office of Technology - DHS",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546005966"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Zoetis [Touchpoint]",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100015113"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "FedEx Freight, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534018118"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Triumph Intertrade AG",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "510004928"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Xero Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100016381"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "HP Inc *",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "1306115"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Co-operative Group Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "500007785"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Banco Pan S.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100006805"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Aeroports de Paris",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536002672"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Bunnings Group Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514000802"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "SAFG Technologies, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100008543"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Brother International Corporation - Main",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546003368"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Ecomaison",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536004206"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Axsome Therapeutics, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "526001030"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "LTA Operations Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "500007912"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Texas Capital Bank",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "110005223"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Lloyds Wealth Management Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "500009274"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "NS2.COM INTERNET S.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "1429595"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Ferrari SpA",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536006838"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "ACCOR SA",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "510005197"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "The Travelers Indemnity Company",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10964289"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Focus Financial Partners, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "526002837"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Redstone Federal Credit Union",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546014291"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "American Express Kabbage, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514009933"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Major League Soccer - MC Next",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10358116"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Inspirali Educa\u00e7\u00e3o",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546013225"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "ITAU UNIBANCO (M\u00e1quina)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "514012614"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Marks and Spencer plc",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "1060191"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Electricity Generation and Retail Corporation (t/a Synergy)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534001038"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "GLOBO COMUNICACAO E PARTICIPACOES S/A - B2B - Org 3 - ID 359813",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100026232"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "GLOBO COMUNICACAO E PARTICIPACOES S/A - D2C - ID 355073",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100007184"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Spotify USA Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100024642"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Oriflame Cosmetics AB",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "500009110"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Equatorial Servi\u00e7os S.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546003934"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Takeda Pharmaceuticals International AG",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10958197"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Lilly Life Sciences Cloud Org - New",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6195267"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "University of Kentucky Academic Org",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10960095"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "PMI GLOBAL SERVICES UNIT INC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "1047538"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "trivago N.V",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6172748"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Cadena Comercial Oxxo, S.A. de C.V.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "526002630"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Merkle Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "526002807"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "USAA (Data Cloud)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534019042"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Hot Topic, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7237444"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Caprice Holdings Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536003339"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Dunelm (Soft Furnishings) Ltd.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100003063"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "BENDA BILI (S\u00e9zane)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "500009409"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "MECCA Brands Pty Ltd (CDP)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "526001431"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Banco Agibank S.A",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100019894"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "NRG Energy, Inc - Business - DE Business",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6417338"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "NRG Energy, Inc - Home Energy - Texas Sales/Care",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "10875093"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Nintendo Co., Ltd.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7207004"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Internet Brands - Webmd Health Corp. Main - Marketing",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7000665"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Telecom S.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546003764"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "BANCO INTER S.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "515008015"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "UOC - Third Org",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7279656"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Sony Pictures Entertainment Inc.**",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "6383269"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Fidelity Technology Group, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "1050979"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "SouthState Bank N.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "110007913"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "Guitar Center, Inc.",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [],
@@ -168,389 +5006,2460 @@ export const mceLeverageAccounts = [
     "hasMonitoring": false
   },
   {
-    "accountName": "NBC_Sports_Group",
+    "accountName": "ADP, Inc.",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7208686",
-      "M7320840"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "AxosFinancial",
+    "accountName": "Amazon Kindle Direct Publishing Marketing (B2C)",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6241641"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "Trends_International",
+    "accountName": "Boots UK Limited",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546003944"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "Bloomingdales",
+    "accountName": "CMA CGM SA (NOVA eData + Seareward)",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110007381"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "RoyalBankofCanada",
+    "accountName": "SpireX Co., Ltd..",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E1065704",
-      "E100026341",
-      "E1080352",
-      "M100030569",
-      "M1072338",
-      "M1350425",
-      "M1424033",
-      "M515015196"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "Takeda",
+    "accountName": "IKEA IT AB",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E515002200"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "WSI",
+    "accountName": "Vanquis Bank Ltd",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514023470"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "BOA",
+    "accountName": "Deloitte Consulting LLP",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E522000104",
-      "E522000110",
-      "E522000111",
-      "E500009110",
-      "M522000110",
-      "M522000111"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "Eli_Lilly",
+    "accountName": "Deloitte Global Services Limited",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6195267"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "Gap",
+    "accountName": "PwC GLSC - Global Services Org 2",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7000682"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "Lululemon",
+    "accountName": "Amazon Care (AHS) (Deprecated)",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514002114",
-      "M514005125"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "Sirius_XM",
+    "accountName": "Amazon AbeBooks Inc (Consumer)",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546000856"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "TheReinalt-Thomas",
+    "accountName": "Amazon Web Services, Inc. (AWS)*",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E1045947"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "Woolworths",
+    "accountName": "Northwell Health, Inc.",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6370104"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "AXS",
+    "accountName": "Bed Bath & Beyond, Inc.",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514035855"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "BGRetail",
+    "accountName": "Heathrow Airport Limited",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7221103",
-      "M518004732",
-      "M7221103",
-      "M7222883",
-      "M7222885",
-      "M7222886",
-      "M7222888",
-      "M7222891",
-      "M7222925",
-      "M7222927",
-      "M7222928",
-      "M7235144",
-      "M7276386"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "CapitalOne",
+    "accountName": "ROYAL CANIN JAPON, INC.",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7257764",
-      "M518004831"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "CrateBarrel",
+    "accountName": "Customer Scorecard Demo 1",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7200632",
-      "M7200677",
-      "M7200679"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "Fidelity",
+    "accountName": "Comcast Cable Communications Management LLC, Effectv",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E1050979"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "JPMorganChaseBank",
+    "accountName": "WorkSafe Victoria",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514003104",
-      "E7209790",
-      "E534005544"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "Meta",
+    "accountName": "Mitsubishi UFJ Morgan Stanley Securities Co., Ltd.",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100011073",
-      "E526003412",
-      "E514005924"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "Newell",
+    "accountName": "KDDI CORPORATION [Personal]",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110006176"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "Old_Dominion_University",
+    "accountName": "Kenvue Brands LLC",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100026640"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "Spotify_USA",
+    "accountName": "Edward D. Jones & Co., L.P.",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100024642"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "Vanguard",
+    "accountName": "Elevance Health - Enterprise Communications",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7201448"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "ADTSolar",
+    "accountName": "PACCAR PARTS",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514002908"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "Amazon.com_Services_LLC",
+    "accountName": "Cox Communications Inc. (Wireless/Resi)",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110007343"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "Anti_Defamation_League",
+    "accountName": "Genpact India Private Limited",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10966182"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "Atlassian",
+    "accountName": "Bajaj Finance Ltd (CDP)",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10991049"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "Bloomberg",
+    "accountName": "American Family Life Assurance Company of Columbus",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534001995"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "CapitalGroup",
+    "accountName": "Bombardier Inc.",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10765366"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "Churchill_Downs",
+    "accountName": "TaylorMade Golf Company, Inc. (MAIN ACCOUNT)",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E526003480",
-      "E526001028"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "Dell",
+    "accountName": "Caterpillar Inc. - CRM Innovation",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100029263"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "DellFederal",
+    "accountName": "Eero Inc. (Devices)",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E515011075"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
-    "accountName": "Deluxe_Corporation",
+    "accountName": "Unilever UK Central Resources Ltd (ENT)",
     "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110004930",
-      "M514008804"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Rimac Seguros",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Cl\u00ednica Internacional S.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Ecolab Data Cloud",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Centria Servicios Administrativos S.A.C.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Sally Holdings LLC  (New Service Org)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "United Service Organizations-CRM",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "HomeEquity Bank - FSC Org",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Colibri McKissock Investment Holdings, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Amazon Pharmacy Marketing (Healthcare)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Rakuten Group, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Link Logistics Real Estate LLC, a Delaware limited liability company",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Equinix (Main)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "eToro Group",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Montway LLC DBA Montway Auto Transport",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Bethlehem Shared Services (MC)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Florida Health Sciences Center, Inc., d/b/a Tampa General Hospital",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "SERVICIOS LIVERPOOL S.A. DE C.V.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Deloitte Services LP",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Deloitte Consulting S.r.l. S.B.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Deloitte SEA Services Sdn Bhd",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Deloitte",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "AmFam CDP 2022",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Mitsubishi Electric Trane HVAC US LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Iren Ambiente",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Imperial Tobacco Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Wal-Mart Canada Corp.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "MedSleuth",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Datasite LLC, formerly known as Merrill Communications LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "AGL Energy Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "CCEP Group Services Limited (MC)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Ford IMG",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Amazon Glue Connectors (AWS)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "University of Colorado Boulder Ed Cloud",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "SUGI PHARMACY CO.,LTD.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "BANYAN TREE HOTELS & RESORTS PTE. LTD.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Amazon Developer Marketing (Devices)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Soci\u00e9t\u00e9 des Loteries du Qu\u00e9bec, La",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "WEST JAPAN RAILWAY COMPANY",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Carillon Tower Advisers, Inc. d/b/a Raymond James Investment Management",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "PORTO SEGURO COMPANHIA DE SEGUROS GERAIS",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "AAA Northern California, Nevada & Utah",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Cochlear Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Banco Ita\u00fa Chile",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Airgas, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "CoStar Group, Inc. (Parent)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Suncorp Corporate Services PTY LTD",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Express Wash Concepts",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "UCSF - CDHI + CS MC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "UnionBank of the Philippines",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "PRUDENTIAL SERVICES SINGAPORE PTE. LTD.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Tinker Federal Credit Union (Marketing/Mulesoft)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Prudential Assurance Company Singapore (Pte) Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Prudential Hong Kong Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Urogen (11rNz)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Lehigh Valley Health Network (LVHN) - Marketing Cloud + Core",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "The Mosaic Company",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Xplore Inc",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "The University of East Anglia",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Shoe Carnival, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Prudential Life Assurance (Thailand) Public Company Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Fidelity Information Services, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "GBT Travel Services UK Limited (Egencia)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Grupo Pereira",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Johnson Controls, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "West Virginia University - WVU Foundation",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Interglobe Aviation Ltd (Indigo)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Georgia Department of Community Health",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "HHS - OS - ASPA - Digital Communications Division",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Sicoob Solu\u00e7\u00f5es de Pagamento Ltda",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Green Brick Partners, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "PPL Electric Utilities Corporation",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "MY PLAN MANAGER.COM.AU PTY LTD",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Japan Airlines",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Baptist Health South Florida",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Broadway Direct (MC)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "National Disability Insurance Agency",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Volkswagen AG",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "YMCAs of the USA- MC Org",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Return to Work Corporation of South Australia",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "HEINEKEN Spain B2B Marketplace",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "The Hospital Contribution Fund of Australia",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Randstad Marketing Cloud new",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Neom Company",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "F\u00f6rsvarsmakten*",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Indiana Department of Child Services - CWS - Healthy Families",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Asahi Europe & International Ltd",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Australian Football League (HQ)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Indiana Family & Social Services Administration",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Al Tayer Insignia LLC.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Indiana Bureau of Motor Vehicles",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "The Toronto-Dominion Bank",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "GRUPO RAMOS S.A",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Prudential Assurance Malaysia Berhad",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "HUMAN APPEAL",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Solaya Hospitality Management Group S. de R.L. de C.V.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Alaska Airlines, Inc..",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Finnair Oyj B2B Sales",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Embrace Pet Insurance Agency, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "L\u2019Occitane International (Suisse) SA",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "American Association of Nurse Practitioners",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Department of Education",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Macquarie University Education Cloud",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Bupa Insurance Services Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Massmart Holdings Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "*- Groupe Technologies Desjardins Inc -*",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Banco Financiera Comercial Hondurena S.A. (Banco Ficohsa)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Crown Equipment Corporation",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Caterpillar Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Capital Bank, NA",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Corporaci\u00f3n El Rosado S.A. 2",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Bank Leumi le-Israel B.M.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Kogan Australia Pty Ltd",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Crohns & Colitis Foundation Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "A2A SpA",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Intesa Sanpaolo S.p.A. (Marketing Automation - Production)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Oldcastle",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "HSBC Life (Singapore) Pte. Ltd",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "EMPRESA DE TECNOLOGIA E INFORMACOES DA PREVIDENCIA S.A. - DATAPREV",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "TELMEX",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Endesa Medios y Sistemas S.L. (Endesa B2C Cosmos)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Ual\u00e1",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Banco Hipotecario S A",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Skis Rossignol SAS",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "GULF COAST REGIONAL BLOOD CENTER",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Banco BTG Pactual S.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "ARC4 GESTAO DE ATIVOS S.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "MANILA ELECTRIC COMPANY",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "GRAN TECNOLOGIA E EDUCACAO S/A",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Blueprint Medicines [Veeva Org]",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "SBA - MySBA",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Scandic Hotels Holding AB",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Pet Supplies Plus",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "PPC S.A. - \u0394\u0395\u0397",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Coinstar, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "APOLLO MANAGEMENT HOLDINGS, L.P.  By: Apollo Management Holdings GP, LLC*",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "SOCIEDADE DE ENSINO SUPERIOR ESTACIO DE SA LTDA",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Honda Motorcycle & Scooter India Pvt. Ltd.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Getty Images (Seattle), Inc*",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "The Huntington National Bank",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Ford Credit - Wholesale MC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Ford South America",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Queensland Building and Construction Commission (QBCC)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Members 1st Federal Credit Union",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Super Retail Group Services Pty Ltd",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Erie Home",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Suncorp New Zealand Services Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Experiencias Xcaret Parques SAPI de CV",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Fundaci\u00f3 Banc\u00e0ria \"La Caixa\"",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "AstraZeneca- US DTC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "AstraZeneca - US HCP",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "YPF S.A 2",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Alzheimer's Research UK",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Mercedes-Benz Group AG",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Naturgy Iberia, S.A",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "FCA FIAT CHRYSLER AUTOMOVEIS BRASIL LTDA.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "IAP - South Korea",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Stellantis Middle East FZE",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Stellantis Espa\u00f1a S.L.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "\u00d6sterreichische Lotterien Ges.m.b.H.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Health Care Services Corp - HealthSpring Medicare GBS - 00D1U000000xBKg",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "MercadoLibre SRL",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "BMW SELA - Rolls-Royce Motor Cars Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Nexeye B.V.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "STELLANTIS FINANCIAMENTOS SOCIEDADE DE CREDITO FINANCIAMENTO E INVESTIMENTO S.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "El Palacio de Hierro, SA de CV - RFC - PHI830429MG6",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Banner Health**",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "ARAMIS GROUP",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "The Children\u2019s Place Services Company, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "South Carolina Department of Health and Human Services",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Free2move Deutschland GmbH",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "EKOSPORT",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Bell Canada COCD 1000",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Federal Reserve Bank of Dallas",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "L'Oreal Australia Pty Ltd",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "L'OREAL Europe - MC B2B",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "L'OREAL SA",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "L'Or\u00e9al Singapore Pte. Ltd.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Stellantis - SWX",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Philip Morris International - US Localisation",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "U.S. Bank National Association",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Amazon Advertising (Ads)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "International Olympic Committee",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "SOCIEDADE EDUCACIONAL LEONARDO DA VINCI LTDA",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "AgWest Farm Credit",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "CaixaBank Tech S.L.U.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "MedPro Staffing",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "VidaCaixa S.A.U. de Seguros y Reaseguros",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Banco Diners Club del Ecuador S.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Banco BPI SA",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "MOBILIER DE FRANCE",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Air Liquide Healthcare International Services & Technology (ALHIST)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Bancolombia S.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "ENGIE INFORMATION ET TECHNOLOGIES SA",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "AusNet Electricity Services Pty Ltd",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Sammons Financial Group - SIAG FSC Org",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Brother International Europe Ltd",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Brookdale Senior Living",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Dr. August Oetker Nahrungsmittel KG",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "The University of Texas M. D. Anderson Cancer Center",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Servco Pacific Inc",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Iplanrio",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "PROMOTUR TURISMO CANARIAS SA",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Security Enablement SFSC Playground (AWS)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "O-Bank Co., Ltd",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Genmab US - SAP",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "State of Nevada Department of Motor Vehicles",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Banco C6 S.A.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Florida Prepaid College Board",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Guinness World Records Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Gesa Credit Union",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "National Mutual Insurance Federation of Agricultural Cooperatives",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Republic Services Procurement Inc.*",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Covetrus, Inc.*",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Orthotech, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Etrawler Unlimited Company",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Encoura - Primary Org",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Pacific Clinics (Former Uplift Family Services Account)",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "York University - Education Cloud SIS",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Chubb Group Holdings Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "British Columbia Lottery Corporation",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "iFIT Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "The Ohio State University",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Walmart Costa Rica",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Tata Play Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "GlaxoSmithKline LLC*",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Raiffeisen Bank International AG",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "HF Management Services, LLC.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Kele, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Oscar Management Corporation",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Epsilon Data Management, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Epsilon as OSP for Customer #2",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Epsilon as OSP for Customer #5",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Epsilon as OSP for Customer #8",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Epsilon as OSP for Customer #4",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Epsilon as OSP for Customer #10",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Epsilon as OSP for Customer #3",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Epsilon as OSP for Customer #6",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Epsilon as OSP for Customer #7",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Epsilon as OSP for Customer #1",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Epsilon as OSP for Customer #9",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Serasa Experian",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Radiomovil DIPSA, S.A. de C.V.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Westlake Canada Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Benevis",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "VistaJet International Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Georgia-Pacific LLC Building Products",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Breville USA, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Boyd Gaming Corporation",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "White Fox Boutique",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Prodesp - Empresa de TI do Estado de S\u00e3o Paulo_PPT",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Honda Canada Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Selfridges Retail Ltd.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Fever Labs Inc",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Novo Nordisk A/S",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Tps Parking Management, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Medibank Private Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Primark Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "AEG Presents Marketing",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "West Australian Newspapers Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Infocomm Media Development Authority of Singapore",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "F\u00e9d\u00e9ration Internationale de Football Association (FIFA) 4",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "City of Gold Coast",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "GTE Financial Credit Union",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "The Guardian Life Insurance Company of America",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "NITORI Co., Ltd.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Information Systems Audit and Control Association, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Rogers Communications Canada Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Federal National Mortgage Association",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "OCVIBE Data, LLC",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Navy Recruiting Command",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Aspen Dental Management, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
+  },
+  {
+    "accountName": "Federal Reserve Bank of Kansas City - FRFS",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false
   },
   {
     "accountName": "Embrace_Pet_Insurance",
@@ -573,425 +7482,11 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "Fitbit",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7200675"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Harmony_Public_Schools_as_OSP",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546002789"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "KPMG",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514007235"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "KohlsInc",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6241319"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "NIH_All_of_Us",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546005081"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "OldNavy",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6426366"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Quicken",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100015922"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Rogers_Communications",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6422421"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "SixContinentsHotels",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514005412"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Skechers",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100006009"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "SonyCorporationOfAmerica",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6383269"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Sony_Interactive_SIEA",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6151033"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Sysco",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10965172"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "TITAN_COMPANY_LTD",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546000459"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Take-Two_Interactive",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6185511",
-      "M6193684",
-      "M6193685"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Telstra",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100017400"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "UrbanOutfitters",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514010445"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Verizon_Visible",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100005777"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Win_Technologies",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E1007307"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Xero Limited",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100016381"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "AdidasAG",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10958454",
-      "M10964987",
-      "M10977585",
-      "M10977635",
-      "M10979435",
-      "M10979661",
-      "M10980052",
-      "M10980345",
-      "M10981232"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Advance_Auto_Parts",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100001952"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Alice_Olivia_LLC",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514012486"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "AllegisGroup",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7280184"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Arcteryx",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E520001999"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Axsome_Therapeutics",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E526001030"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BancoBradesco",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110006066"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BancoEstadoChile",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514002097"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BestBuyCanada",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7210119"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BopLLC",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7286983"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Bunnings Group Limited",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514000802"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "CBSCorporation",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7208814"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "CharlesSchwab",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7231213",
-      "E515010813"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Delta",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10965567",
-      "E524003253",
-      "E6419278"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ElectronicArts",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7225794"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
     "accountName": "GeneralMills",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
       "E526002289"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "HD Supply",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10960660"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Hot_Topic",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7237444"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Hughes",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10958464"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Insulet",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100006260",
-      "E510002585"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Iren_spa",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10958547"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -1007,298 +7502,11 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "LabCorp",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100021437",
-      "M100024080"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "LibertyMutual",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10977889"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Louisiana State University",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546000887"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "MS_Financial_Morgan_Stanley",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7232216"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Molina_Healthcare",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110004916",
-      "M110005208",
-      "M110006877"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "NavyFederalCreditUnion",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534000270",
-      "E7215635"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Pagseguro",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546003761"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "PenneyOpCo",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E526003439"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ProgressResidential",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100006303"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
     "accountName": "Qwest_Corporation",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
       "E515016411"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Redstone_Federal_Credit_Union",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546014291"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "SchoolSpecialtyInc",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7289353"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "SingTelOptus",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E520001846"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Tapestry",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100025030"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Target",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7282972",
-      "E100019535"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "TicketMasterInternational",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E1313665"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Travelers",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10964289"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Trivago",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6172748"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "UnitedWholesaleMortgage",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E1397554"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Viacord",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E526001718"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "WEG",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10960058"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "WMU",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534004830",
-      "M534007259",
-      "M534007260"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Xerox",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546005609"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "AARP",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E1062583"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "AGCOCorporation",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100009182"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ATTOne",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514005240"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Abbott_Laboratories",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E1051632"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Abbvie",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E523003299"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "AmericanHonda",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7225058"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -1314,235 +7522,11 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "ArcherDanielsMidCo",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E526002293"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BancoBradesco_DRC",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514008236"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
     "accountName": "Belk",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
       "E10971914"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Bluegreen",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100009180"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Boeing",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7200860"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "CNB",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10908528"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "CarMax",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10977912"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ChicosFAS",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514011392"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Comporium_Communications",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534000686"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Crocs",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10518406"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "DECATHLON",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7237433"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Disney_Hulu",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E1064447"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Dominos",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514011443"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Expedia",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E526001067",
-      "E526000870"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Experian",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7325858"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Farmers",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10967003"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Focus_Financial",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E526002837",
-      "M534000111",
-      "M534000112"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Ford_Pro",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534000225",
-      "M534007369"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "GRUPO",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514001899"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Geisinger",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100025067"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "GeneralMotorsHoldings",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546005605"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Genesco",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E526001209"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Goosehead",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514003039"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -1558,504 +7542,11 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "KimberlyClark",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7234146"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "LBrands",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7303808",
-      "E7210036"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "LeafFilterNorth",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546014208"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Lowes",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E1059618"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Lumen",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100021545"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "MTA",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E526003260",
-      "E534003968"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Marcus_and_Millichap",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110007887"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Move",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100008823"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Nestle",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10958513"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "PetSmart",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514005410",
-      "M514007931",
-      "M514007933"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Regeneron",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514011412",
-      "E534000170"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "RobertHalf",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100008070",
-      "E515010912"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Rutgers_University",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100026753"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "SamsWest",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100024869"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Scene",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7296813"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Sentara",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100012732"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "SwedishMatchNorthAmerica",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E1047538"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Takeda Pharmaceuticals International AG",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10958197",
-      "E510958197"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ThePapeGroup",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546001711",
-      "M546003445"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "TicketmasterUS",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7220265"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "TreasureIslandResort&Casino",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E3842"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Ulta",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514008253"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "UnitedHealthcareServices",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10848680",
-      "E524002965",
-      "E7003799"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "UniversityKentucky",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10960095"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Univest",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100022116"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Vizio ",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10958523"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "WellsFargo",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7225669"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Wyndham",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6134973"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Zoro_Tools",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100002903"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "1-800-Flowers",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6211892"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "AbbottLaboratories",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E518000436",
-      "E7295445"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "AmericanCancerSociety",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7296043"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BBVA_Argentina",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6426511"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Banamex",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546009404"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Banco_Inter_SA",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E515008015",
-      "M515008387"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Brother_International_Corporation_Main",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546003368"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
     "accountName": "CGS_International",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
       "E534000115"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "CSL_Plasma",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534002550"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Caesars",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6236232"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "CarnivalCorporation",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7219942"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "CaseysRetail",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100016075"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Certinia",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546004764"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Citibank_NA",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110006009",
-      "E7289665"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ConnectFirstandServusCreditUnion",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E526003681"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Cox",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E526000883"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "CreditOneBank",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100039462"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Cushman&Wakefield",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514010868"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Davita",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546001874"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "El Corte",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100003861"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -2071,419 +7562,11 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "Ford Retail",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534002172"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Ford_Retail",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534002172",
-      "M534006025"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Gocompare.com",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7269357"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "GoodRx",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546001022"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "HPInc",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E1306115"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "JohnLewisPLC",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6275805"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Johnson&Johnson",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7290789"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Kroger",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7200428"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Kumon North America, Inc.",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110007815"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "L'Oreal",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7201265",
-      "M7202503",
-      "M7205741",
-      "M7298601",
-      "M7299494"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "LendingClub",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E520000291"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "LowesCA",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110004791"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Mars-Banfield",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6134033"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "NMDP",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100004329"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Natura_&_Co",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514006344"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Orchestra",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100009348"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "PennMedicine",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100024741"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Penn_State_University",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534004098"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "PennyMac",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110006185"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ProgressiveCasualtyInsuranceCompany",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7000168",
-      "M7000841"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Raia_Drogasil",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110007689"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Reckitt",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6231186"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Reliant",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10875093"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Rocket_Mortgage,_LLC",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6235230"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Saks_Off_5th",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546007841"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Scoote",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6236592"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "The Warehouse Limited",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7205264"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "TotalPlayTelecomunicaciones",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7295172"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "USOPC",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534004934",
-      "M534010059"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Uber",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E520002927"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Unicomer",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100023982"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Voya",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7213559"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
     "accountName": "Walmart Corp Comms",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
       "E6419278"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Wingstop",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10787378"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": " SanCorSalud",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E526001240"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "2U",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100021306"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "AbbVieInc",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110007944"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Aetna",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100010605",
-      "E534005284"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Albertsons",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514030743"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Algorithia",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546002639"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Align",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6419324"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -2499,72 +7582,11 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "AmericanExpressCompany",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7201234"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "American_Express_Kabbage",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514009933"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Amica_Mutual_Insurance",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546000639"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
     "accountName": "AustralianPacificTouring",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
       "E100003463"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BBVA_Mexico",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100015594"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BBW",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7303808",
-      "M7305077"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BCBSM",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10976446"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -2580,718 +7602,11 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "BECU",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7000878"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Banco_Agibank_S.A",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100019894"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Banco_Do_Brasil",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546001350"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Banco_Macro",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534002277"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Boozt",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7275509"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Boticario_Produtos",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100022917"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Brightspeed",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534001698"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Bristol_Myers_Squibb",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110007257"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Bungie",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7004658"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "CDW",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E1052136"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Champion_Petfoods",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110006385"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Charter_Spectrum_Reach",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100024529"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Chipotle",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110007397"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Cisco",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110004736"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "CornerstoneSharedServices",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6234139"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "DataRobot",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534000667"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "DisneyShopping",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534002674"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Edgepark",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10410312"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Electricity_Generation_and_Retail_Corporation",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534001038"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Enel Global Services S.r.l.",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7295600"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Equatorial",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546003934"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "FARMACITY_S.A",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534005506"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "FedEx",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7209290"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Fisher & Paykel Appliances",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E1373480"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Foodstuffs",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534016651"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Gannett",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10684711"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Globo",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100026232"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "GoDaddy",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514000558"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "HartfordFireInsurance",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E159662"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Highmark",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E524008125",
-      "E10765352"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "HomeServe_USA_Corp",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546013621"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Humana",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514000810"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Ig_Index",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10980772"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "IndependencePetHoldings",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100009662"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Indiana_Office_of_Technology_-_DHS",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546005966"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Itau",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514012614"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "KwikTrip",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514001309"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Lexus",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7001109"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "LiveNationUS",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7294910"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "LouisVuittonMalletier",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7225755"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Mahindra",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110005509"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "MarksSpencer",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E1060191"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Maryville_University",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546004158"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "MeritageHomes",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100017112"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "NCL",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534000696"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "NewDayCards",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7236234"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Nvidia",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534000734"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Otsuka",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100017800"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "PAPYLESS",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534004094"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "PGATOURSuperstore",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E526003662"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "PMI_Italy",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100014861"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "PVH",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100024991"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ParamountInternational",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514000224"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Pearson Education, Inc.",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7209172",
-      "E514013485",
-      "E510002549"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Pearson_Virtual_Schools",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110006164"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "PepsicoApac",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100019596",
-      "E546002027"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "PepsicoEurope",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546002027"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Pharma_Plus",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514010426"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ProM_Humana",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546007827",
-      "E514000810"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "PruLife_Insurance",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E515014150",
-      "M515014657"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "PvrCinemas",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E526001231"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "QuickenLoans",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100015922"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "SNHU",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7314446"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "SWA",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514021290"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Serasa",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514009687"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "SheaHomes",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546002794"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Shutterstock",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546002279"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "SpringEducationGroup",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514011696"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "SunWing",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534001657"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
     "accountName": "T-Mobile",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "M526001125",
-      "E526000750"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "TIAA",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6272710"
+      "M526001125"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -3307,214 +7622,12 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "Taxact",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514008604"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "TelecomArgentina",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546003764"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "TheRealReal",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7200793"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Toyota",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E1065513"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ToyotaFinancialServices",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100008634"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ToyotaMotorCreditCorporation",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100008634"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "USAA_(Data_Cloud)",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534019042"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Under_Armour",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E518000448",
-      "M518004387",
-      "M518004388",
-      "M518000498",
-      "M518004389",
-      "M518006208"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "UnitedAirlines",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534008072"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "University_of_Tennessee_Knoxville",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534006200"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "VSP",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514003105"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "WMG",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7000789"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "WalmarteCommerce",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7283989"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "WarnerBros",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6012074",
-      "M520000808",
-      "M520000876",
-      "M520000935",
-      "M520001104",
-      "M520001302",
-      "M520001488",
-      "M520001650",
-      "M520001727",
-      "M520002124",
-      "M520002331",
-      "M520002846",
-      "M6379182",
-      "M6384859",
-      "M6386410",
-      "M6393252",
-      "M6396334",
-      "M6397400",
-      "M6406403",
-      "M6409444",
-      "M6412901",
-      "M6414992",
-      "M6415843",
-      "M6422070",
-      "M6422286",
-      "M6422333"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
     "accountName": "WebMD",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
       "E6281689",
-      "E7000131",
-      "E7000665"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "WestpacBanking",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7286792",
-      "E7219149"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "WorldEconomicForum",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6262751"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "XcelEnergy",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E218224"
+      "E7000131"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -3524,108 +7637,20 @@ export const mceLeverageAccounts = [
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E1056875",
-      "E523014047"
+      "E1056875"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
   },
   {
-    "accountName": "Zoox",
+    "accountName": "BOA",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E546013446"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "AEGPresents",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514009229"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "AES_US_Services",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100013270"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "AETNA",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100010605"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Aereo_Mexico",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7289990"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Affirm (Sales & Mktg)",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110005314"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "AniCura",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100021500"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BBVA_ArgentinaSeguros",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E520000654"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BBVA_Colombia",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100001800"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BBVA_Peru",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100002531"
+      "E522000110",
+      "E522000111",
+      "M522000110",
+      "M522000111"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -3641,407 +7666,11 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "Banco Inter SA",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E515008015"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BancoPan",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100006805"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BancoPichincha",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100017188"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Banco_Santander_Chili",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110005986"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Banco_Santander_Mexico",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100012062"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Beiersdorf",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10965385"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BestBuy",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E97338",
-      "E10965271"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BlueShield",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514004935"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BostonScientific",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6371011"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BouyguesTelecom",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7211327",
-      "M7213695",
-      "M7226728"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Brew_Culture_LLC",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546014230"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
     "accountName": "BrooksBrothers",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
       "E7000361"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BuildaBear",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6242205"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "CanadianImperialBankOfCommerce",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514010025"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "CapitaGroup",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10765366"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Centene",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100005162"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Chevron_Technical_Center",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100019619"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Cielo",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100026160"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "CitizensTelecomServices",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546004687"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Claro",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514006915"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Classmates",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534017027"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Coventry_University",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100018563"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Cru",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534006091"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "DECATHLON SE",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7237433"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "DeVry University",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100011269"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Dunelm",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100003063"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "E*Trade",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7226039"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Education.com",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7220054"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "FarmCreditMid-America-MC",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534002155"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Fisher_Asset_Management_LLC",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534003102",
-      "M534003737",
-      "M534003738",
-      "M534015154"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Ford Motor Company",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534002172"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Globo_Comunications",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100007184"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Google_Fiber",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546007103"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Hancock_Whitney_Bank",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546004744"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Heineken_International_BV_AMER",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534001895"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Hsbc Global Services",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100001734"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "IPG",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514030707"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Inspirali",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546013225"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Inspirali_Educa\u00e7\u00e3o",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546013225"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "JCB Co., Ltd.",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7295798"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -4057,31 +7686,11 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "LVMH Moet Hennessy - Louis Vuitton",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7288722"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
     "accountName": "LVMHMoetHennessy-Louis Vuitton",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
       "E7285438"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Landmark",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546011383"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -4097,181 +7706,11 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "LionheartSystems",
+    "accountName": "MTA",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E546001841"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "LiveNationHoB",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10520839"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "LiveNationInternational",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E1063224"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Logitech",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546006378"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Louis_Vuitton",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7225755"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Lyondell",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546002546"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "MECCA_Brands_Pty_Ltd",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E526001431"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Major_League_Soccer",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10358116"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Mars-RoyalCanin-CA",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6270246"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Mars-RoyalCanin-Mexico",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534006563"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Mars-RoyalCanin-US",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10785911"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Martins",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546011821"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Mary_Kay",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10984347"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Medtronic",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E526001052"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Merck Sharp & Dohme LLC",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7276545"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "NS2.COM",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E1429595"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "NTUCFairprice",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110006393"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "National_University_of_Singapore",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546005997"
+      "E534003968"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -4287,31 +7726,11 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "Natural_Resources_Defense_Council",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E526003688"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
     "accountName": "Nautica",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
       "E7279337"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "NewDay",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7236234"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -4327,294 +7746,11 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "OReily_Automotive",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514010103"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "PMI",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100024142",
-      "E510000729",
-      "E100019531",
-      "E510006456"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "PMI_DTE",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7297301"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
     "accountName": "PT_Bank _OCBC _NISP",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
       "E514000801"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "PepsiCo",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546002027"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "PostNLHoldingBV",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10958449"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Principal",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7304350"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Prudential",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E515014149"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Prudential_BSN_Takaful_Berhad",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E515014802"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Rona Inc",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110004791"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "SAFG_Technologies_LLC",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100008543"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Saks.com LLC",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546003201"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "SavvyMoney",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100016677"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "SeaWorld",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E526002807"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "SeminoleHardRock",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E526001024"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Sobeys",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110004425"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Sony_Interactive_Entertainment",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534001074"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "SouthState_Bank_NA",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110007913"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "SouthernCrossAustereo",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534000890"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Summit_Health_Management",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100023657"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "TDBankCanada",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6425646"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "TD_AMCB_CDP",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6425645"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "TMNF",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E518004860"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Teladoc_Health",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E518006854"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Texas Capital Bank",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110005223"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "TexasCapitalBank",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110005223"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Texas_Capital_Bank",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110005223"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "TicketMasterUS",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7220265"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Trimble_Illuminate",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546013415"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -4630,61 +7766,15 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "UOC",
+    "accountName": "Under_Armour",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E7279656"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Under Armour",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E518000448"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "United_Airlines",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E526002069"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Victorias_Secret",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7210036"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "VodafoneZiggo",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100020302"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Volvo",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7279664"
+      "M518004387",
+      "M518004388",
+      "M518000498",
+      "M518004389",
+      "M518006208"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -4695,102 +7785,6 @@ export const mceLeverageAccounts = [
     "isSignature": false,
     "eids": [
       "E7003136"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Westpac",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7219149"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Zoetis",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100015113",
-      "M100015113",
-      "M100017849",
-      "M100017850",
-      "M100018123",
-      "M515009474"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Zoetis_Touchpoint",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100015113"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "eLEAD1",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7290888"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "iFood.com",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514002867"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": " Claro",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514006915"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": " Delta_Air_Lines",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10965567"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ALL NIPPON AIRWAYS CO., LTD.",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100027122"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "AbbVie",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E523003299",
-      "E7281696"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -4816,21 +7810,18 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "AereoMexico",
+    "accountName": "AdidasAG",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E7289990"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "AeroMexico",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7289990"
+      "M10964987",
+      "M10977585",
+      "M10977635",
+      "M10979435",
+      "M10979661",
+      "M10980052",
+      "M10980345",
+      "M10981232"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -4840,28 +7831,7 @@ export const mceLeverageAccounts = [
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E110005314",
       "M110005626"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Affirm_(Sales & Mktg)",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110005314"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Ally",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E155657"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -4877,61 +7847,11 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "AustraliaPost",
+    "accountName": "BBW",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E10689512"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "AustralianPost",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10689512"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BBVA",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100002531"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BBVA Colombia",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100001800"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BBVA-Colombia",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100001800"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BBVA-Peru",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100002531"
+      "M7305077"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -4947,122 +7867,62 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "BancoItau",
+    "accountName": "BGRetail",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E514012614"
+      "M518004732",
+      "M7222883",
+      "M7222885",
+      "M7222886",
+      "M7222888",
+      "M7222891",
+      "M7222925",
+      "M7222927",
+      "M7222928",
+      "M7235144",
+      "M7276386"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
   },
   {
-    "accountName": "Banco_Macto",
+    "accountName": "Banco_Inter_SA",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E534002277"
+      "M515008387"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
   },
   {
-    "accountName": "Barclays",
+    "accountName": "BestBuy",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E100010776",
-      "E510003825"
+      "E10965271"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
   },
   {
-    "accountName": "Bessemer",
+    "accountName": "BouyguesTelecom",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E7204586"
+      "M7213695",
+      "M7226728"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
   },
   {
-    "accountName": "BlueGreen Vacations",
+    "accountName": "CapitalOne",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E100009180"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BoA",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E522000104"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BoticarioProdutos",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100022917"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Bouygues Telecom",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7211327"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Cadena_Comercial_Oxxo",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E526002630"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Carmax",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10977912"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Carnival Cruise",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7219942"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ConnectFirstandServusCredit Union",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E526003681"
+      "M518004831"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -5072,7 +7932,6 @@ export const mceLeverageAccounts = [
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E546000451",
       "E546001399"
     ],
     "isLeveraged": true,
@@ -5092,91 +7951,76 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "DellCorporate",
+    "accountName": "CrateBarrel",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E100029263"
+      "M7200677",
+      "M7200679"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
   },
   {
-    "accountName": "Delta_Air_Lines",
+    "accountName": "Delta",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E10965567"
+      "E524003253",
+      "E6419278"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
   },
   {
-    "accountName": "Delta_Air_Lines_Inc",
+    "accountName": "Deluxe_Corporation",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E10965567"
+      "M514008804"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
   },
   {
-    "accountName": "Disney_Entertainment",
+    "accountName": "Fisher_Asset_Management_LLC",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E534004205"
+      "M534003737",
+      "M534003738",
+      "M534015154"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
   },
   {
-    "accountName": "Distribuidora_La _Florida",
+    "accountName": "Focus_Financial",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E100009461"
+      "M534000111",
+      "M534000112"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
   },
   {
-    "accountName": "ElCorte",
+    "accountName": "Ford_Pro",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E100003861"
+      "M534007369"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
   },
   {
-    "accountName": "Farmers_Group",
+    "accountName": "Ford_Retail",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E10967003"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Federal_Express_Corporation",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7209290"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Ford Pro",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534000225"
+      "M534006025"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -5192,62 +8036,24 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "Gocompare",
+    "accountName": "L'Oreal",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E7269357"
+      "M7202503",
+      "M7205741",
+      "M7298601",
+      "M7299494"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
   },
   {
-    "accountName": "HP_Inc",
+    "accountName": "LabCorp",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E1306115"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Herbalife",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10193058"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Highmark_Inc",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M518000136",
-      "M524008125"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "JP Life Insulance",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534006534"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "JPMorgan",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7209790"
+      "M100024080"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -5263,121 +8069,42 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "MC_AmericanHonda",
+    "accountName": "Lululemon",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E7225058"
+      "M514005125"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
   },
   {
-    "accountName": "MC_Bunnings Group Limited",
+    "accountName": "Molina_Healthcare",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E514000802"
+      "M110005208",
+      "M110006877"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
   },
   {
-    "accountName": "MVWServicesCorporation",
+    "accountName": "NBC_Sports_Group",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E1085014"
+      "M7320840"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
   },
   {
-    "accountName": "Marketing Cloud BancoEstado",
+    "accountName": "NavyFederalCreditUnion",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E514002097"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Marriott_International",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534005545"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Marriott_Ownerships_Resorts",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E1085014"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "MassMutual",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100019299"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "NINTENDO_CO_LTD",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7207004"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "NRG",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6417338"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "NTUC Fairprice Co-operative Limited",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E110006393"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "NationalGrid",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100011295"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Nestle_Canada",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7237233"
+      "E7215635"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -5388,38 +8115,6 @@ export const mceLeverageAccounts = [
     "isSignature": false,
     "eids": [
       "M518006336"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "PLAT",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E1065704",
-      "E7210036",
-      "E7303808"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "PVH_CORP",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100024991"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Pagseguro_Pagbank",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546003761"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -5442,121 +8137,12 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "PicPay",
+    "accountName": "PetSmart",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E546001846"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Plat_Kroger",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7200428"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Plat_Win_Technologies",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E1007307"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "PostNLHolding_BV",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10958449"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ProM_FedEx_Freight",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534018118"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ProM_Foodstuffs_Rewards_Limited",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534016651"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ProM_Ford_Pro",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534000225"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ProM_Globo_Comunications",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100007184"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ProM_HD Supply",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10960660"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ProM_JF_Shea",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546002794"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ProM_JohnLewis",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6275805"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ProM_JohnLewisPLC",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6275805"
+      "M514007931",
+      "M514007933"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -5567,26 +8153,6 @@ export const mceLeverageAccounts = [
     "isSignature": false,
     "eids": [
       "E6249496"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ProM_NS2.COM",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E1429595"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ProM_PVH",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100024991"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -5608,6 +8174,26 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
+    "accountName": "ProgressiveCasualtyInsuranceCompany",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": false,
+    "eids": [
+      "M7000841"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
+    "accountName": "PruLife_Insurance",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": false,
+    "eids": [
+      "M515014657"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true
+  },
+  {
     "accountName": "Resorts_World_Genting",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
@@ -5618,61 +8204,15 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "Robert_Half",
+    "accountName": "RoyalBankofCanada",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E100008070"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "RocketMortgage",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100015922"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Royal_Bank_Of_Canada",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100026341"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Royal_Caribbean_Cruises",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E1332579"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "RoyalbankofCanada",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E1065704"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "SMBCCF",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E518005576"
+      "M100030569",
+      "M1072338",
+      "M1350425",
+      "M1424033",
+      "M515015196"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -5682,58 +8222,7 @@ export const mceLeverageAccounts = [
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E546000939",
       "M546001142"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "SeminoleHardRockSupportServices",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E526001024"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "SixContinentHotels",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E514005412"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Smile_Drs",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E526001885"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Sony Interactive Entertainment",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6151033"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Sony_Music_Entertainment",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E6383269"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -5779,21 +8268,22 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "TDBankInsurance",
+    "accountName": "Take-Two_Interactive",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E6425848"
+      "M6193684",
+      "M6193685"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
   },
   {
-    "accountName": "TMNF-Assist-Center",
+    "accountName": "Takeda Pharmaceuticals International AG",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E7231532"
+      "E510958197"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -5819,21 +8309,11 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "Thrivent",
+    "accountName": "ThePapeGroup",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E546002638"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "TicketmasterInternational",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E1313665"
+      "M546003445"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -5843,38 +8323,17 @@ export const mceLeverageAccounts = [
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E13033",
-      "E546000459"
+      "E13033"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
   },
   {
-    "accountName": "Toyota_Financial_Services",
+    "accountName": "USOPC",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E100008634"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "USOCP",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534004934"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Unique_Travel_Corp",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E546011419"
+      "M534010059"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -5896,11 +8355,12 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "VisionServicePlan",
+    "accountName": "WMU",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E514003105"
+      "M534007259",
+      "M534007260"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -5916,292 +8376,48 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "_Globo_Comunications",
+    "accountName": "WarnerBros",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E100007184"
+      "M520000808",
+      "M520000876",
+      "M520000935",
+      "M520001104",
+      "M520001302",
+      "M520001488",
+      "M520001650",
+      "M520001727",
+      "M520002124",
+      "M520002331",
+      "M520002846",
+      "M6379182",
+      "M6384859",
+      "M6386410",
+      "M6393252",
+      "M6396334",
+      "M6397400",
+      "M6406403",
+      "M6409444",
+      "M6412901",
+      "M6414992",
+      "M6415843",
+      "M6422070",
+      "M6422286",
+      "M6422333"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
   },
   {
-    "accountName": "_MVW Services Corporation",
+    "accountName": "Zoetis",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E7325424"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "athenahealthInc",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7234369"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "eLEAD",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7290888"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "AbbVie_Inc.",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E500008867"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "PricewaterhouseCoopers-PWC",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E500008504"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "UCAS",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7237230",
-      "E7201234"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BENDA_BILI",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E500009409"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Bord_Gais_Energy_Limited",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536000822"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Colt_Technology_Services",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536005114"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Dentsu_UK_Limited",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536007058"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Ecomaison",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536004206"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "LTA_Operations_Limited",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E500007912"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Rocher",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100011745"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BBVA_Global",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E500007993"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Booking_com_BV_B2B_Accommodations",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536002488"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Ferrari_SpA",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536006838"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Hilti",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E500008259"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "MoveOnB&BHotels",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E10962788"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "SJP",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E510000892"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Schwarz",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7237442"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "AESIO_MUTUELLE",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E510000996"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BASF_SE",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E500008067"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BP",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E500009924"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ExperianLTD",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E510003078"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "FORMULA_ONE",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536001458"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "KLMFranceOneCRM",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536005337"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "National_Trust",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E510004949"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Oriflame",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E500009110"
+      "M100017849",
+      "M100017850",
+      "M100018123",
+      "M515009474"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -6217,81 +8433,11 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "PepsicoAmesa",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E510001704"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "RTL_Nederland",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E500008710"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
     "accountName": "Santander_UK_Plc",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
       "E536003118"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Scottish Widows Schroder Personal Wealth Limited",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E500009274"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "SkyDeutschlandFernsehenGmbH&CoKG",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E500009454"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "StandardBankofSA",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E510001313"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ACCOR",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E510005197"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "AUCHAN",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100002818"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -6308,141 +8454,11 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "Caprice_Holdings_Limited",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536003339"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Co_operative_Group_Limited",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E500007785"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Heineken_International_BV",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E510000373"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
     "accountName": "Media-Participations_Paris",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
       "E536002406"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Triumph_Intertrade_AG",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E510004928"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "WebHost_Limited",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536001665"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ASDA",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536000811"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Aeroports_de_Paris_LLC",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536002672"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "AstraZeneca",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536004629"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "BP_International",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E500009924"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Diageo Great Britain Limited",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E510004804"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Enel Global Services",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E510000484"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Heineken_International_BV_Europe",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536000894"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Janssen_Pharmaceutica",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536002503"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -6458,111 +8474,11 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "Legrand",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E510005195"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "NewDay_Tech",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E510002839"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "PFGCorporateServicesLimited",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E510004632"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Petcare_GDP",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536005649"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "RENAULT SAS",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536004325"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Richemont_International",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E500008430"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
     "accountName": "SOK",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
       "E510001221"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Stellantis",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E510008490"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Vaillant",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100006096"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "reMarkable_AS",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536001209"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "vidaXL",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536001960"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -6581,46 +8497,6 @@ export const mceLeverageAccounts = [
       "M510008795",
       "M510009325",
       "M510009336"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Allwyn_Entertainment",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536002948"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Allwyn_Entertainment_Ltd",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536002948"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Amadeus",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536007689"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Auchan",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E100002818"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -6646,41 +8522,11 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "BACCARAT_sa",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E510002789"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
     "accountName": "Brakes_CountryChoice",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
       "M510005499"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "British_Airways",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E500009926"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "British_American_Shared_services",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E500007429"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -6696,141 +8542,11 @@ export const mceLeverageAccounts = [
     "hasMonitoring": true
   },
   {
-    "accountName": "Enel_Global_Services",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E510000484"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "FordRetail_Europe",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536004706"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Ford_EU",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536004706"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "HelloFresh",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E500009790"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "HiltiCorporation",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E500008259"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "KLMN.V.",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536005337"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
     "accountName": "MF",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
       "E510001796"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Mars_Information_Services",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536003127"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Matalan_Retail_Limited",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E500009120"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "PSAAutomobilesSA/Stellantis",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E510008490"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ProM_Mars Information Services",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536003127"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "ProM_UCAS",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7237230"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Randstad",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E510004860"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Regeneron_Healthcare",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536004077"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -6851,36 +8567,6 @@ export const mceLeverageAccounts = [
     "isSignature": false,
     "eids": [
       "E536003118"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Schneider_Electric",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536001940"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "Stellantis_International",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E510008490"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true
-  },
-  {
-    "accountName": "TOTALIZATOR_SPORTOWY",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E536001819"
     ],
     "isLeveraged": true,
     "hasMonitoring": true
@@ -6915,13 +8601,13 @@ export const dataMetadata = {
   "lastUpdated": "2026-06-22",
   "dataSource": {
     "monitoring": "UTDP Exports (CSV files)",
-    "contracts": "/Users/rinku.soni/prom-signature-extension/sample/contracts.csv",
+    "contracts": "/Users/rinku.soni/prom-signature-extension/data/contracts.xlsx",
     "matchingLogic": "Tenant ID (EID) cross-reference"
   },
   "generationScript": "generateMCEData.py",
   "stats": {
     "totalMonitoring": 836,
-    "totalSignatureAccounts": 3,
-    "signatureWithProm": 2
+    "totalSignatureAccounts": 789,
+    "signatureWithProm": 481
   }
 };

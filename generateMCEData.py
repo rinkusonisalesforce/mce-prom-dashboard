@@ -149,29 +149,68 @@ def load_contracts():
     contracts = []
 
     if file_ext in ['.xlsx', '.xls'] and HAS_PANDAS:
-        # Read Excel
+        # Read Excel - skip Salesforce report header rows (metadata at top)
         print(f'Reading Excel file: {CONTRACTS_FILE}')
-        df = pd.read_excel(CONTRACTS_FILE)
+
+        # Try to find the header row automatically
+        temp_df = pd.read_excel(CONTRACTS_FILE, header=None, nrows=20)
+        header_row = None
+
+        for idx, row in temp_df.iterrows():
+            # Look for row containing "Account Name" and "Contract Name"
+            row_str = ' '.join(str(x).lower() for x in row.values if pd.notna(x))
+            if 'account name' in row_str and 'contract name' in row_str:
+                header_row = idx
+                break
+
+        # Read the full file with correct header
+        if header_row is not None:
+            print(f'   Found header at row {header_row}, skipping {header_row} rows...')
+            df = pd.read_excel(CONTRACTS_FILE, skiprows=header_row)
+        else:
+            df = pd.read_excel(CONTRACTS_FILE)
 
         for _, row in df.iterrows():
-            tenant_id = (row.get('Tenant Id: Name') or
-                        row.get('TenantId') or
-                        row.get('Tenant_Id__r.Name') or '')
+            # Get tenant ID - handle various column name formats
+            tenant_id = None
+            for col_name in ['Tenant Id: Name', 'TenantId', 'Tenant_Id__r.Name']:
+                if col_name in row:
+                    tenant_id = row[col_name]
+                    break
 
-            contract_name = (row.get('Contract Name') or
-                            row.get('ContractName') or
-                            row.get('Name') or '')
+            if pd.isna(tenant_id):
+                tenant_id = ''
+
+            # Get contract name - handle various column name formats
+            contract_name = None
+            for col_name in ['Contract Name', 'ContractName', 'Name']:
+                if col_name in row:
+                    contract_name = row[col_name]
+                    break
+
+            if pd.isna(contract_name):
+                contract_name = ''
 
             normalized_id = normalize_contract_tenant_id(tenant_id)
 
             if normalized_id and is_signature_contract(contract_name):
+                # Get account name
+                account_name = None
+                for col_name in ['Account Name: Account Name', 'Account Name', 'AccountName']:
+                    if col_name in row:
+                        account_name = row[col_name]
+                        break
+
+                if pd.isna(account_name):
+                    account_name = ''
+
                 contracts.append({
-                    'accountName': row.get('Account Name') or row.get('AccountName') or '',
+                    'accountName': str(account_name),
                     'tenantId': str(tenant_id),
                     'normalizedTenantId': normalized_id,
-                    'contractName': contract_name,
+                    'contractName': str(contract_name),
                     'status': row.get('Status') or row.get('Service_Contract_Status__c') or 'Active',
-                    'signaturePlan': contract_name,
+                    'signaturePlan': str(contract_name),
                     'endDate': str(row.get('EndDate') or ''),
                     'isSignature': True
                 })
