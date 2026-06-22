@@ -226,20 +226,8 @@ function SignatureLeverageTable({ accounts }) {
               Previous
             </button>
 
-            <div className="flex gap-1">
-              {[...Array(totalPages)].map((_, i) => (
-                <button
-                  key={i}
-                  onClick={() => setCurrentPage(i + 1)}
-                  className={`px-3 py-1 border rounded-md text-sm font-medium ${
-                    currentPage === i + 1
-                      ? 'bg-blue-600 text-white border-blue-600'
-                      : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
-                  }`}
-                >
-                  {i + 1}
-                </button>
-              ))}
+            <div className="px-3 py-1 text-sm font-medium text-gray-700">
+              Page {currentPage} of {totalPages}
             </div>
 
             <button
