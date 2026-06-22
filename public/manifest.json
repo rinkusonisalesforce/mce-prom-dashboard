@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "MCE ProM Dashboard",
+  "version": "2.0.0",
+  "description": "Proactive Monitoring adoption dashboard for Marketing Cloud Engagement",
+  "permissions": ["cookies"],
+  "host_permissions": [
+    "https://org62.my.salesforce.com/*"
+  ],
+  "action": {
+    "default_title": "Open MCE ProM Dashboard",
+    "default_popup": "index.html"
+  }
+}
