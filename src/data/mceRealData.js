@@ -147,7 +147,8 @@ export const mceLeverageAccounts = [
       "510004949"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Metropolitan Transportation Authority",
@@ -157,7 +158,8 @@ export const mceLeverageAccounts = [
       "526003260"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Matalan Retail Limited",
@@ -167,7 +169,8 @@ export const mceLeverageAccounts = [
       "500009120"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Bath & Body Works, Inc.",
@@ -177,7 +180,8 @@ export const mceLeverageAccounts = [
       "7303808"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "SHUTTERSTOCK, INC.",
@@ -187,7 +191,8 @@ export const mceLeverageAccounts = [
       "546002279"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Sirius XM Radio LLC",
@@ -197,7 +202,8 @@ export const mceLeverageAccounts = [
       "546000856"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Axos Financial, Inc.",
@@ -207,7 +213,8 @@ export const mceLeverageAccounts = [
       "6241641"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Meta Platforms Inc - HR / Recruiting",
@@ -217,7 +224,8 @@ export const mceLeverageAccounts = [
       "526003412"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Barclays Execution Services Limited",
@@ -228,7 +236,8 @@ export const mceLeverageAccounts = [
       "510003825"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Aerov\u00edas de M\u00e9xico S.A. de C.V.",
@@ -238,7 +247,8 @@ export const mceLeverageAccounts = [
       "7289990"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Enlarged Europe MC",
@@ -248,7 +258,8 @@ export const mceLeverageAccounts = [
       "510008490"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Cisco Systems Inc.",
@@ -258,7 +269,8 @@ export const mceLeverageAccounts = [
       "110004736"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Westpac Banking Corporation",
@@ -269,7 +281,8 @@ export const mceLeverageAccounts = [
       "7219149"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "The Gap, Inc.****",
@@ -280,7 +293,8 @@ export const mceLeverageAccounts = [
       "6426366"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Woolworths Group Limited",
@@ -290,7 +304,8 @@ export const mceLeverageAccounts = [
       "6370104"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Philip Morris International IT Service Center S\u00e0rl",
@@ -305,7 +320,8 @@ export const mceLeverageAccounts = [
       "100019531"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Liberty Mutual Insurance Company (IA Dist)",
@@ -315,7 +331,8 @@ export const mceLeverageAccounts = [
       "10977889"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Nestl\u00e9 Operational Services Worldwide (NOSW) S.A.",
@@ -326,7 +343,8 @@ export const mceLeverageAccounts = [
       "10958513"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "JOHN LEWIS PLC",
@@ -336,7 +354,8 @@ export const mceLeverageAccounts = [
       "6275805"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "URBN US Retail LLC",
@@ -346,7 +365,8 @@ export const mceLeverageAccounts = [
       "514010445"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "TD Bank",
@@ -357,7 +377,8 @@ export const mceLeverageAccounts = [
       "6425646"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Aetna Life Insurance Company iqbs",
@@ -368,7 +389,8 @@ export const mceLeverageAccounts = [
       "100010605"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Live Nation Entertainment, Inc.",
@@ -382,7 +404,8 @@ export const mceLeverageAccounts = [
       "7294910"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Amazon.com Services LLC",
@@ -392,7 +415,8 @@ export const mceLeverageAccounts = [
       "110007343"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Pearson Education, Inc.",
@@ -404,7 +428,8 @@ export const mceLeverageAccounts = [
       "7209172"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "United Healthcare Services, Inc.",
@@ -416,7 +441,8 @@ export const mceLeverageAccounts = [
       "10848680"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Johnson and Johnson Services, Inc**",
@@ -427,7 +453,8 @@ export const mceLeverageAccounts = [
       "7290789"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Wells Fargo Bank, N.A.",
@@ -437,7 +464,8 @@ export const mceLeverageAccounts = [
       "7225669"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Best Buy Purchasing LLC**",
@@ -448,7 +476,8 @@ export const mceLeverageAccounts = [
       "7210119"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Teladoc Health, Inc.",
@@ -458,7 +487,8 @@ export const mceLeverageAccounts = [
       "518006854"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Dell USA, L.P.",
@@ -469,7 +499,8 @@ export const mceLeverageAccounts = [
       "100029263"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "AbbVie",
@@ -479,7 +510,8 @@ export const mceLeverageAccounts = [
       "523003299"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Allwyn Entertainment Ltd",
@@ -489,7 +521,8 @@ export const mceLeverageAccounts = [
       "536002948"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Albertsons Companies, Inc.",
@@ -499,7 +532,8 @@ export const mceLeverageAccounts = [
       "514030743"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "National University of Singapore",
@@ -509,7 +543,8 @@ export const mceLeverageAccounts = [
       "546005997"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Sky Deutschland Fernsehen GmbH & Co. KG",
@@ -519,7 +554,8 @@ export const mceLeverageAccounts = [
       "500009454"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Rogers Communications Canada Inc.*",
@@ -529,7 +565,8 @@ export const mceLeverageAccounts = [
       "6422421"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Genesco Inc.",
@@ -539,7 +576,8 @@ export const mceLeverageAccounts = [
       "526001209"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Banco Bradesco S.A.",
@@ -549,7 +587,8 @@ export const mceLeverageAccounts = [
       "110006066"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "American Express Travel Related Services Company, Inc.",
@@ -559,7 +598,8 @@ export const mceLeverageAccounts = [
       "7201234"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Banco Bradesco S.A. (DRC)",
@@ -569,7 +609,8 @@ export const mceLeverageAccounts = [
       "514008236"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "TOTALIZATOR SPORTOWY SP Z O O",
@@ -579,7 +620,8 @@ export const mceLeverageAccounts = [
       "536001819"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "MS Financing LLC",
@@ -590,7 +632,8 @@ export const mceLeverageAccounts = [
       "7232216"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Atlassian Pty Ltd.",
@@ -600,7 +643,8 @@ export const mceLeverageAccounts = [
       "10991049"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "TARGET CORPORATION",
@@ -611,7 +655,8 @@ export const mceLeverageAccounts = [
       "7282972"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Private National Mortgage Acceptance Company, LLC (BDL Org) - TPO Business Line",
@@ -621,7 +666,8 @@ export const mceLeverageAccounts = [
       "110006185"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Massachusetts Mutual Life Insurance Company",
@@ -631,7 +677,8 @@ export const mceLeverageAccounts = [
       "100019299"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Rona Inc.",
@@ -641,7 +688,8 @@ export const mceLeverageAccounts = [
       "110004791"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Pearson Education, Inc. One CRM",
@@ -651,7 +699,8 @@ export const mceLeverageAccounts = [
       "510002549"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "AUCHAN RETAIL INTERNATIONAL SA",
@@ -661,7 +710,8 @@ export const mceLeverageAccounts = [
       "100002818"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "SMBC CONSUMER FINANCE CO., LTD.(\u4fdd\u8a3c\u55b6\u696d)",
@@ -671,7 +721,8 @@ export const mceLeverageAccounts = [
       "518005576"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Regeneron Healthcare Solutions (CDP org)",
@@ -681,7 +732,8 @@ export const mceLeverageAccounts = [
       "534000170"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Vanquis Bank Limited",
@@ -691,7 +743,8 @@ export const mceLeverageAccounts = [
       "510004632"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Caleres, Inc.",
@@ -701,7 +754,8 @@ export const mceLeverageAccounts = [
       "7221103"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "United States Olympic Paralympic Committee",
@@ -711,7 +765,8 @@ export const mceLeverageAccounts = [
       "534004934"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "800-Flowers, Inc. (Marketing & Slack)",
@@ -721,7 +776,8 @@ export const mceLeverageAccounts = [
       "6211892"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Kohl's, Inc.",
@@ -731,7 +787,8 @@ export const mceLeverageAccounts = [
       "6241319"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Herbalife International of America, Inc.",
@@ -741,7 +798,8 @@ export const mceLeverageAccounts = [
       "10193058"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "BBVA Seguros Argentina S.A.",
@@ -751,7 +809,8 @@ export const mceLeverageAccounts = [
       "520000654"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "BBVA Global Architecture",
@@ -761,7 +820,8 @@ export const mceLeverageAccounts = [
       "500007993"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Banco BBVA Per\u00fa",
@@ -771,7 +831,8 @@ export const mceLeverageAccounts = [
       "100002531"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "BCBSM (Michigan) - ISV, MC",
@@ -781,7 +842,8 @@ export const mceLeverageAccounts = [
       "10976446"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "The Bessemer Group, Incorporated",
@@ -791,7 +853,8 @@ export const mceLeverageAccounts = [
       "7204586"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Google LLC",
@@ -801,7 +864,8 @@ export const mceLeverageAccounts = [
       "7200675"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "BBVA M\u00e9xico, Sociedad An\u00f3nima, Instituci\u00f3n de Banca M\u00faltiple, Grupo BBVA M\u00e9xico",
@@ -811,7 +875,8 @@ export const mceLeverageAccounts = [
       "100015594"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Reckitt Benckiser Corporate Services Limited",
@@ -821,7 +886,8 @@ export const mceLeverageAccounts = [
       "6231186"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Lululemon Athletica Canada, Inc.",
@@ -831,7 +897,8 @@ export const mceLeverageAccounts = [
       "514002114"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Banco BBVA Argentina SA",
@@ -841,7 +908,8 @@ export const mceLeverageAccounts = [
       "6426511"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "BBVA Colombia",
@@ -851,7 +919,8 @@ export const mceLeverageAccounts = [
       "100001800"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "JPMorgan Chase Bank, N.A.",
@@ -861,7 +930,8 @@ export const mceLeverageAccounts = [
       "7209790"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Expedia, Inc.",
@@ -872,7 +942,8 @@ export const mceLeverageAccounts = [
       "526000870"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Six Continents Hotels, Inc.",
@@ -882,7 +953,8 @@ export const mceLeverageAccounts = [
       "514005412"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Adidas AG",
@@ -892,7 +964,8 @@ export const mceLeverageAccounts = [
       "10958454"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Citibank, N.A..",
@@ -902,7 +975,8 @@ export const mceLeverageAccounts = [
       "110006009"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "USA TODAY Media Corp. (Marketing)",
@@ -912,7 +986,8 @@ export const mceLeverageAccounts = [
       "10684711"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "AT&T Services, Inc.",
@@ -922,7 +997,8 @@ export const mceLeverageAccounts = [
       "514005240"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Ford Retail - NA",
@@ -932,7 +1008,8 @@ export const mceLeverageAccounts = [
       "534002172"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Ford Pro",
@@ -942,7 +1019,8 @@ export const mceLeverageAccounts = [
       "534000225"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Robert Half International Inc.",
@@ -953,7 +1031,8 @@ export const mceLeverageAccounts = [
       "515010912"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Euromarket Designs, Inc. (Crate and Barrel)",
@@ -963,7 +1042,8 @@ export const mceLeverageAccounts = [
       "7200632"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Align Technology, Inc.",
@@ -973,7 +1053,8 @@ export const mceLeverageAccounts = [
       "6419324"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Newell Brands Inc.",
@@ -983,7 +1064,8 @@ export const mceLeverageAccounts = [
       "110006176"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "TIAA",
@@ -993,7 +1075,8 @@ export const mceLeverageAccounts = [
       "6272710"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "PricewaterhouseCoopers Global Licensing Services Corporation",
@@ -1003,7 +1086,8 @@ export const mceLeverageAccounts = [
       "500008504"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "CDK Global, LLC",
@@ -1013,7 +1097,8 @@ export const mceLeverageAccounts = [
       "7290888"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Zappos IP LLC (B2C)",
@@ -1023,7 +1108,8 @@ export const mceLeverageAccounts = [
       "523014047"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Bop LLC Shopbop.com (B2C)",
@@ -1033,7 +1119,8 @@ export const mceLeverageAccounts = [
       "7286983"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "The RealReal",
@@ -1043,7 +1130,8 @@ export const mceLeverageAccounts = [
       "7200793"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "SCENE Limited Partnership",
@@ -1053,7 +1141,8 @@ export const mceLeverageAccounts = [
       "7296813"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "DataRobot",
@@ -1063,7 +1152,8 @@ export const mceLeverageAccounts = [
       "534000667"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Navy Federal Credit Union (MC CDP)",
@@ -1073,7 +1163,8 @@ export const mceLeverageAccounts = [
       "534000270"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Deluxe Corporation",
@@ -1083,7 +1174,8 @@ export const mceLeverageAccounts = [
       "110004930"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "News Corporate Services, Inc. for the purposes of Realtor.com",
@@ -1093,7 +1185,8 @@ export const mceLeverageAccounts = [
       "100008823"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Sobeys Capital Incorporated",
@@ -1103,7 +1196,8 @@ export const mceLeverageAccounts = [
       "110004425"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Centene Corporation",
@@ -1113,7 +1207,8 @@ export const mceLeverageAccounts = [
       "100005162"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Bungie, Inc.",
@@ -1123,7 +1218,8 @@ export const mceLeverageAccounts = [
       "7004658"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Universities And Colleges Admissions Service",
@@ -1133,7 +1229,8 @@ export const mceLeverageAccounts = [
       "7237230"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Bloomberg Industry Group",
@@ -1143,7 +1240,8 @@ export const mceLeverageAccounts = [
       "534001995"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "GoDaddy Main",
@@ -1153,7 +1251,8 @@ export const mceLeverageAccounts = [
       "514000558"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Voya Services Company",
@@ -1163,7 +1262,8 @@ export const mceLeverageAccounts = [
       "7213559"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Mahindra & Mahindra Ltd. (CDP)",
@@ -1173,7 +1273,8 @@ export const mceLeverageAccounts = [
       "110005509"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Asda Stores Limited",
@@ -1183,7 +1284,8 @@ export const mceLeverageAccounts = [
       "536000811"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Farmers Group, Inc.",
@@ -1193,7 +1295,8 @@ export const mceLeverageAccounts = [
       "10967003"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Caesars Enterprise Services, LLC",
@@ -1203,7 +1306,8 @@ export const mceLeverageAccounts = [
       "6236232"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Williams-Sonoma, Inc.",
@@ -1213,7 +1317,8 @@ export const mceLeverageAccounts = [
       "514023470"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Tokio Marine & Nichido Fire Insurance Co., Ltd.",
@@ -1224,7 +1329,8 @@ export const mceLeverageAccounts = [
       "518004860"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "World Economic Forum",
@@ -1234,7 +1340,8 @@ export const mceLeverageAccounts = [
       "6262751"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "JPMorgan Chase Bank, National Association",
@@ -1245,7 +1352,8 @@ export const mceLeverageAccounts = [
       "534005544"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Toyota Motor North America, Inc (Fleet)",
@@ -1255,7 +1363,8 @@ export const mceLeverageAccounts = [
       "7001109"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Toyota Motor Sales, U.S.A., Inc",
@@ -1265,7 +1374,8 @@ export const mceLeverageAccounts = [
       "1065513"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Sony Interactive Entertainment LLC",
@@ -1276,7 +1386,8 @@ export const mceLeverageAccounts = [
       "6151033"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "American Honda Finance Corporation",
@@ -1286,7 +1397,8 @@ export const mceLeverageAccounts = [
       "7225058"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Google Fiber Inc.",
@@ -1296,7 +1408,8 @@ export const mceLeverageAccounts = [
       "546007103"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "United Airlines, Inc.",
@@ -1307,7 +1420,8 @@ export const mceLeverageAccounts = [
       "526002069"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "ALL NIPPON AIRWAYS CO., LTD.",
@@ -1317,7 +1431,8 @@ export const mceLeverageAccounts = [
       "100027122"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Serasa S.A.",
@@ -1327,7 +1442,8 @@ export const mceLeverageAccounts = [
       "514009687"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Casey's Retail Company",
@@ -1337,7 +1453,8 @@ export const mceLeverageAccounts = [
       "100016075"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Saks.com LLC",
@@ -1347,7 +1464,8 @@ export const mceLeverageAccounts = [
       "546003201"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Humana Corporate Initiatives",
@@ -1358,7 +1476,8 @@ export const mceLeverageAccounts = [
       "514000810"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Saks OFF 5TH, LLC * Commerce",
@@ -1368,7 +1487,8 @@ export const mceLeverageAccounts = [
       "546007841"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "SCOOT PTE. LTD.",
@@ -1378,7 +1498,8 @@ export const mceLeverageAccounts = [
       "6236592"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Banco Macro S.A.",
@@ -1388,7 +1509,8 @@ export const mceLeverageAccounts = [
       "534002277"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Fisher & Paykel Appliances Limited",
@@ -1398,7 +1520,8 @@ export const mceLeverageAccounts = [
       "1373480"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "PAPYLESS CO., LTD.",
@@ -1408,7 +1531,8 @@ export const mceLeverageAccounts = [
       "534004094"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Webhost Limited",
@@ -1418,7 +1542,8 @@ export const mceLeverageAccounts = [
       "536001665"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Advance Stores Company, Incorporated",
@@ -1428,7 +1553,8 @@ export const mceLeverageAccounts = [
       "100001952"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Iren Mercato",
@@ -1438,7 +1564,8 @@ export const mceLeverageAccounts = [
       "10958547"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Sentara Healthcare",
@@ -1448,7 +1575,8 @@ export const mceLeverageAccounts = [
       "100012732"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "The Board of Trustees of Western Michigan University on behalf of WMUx/OIT",
@@ -1458,7 +1586,8 @@ export const mceLeverageAccounts = [
       "534004830"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "HSBC Global Services (UK) Ltd",
@@ -1468,7 +1597,8 @@ export const mceLeverageAccounts = [
       "100001734"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Mars Information Services, Inc.",
@@ -1478,7 +1608,8 @@ export const mceLeverageAccounts = [
       "10785911"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Medical Management International, Inc. dba Banfield Pet Hospital\u00ae",
@@ -1488,7 +1619,8 @@ export const mceLeverageAccounts = [
       "6134033"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Royal Canin Canada Inc",
@@ -1498,7 +1630,8 @@ export const mceLeverageAccounts = [
       "6270246"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Royal Canin SAS",
@@ -1508,7 +1641,8 @@ export const mceLeverageAccounts = [
       "536005649"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Champion Petfoods Holding Inc.",
@@ -1518,7 +1652,8 @@ export const mceLeverageAccounts = [
       "110006385"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "AniCura AB",
@@ -1528,7 +1663,8 @@ export const mceLeverageAccounts = [
       "100021500"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Royal Canin M\u00e9xico, S.A de C.V",
@@ -1538,7 +1674,8 @@ export const mceLeverageAccounts = [
       "534006563"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "GEICO Corporation Main Org",
@@ -1548,7 +1685,8 @@ export const mceLeverageAccounts = [
       "523010029"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Highmark, Inc.",
@@ -1560,7 +1698,8 @@ export const mceLeverageAccounts = [
       "10765352"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Mars Petcare UK",
@@ -1570,7 +1709,8 @@ export const mceLeverageAccounts = [
       "536003127"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "CarMax Enterprise Services, LLC",
@@ -1580,7 +1720,8 @@ export const mceLeverageAccounts = [
       "10977912"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "HHS NIH - All of Us Research Program (AOU)",
@@ -1590,7 +1731,8 @@ export const mceLeverageAccounts = [
       "546005081"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Lowe's Companies, Inc.",
@@ -1600,7 +1742,8 @@ export const mceLeverageAccounts = [
       "1059618"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Rocket Mortgage, LLC",
@@ -1610,7 +1753,8 @@ export const mceLeverageAccounts = [
       "100015922"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Credit One Bank, N.A.",
@@ -1620,7 +1764,8 @@ export const mceLeverageAccounts = [
       "100039462"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Charles Schwab & Co., Inc.",
@@ -1631,7 +1776,8 @@ export const mceLeverageAccounts = [
       "7231213"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "NVIDIA Corporation",
@@ -1641,7 +1787,8 @@ export const mceLeverageAccounts = [
       "534000734"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Hilti Corporation",
@@ -1651,7 +1798,8 @@ export const mceLeverageAccounts = [
       "500008259"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Summit Health Management LLC (AfterCare)",
@@ -1661,7 +1809,8 @@ export const mceLeverageAccounts = [
       "100023657"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "St. James's Place Management Services Limited",
@@ -1671,7 +1820,8 @@ export const mceLeverageAccounts = [
       "510000892"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Bank of America, N.A.",
@@ -1681,7 +1831,8 @@ export const mceLeverageAccounts = [
       "522000104"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Warner-Elektra-Atlantic Corp",
@@ -1691,7 +1842,8 @@ export const mceLeverageAccounts = [
       "7000789"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Vision Service Plan",
@@ -1701,7 +1853,8 @@ export const mceLeverageAccounts = [
       "514003105"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "bp International Ltd",
@@ -1711,7 +1864,8 @@ export const mceLeverageAccounts = [
       "500009924"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "School Specialty, LLC",
@@ -1721,7 +1875,8 @@ export const mceLeverageAccounts = [
       "7289353"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Bouygues Telecom Marketing",
@@ -1731,7 +1886,8 @@ export const mceLeverageAccounts = [
       "7211327"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "American Lebanese Syrian Associated Charities, Inc.",
@@ -1741,7 +1897,8 @@ export const mceLeverageAccounts = [
       "524004459"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Allegis Group, Inc.**",
@@ -1751,7 +1908,8 @@ export const mceLeverageAccounts = [
       "7280184"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Heineken International BV - 1",
@@ -1761,7 +1919,8 @@ export const mceLeverageAccounts = [
       "510000373"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Citizens Telecom Services Company L.L.C.   d/b/a Frontier Communications",
@@ -1771,7 +1930,8 @@ export const mceLeverageAccounts = [
       "546004687"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Banco Santander Chile",
@@ -1781,7 +1941,8 @@ export const mceLeverageAccounts = [
       "110005986"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Cornerstone Shared Services, LLC",
@@ -1791,7 +1952,8 @@ export const mceLeverageAccounts = [
       "6234139"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "HEINEKEN AMER MC",
@@ -1801,7 +1963,8 @@ export const mceLeverageAccounts = [
       "534001895"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Heineken International BV - Europe",
@@ -1811,7 +1974,8 @@ export const mceLeverageAccounts = [
       "536000894"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Pharma Plus, S.A. de C.V.",
@@ -1821,7 +1985,8 @@ export const mceLeverageAccounts = [
       "514010426"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Molina Healthcare  Enterprise CRM [Molina 5]",
@@ -1831,7 +1996,8 @@ export const mceLeverageAccounts = [
       "110004916"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Seminole Hard Rock Support Services, LLC",
@@ -1841,7 +2007,8 @@ export const mceLeverageAccounts = [
       "526001024"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Churchill Downs Incorporated",
@@ -1852,7 +2019,8 @@ export const mceLeverageAccounts = [
       "526001028"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "WIN TECHNOLOGIES (UK) LIMITED",
@@ -1862,7 +2030,8 @@ export const mceLeverageAccounts = [
       "1007307"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Versant Media, LLC",
@@ -1872,7 +2041,8 @@ export const mceLeverageAccounts = [
       "7208686"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Experian Services Corp. (Mktg)",
@@ -1882,7 +2052,8 @@ export const mceLeverageAccounts = [
       "7325858"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Southern Cross Austereo Pty Ltd",
@@ -1892,7 +2063,8 @@ export const mceLeverageAccounts = [
       "534000890"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Experian Ltd",
@@ -1902,7 +2074,8 @@ export const mceLeverageAccounts = [
       "510003078"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Progressive Casualty Insurance Company",
@@ -1912,7 +2085,8 @@ export const mceLeverageAccounts = [
       "7000168"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Ally Bank",
@@ -1922,7 +2096,8 @@ export const mceLeverageAccounts = [
       "155657"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Penney OpCo LLC",
@@ -1932,7 +2107,8 @@ export const mceLeverageAccounts = [
       "526003439"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Schwarz Digits IT KG",
@@ -1942,7 +2118,8 @@ export const mceLeverageAccounts = [
       "7237442"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "LendingClub Corporation - (Main)",
@@ -1952,7 +2129,8 @@ export const mceLeverageAccounts = [
       "520000291"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Connect Holding II LLC d/b/a Brightspeed",
@@ -1962,7 +2140,8 @@ export const mceLeverageAccounts = [
       "534001698"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "HD Supply Facilities Maintenance*",
@@ -1972,7 +2151,8 @@ export const mceLeverageAccounts = [
       "10960660"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Gocompare.Com Ltd.",
@@ -1982,7 +2162,8 @@ export const mceLeverageAccounts = [
       "7269357"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Hartford Fire Insurance Company",
@@ -1992,7 +2173,8 @@ export const mceLeverageAccounts = [
       "159662"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Capital One Services, LLC",
@@ -2002,7 +2184,8 @@ export const mceLeverageAccounts = [
       "7257764"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "NewDay Technology Ltd",
@@ -2013,7 +2196,8 @@ export const mceLeverageAccounts = [
       "510002839"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Uber Technologies, Inc.",
@@ -2023,7 +2207,8 @@ export const mceLeverageAccounts = [
       "520002927"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "TD US CDP",
@@ -2033,7 +2218,8 @@ export const mceLeverageAccounts = [
       "6425645"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Federal Express Corporation",
@@ -2043,7 +2229,8 @@ export const mceLeverageAccounts = [
       "7209290"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Verizon Sourcing LLC",
@@ -2053,7 +2240,8 @@ export const mceLeverageAccounts = [
       "100005777"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Southern New Hampshire University*",
@@ -2063,7 +2251,8 @@ export const mceLeverageAccounts = [
       "7314446"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Bloomingdale's, Inc.",
@@ -2073,7 +2262,8 @@ export const mceLeverageAccounts = [
       "110007381"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Hughes Network Systems, LLC",
@@ -2083,7 +2273,8 @@ export const mceLeverageAccounts = [
       "10958464"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "LVMH Moet Hennessy - Louis Vuitton SE",
@@ -2094,7 +2285,8 @@ export const mceLeverageAccounts = [
       "7225755"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Victoria\u2019s Secret Stores Brand Management, LLC",
@@ -2104,7 +2296,8 @@ export const mceLeverageAccounts = [
       "7210036"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Lumen Technologies (MM Copper)",
@@ -2114,7 +2307,8 @@ export const mceLeverageAccounts = [
       "100021545"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Security Service Federal Credit Union",
@@ -2124,7 +2318,8 @@ export const mceLeverageAccounts = [
       "546000939"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Walmart Inc.",
@@ -2134,7 +2329,8 @@ export const mceLeverageAccounts = [
       "7283989"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Mary Kay Inc.",
@@ -2144,7 +2340,8 @@ export const mceLeverageAccounts = [
       "10984347"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "J.F. Shea Co., Inc. (New Org)",
@@ -2154,7 +2351,8 @@ export const mceLeverageAccounts = [
       "546002794"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Independence Pet Group, Inc.",
@@ -2164,7 +2362,8 @@ export const mceLeverageAccounts = [
       "514030707"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "2U LLC",
@@ -2174,7 +2373,8 @@ export const mceLeverageAccounts = [
       "100021306"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Merck Sharp & Dohme LLC",
@@ -2184,7 +2384,8 @@ export const mceLeverageAccounts = [
       "7276545"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "RENAULT SAS",
@@ -2194,7 +2395,8 @@ export const mceLeverageAccounts = [
       "536004325"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "AMERICAN CANCER SOCIETY, INC.",
@@ -2204,7 +2406,8 @@ export const mceLeverageAccounts = [
       "7296043"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Disney Entertainment & Sports LLC",
@@ -2214,7 +2417,8 @@ export const mceLeverageAccounts = [
       "534004205"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "The Kroger Co.",
@@ -2224,7 +2428,8 @@ export const mceLeverageAccounts = [
       "7200428"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Meta Platforms, Inc.",
@@ -2234,7 +2439,8 @@ export const mceLeverageAccounts = [
       "100011073"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Meta Platforms, Inc. UX Research",
@@ -2244,7 +2450,8 @@ export const mceLeverageAccounts = [
       "514005924"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Paramount Global",
@@ -2254,7 +2461,8 @@ export const mceLeverageAccounts = [
       "514000224"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Tapestry, Inc.",
@@ -2264,7 +2472,8 @@ export const mceLeverageAccounts = [
       "100025030"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "CBS Interactive Inc.",
@@ -2274,7 +2483,8 @@ export const mceLeverageAccounts = [
       "7208814"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "CCI Corporate Services, LLC.",
@@ -2284,7 +2494,8 @@ export const mceLeverageAccounts = [
       "526000883"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "El Corte Ingl\u00e9s SA",
@@ -2294,7 +2505,8 @@ export const mceLeverageAccounts = [
       "100003861"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Nueva Elektra del Milenio S.A de CV - TAX ID: ECE9610253TA",
@@ -2304,7 +2516,8 @@ export const mceLeverageAccounts = [
       "546002639"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Meritage Homes Corporation",
@@ -2314,7 +2527,8 @@ export const mceLeverageAccounts = [
       "100017112"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Goosehead Insurance",
@@ -2324,7 +2538,8 @@ export const mceLeverageAccounts = [
       "514003039"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Progress Residential",
@@ -2334,7 +2549,8 @@ export const mceLeverageAccounts = [
       "100006303"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Randstad North America*",
@@ -2344,7 +2560,8 @@ export const mceLeverageAccounts = [
       "510004860"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Charter Spectrum Reach (Ad Sales) [MC]",
@@ -2354,7 +2571,8 @@ export const mceLeverageAccounts = [
       "100024529"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Revvity Health Sciences, Inc. (Viacord Org.)",
@@ -2364,7 +2582,8 @@ export const mceLeverageAccounts = [
       "526001718"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Ford Retail - Europe",
@@ -2374,7 +2593,8 @@ export const mceLeverageAccounts = [
       "536004706"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "BOTICARIO PRODUTOS DE BELEZA LTDA",
@@ -2384,7 +2604,8 @@ export const mceLeverageAccounts = [
       "100022917"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "PVH Corp",
@@ -2394,7 +2615,8 @@ export const mceLeverageAccounts = [
       "100024991"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Smile Doctors, LLC",
@@ -2404,7 +2626,8 @@ export const mceLeverageAccounts = [
       "526001885"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Banco Pichincha C.A.",
@@ -2414,7 +2637,8 @@ export const mceLeverageAccounts = [
       "100017188"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Lionheart Systems Inc. (S. O. Asher)",
@@ -2424,7 +2648,8 @@ export const mceLeverageAccounts = [
       "546001841"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "LEGRAND SNC (Europe)",
@@ -2434,7 +2659,8 @@ export const mceLeverageAccounts = [
       "510005195"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Geisinger System Services",
@@ -2444,7 +2670,8 @@ export const mceLeverageAccounts = [
       "100025067"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Takeda Pharmaceuticals International AG OBU (515002200)",
@@ -2454,7 +2681,8 @@ export const mceLeverageAccounts = [
       "515002200"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "JCB Co., Ltd.",
@@ -2464,7 +2692,8 @@ export const mceLeverageAccounts = [
       "7295798"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Archer Daniels Midland Company",
@@ -2474,7 +2703,8 @@ export const mceLeverageAccounts = [
       "526002293"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "WHR Operations, LLC",
@@ -2484,7 +2714,8 @@ export const mceLeverageAccounts = [
       "6134973"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "General Motors Holdings, LLC.",
@@ -2494,7 +2725,8 @@ export const mceLeverageAccounts = [
       "546005605"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "AEG Presents LLC",
@@ -2504,7 +2736,8 @@ export const mceLeverageAccounts = [
       "514009229"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "AES US Services, LLC*",
@@ -2514,7 +2747,8 @@ export const mceLeverageAccounts = [
       "100013270"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Delta Air Lines, Inc.",
@@ -2524,7 +2758,8 @@ export const mceLeverageAccounts = [
       "10965567"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Toyota Motor Credit Corporation",
@@ -2534,7 +2769,8 @@ export const mceLeverageAccounts = [
       "100008634"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Royal Bank of Canada*",
@@ -2546,7 +2782,8 @@ export const mceLeverageAccounts = [
       "1065704"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "VODAFONE PROCUREMENT COMPANY S.A R.L.",
@@ -2556,7 +2793,8 @@ export const mceLeverageAccounts = [
       "100020302"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "The Boeing Company",
@@ -2566,7 +2804,8 @@ export const mceLeverageAccounts = [
       "7200860"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Pagseguro Pagbank",
@@ -2576,7 +2815,8 @@ export const mceLeverageAccounts = [
       "546003761"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "AstraZeneca CDP - UK",
@@ -2586,7 +2826,8 @@ export const mceLeverageAccounts = [
       "536004629"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Domino's Pizza LLC",
@@ -2596,7 +2837,8 @@ export const mceLeverageAccounts = [
       "514011443"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Principal Life Insurance Company",
@@ -2606,7 +2848,8 @@ export const mceLeverageAccounts = [
       "7304350"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "KLM N.V.",
@@ -2616,7 +2859,8 @@ export const mceLeverageAccounts = [
       "536005337"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Electronic Arts Inc.",
@@ -2626,7 +2870,8 @@ export const mceLeverageAccounts = [
       "7225794"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "CDW LLC",
@@ -2636,7 +2881,8 @@ export const mceLeverageAccounts = [
       "1052136"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Kimberly-Clark Corporation*",
@@ -2646,7 +2892,8 @@ export const mceLeverageAccounts = [
       "7234146"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Sysco Corporation",
@@ -2656,7 +2903,8 @@ export const mceLeverageAccounts = [
       "10965172"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "AARP Volunteer Organization",
@@ -2666,7 +2914,8 @@ export const mceLeverageAccounts = [
       "1062583"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "PetSmart LLC",
@@ -2676,7 +2925,8 @@ export const mceLeverageAccounts = [
       "514005410"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "T-Mobile USA Inc.",
@@ -2686,7 +2936,8 @@ export const mceLeverageAccounts = [
       "526000750"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "National Grid USA Service Company - Gas",
@@ -2696,7 +2947,8 @@ export const mceLeverageAccounts = [
       "100011295"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Lyondell Chemical Company",
@@ -2706,7 +2958,8 @@ export const mceLeverageAccounts = [
       "546002546"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Regeneron Healthcare Solutions, Inc.",
@@ -2716,7 +2969,8 @@ export const mceLeverageAccounts = [
       "514011412"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Laboratory Corporation Of America Holdings",
@@ -2726,7 +2980,8 @@ export const mceLeverageAccounts = [
       "100021437"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "MVW Services Corporation",
@@ -2737,7 +2992,8 @@ export const mceLeverageAccounts = [
       "1085014"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Coventry University",
@@ -2747,7 +3003,8 @@ export const mceLeverageAccounts = [
       "100018563"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Thrivent Financial - CRM HUB (Main)",
@@ -2757,7 +3014,8 @@ export const mceLeverageAccounts = [
       "546002638"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Regeneron Ireland Designated Activity Company",
@@ -2767,7 +3025,8 @@ export const mceLeverageAccounts = [
       "536004077"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Boston Scientific Corporation**",
@@ -2777,7 +3036,8 @@ export const mceLeverageAccounts = [
       "6371011"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Schneider Electric Industries SAS",
@@ -2787,7 +3047,8 @@ export const mceLeverageAccounts = [
       "536001940"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Ulta Inc",
@@ -2797,7 +3058,8 @@ export const mceLeverageAccounts = [
       "514008253"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Beiersdorf Shared Services GmbH",
@@ -2807,7 +3069,8 @@ export const mceLeverageAccounts = [
       "10965385"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "RTL Nederland B.V.",
@@ -2817,7 +3080,8 @@ export const mceLeverageAccounts = [
       "500008710"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "IAG Transform Limited",
@@ -2827,7 +3091,8 @@ export const mceLeverageAccounts = [
       "500009926"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "The Vanguard Group, Inc.",
@@ -2837,7 +3102,8 @@ export const mceLeverageAccounts = [
       "7201448"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "City National Bank*",
@@ -2847,7 +3113,8 @@ export const mceLeverageAccounts = [
       "10908528"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "\u304b\u3093\u307d\u30b7\u30b9\u30c6\u30e0\u30bd\u30ea\u30e5\u30fc\u30b7\u30e7\u30f3\u30ba\u682a\u5f0f\u4f1a\u793e",
@@ -2857,7 +3124,8 @@ export const mceLeverageAccounts = [
       "534006534"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Warner Bros Entertainment Inc.*",
@@ -2867,7 +3135,8 @@ export const mceLeverageAccounts = [
       "6012074"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Volvo Car Corporation",
@@ -2877,7 +3146,8 @@ export const mceLeverageAccounts = [
       "7279664"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "TITAN COMPANY LTD",
@@ -2887,7 +3157,8 @@ export const mceLeverageAccounts = [
       "546000459"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "GoodRx CDP (2nd Org)",
@@ -2897,7 +3168,8 @@ export const mceLeverageAccounts = [
       "546001022"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "BGE E&U Cloud",
@@ -2907,7 +3179,8 @@ export const mceLeverageAccounts = [
       "536000822"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Diageo Great Britain Limited",
@@ -2917,7 +3190,8 @@ export const mceLeverageAccounts = [
       "510004804"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Canadian Imperial Bank of Commerce",
@@ -2927,7 +3201,8 @@ export const mceLeverageAccounts = [
       "514010025"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Natura & Co",
@@ -2937,7 +3212,8 @@ export const mceLeverageAccounts = [
       "514006344"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "L'Oreal USA S/D, Inc.",
@@ -2947,7 +3223,8 @@ export const mceLeverageAccounts = [
       "7201265"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Sunwing Vacations Inc.",
@@ -2957,7 +3234,8 @@ export const mceLeverageAccounts = [
       "534001657"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Penn Medicine",
@@ -2967,7 +3245,8 @@ export const mceLeverageAccounts = [
       "100024741"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Maryville University of St. Louis",
@@ -2977,7 +3256,8 @@ export const mceLeverageAccounts = [
       "546004158"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Colt Technology Services",
@@ -2987,7 +3267,8 @@ export const mceLeverageAccounts = [
       "536005114"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Mr. Cooper",
@@ -2997,7 +3278,8 @@ export const mceLeverageAccounts = [
       "6235230"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "The Reinalt-Thomas Corporation",
@@ -3008,7 +3290,8 @@ export const mceLeverageAccounts = [
       "1045947"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Hancock Whitney Bank - Main",
@@ -3018,7 +3301,8 @@ export const mceLeverageAccounts = [
       "546004744"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Certinia",
@@ -3028,7 +3312,8 @@ export const mceLeverageAccounts = [
       "546004764"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "PGA TOUR Superstore",
@@ -3038,7 +3323,8 @@ export const mceLeverageAccounts = [
       "526003662"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Arc\u2019teryx Equipment, a division of Amer Sports Canada Inc.",
@@ -3048,7 +3334,8 @@ export const mceLeverageAccounts = [
       "520001999"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Wingstop Restaurants Inc.",
@@ -3058,7 +3345,8 @@ export const mceLeverageAccounts = [
       "10787378"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Disney Streaming Services LLC",
@@ -3068,7 +3356,8 @@ export const mceLeverageAccounts = [
       "1064447"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Trends International (Main)",
@@ -3079,7 +3368,8 @@ export const mceLeverageAccounts = [
       "546003944"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "United Wholesale Mortgage, LLC",
@@ -3089,7 +3379,8 @@ export const mceLeverageAccounts = [
       "1397554"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Fisher Asset Management, LLC (d/b/a Fisher Investments)",
@@ -3099,7 +3390,8 @@ export const mceLeverageAccounts = [
       "534003102"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Hilton Grand Vacations (Bluegreen)",
@@ -3109,7 +3401,8 @@ export const mceLeverageAccounts = [
       "100009180"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Otsuka America Pharmaceutical, Inc",
@@ -3119,7 +3412,8 @@ export const mceLeverageAccounts = [
       "100017800"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Rutgers, The State University of New Jersey",
@@ -3129,7 +3423,8 @@ export const mceLeverageAccounts = [
       "100026753"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "The University of Tennessee, Knoxville (MAIN)",
@@ -3139,7 +3434,8 @@ export const mceLeverageAccounts = [
       "534006200"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Dentsu UK Limited",
@@ -3149,7 +3445,8 @@ export const mceLeverageAccounts = [
       "536007058"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Xcel Energy (MC Org)",
@@ -3159,7 +3456,8 @@ export const mceLeverageAccounts = [
       "218224"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Taxact",
@@ -3169,7 +3467,8 @@ export const mceLeverageAccounts = [
       "514008604"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "iFood.com Agencia de Restaurantes Online S.A.",
@@ -3179,7 +3478,8 @@ export const mceLeverageAccounts = [
       "514002867"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Landmark Properties Management, LLC",
@@ -3189,7 +3489,8 @@ export const mceLeverageAccounts = [
       "546011383"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Medtronic - MedCloud",
@@ -3199,7 +3500,8 @@ export const mceLeverageAccounts = [
       "526001052"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Ig Index",
@@ -3209,7 +3511,8 @@ export const mceLeverageAccounts = [
       "10980772"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "DECATHLON SE",
@@ -3219,7 +3522,8 @@ export const mceLeverageAccounts = [
       "7237433"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "BASF SE (MVP ORG for Mktg)",
@@ -3229,7 +3533,8 @@ export const mceLeverageAccounts = [
       "500008067"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Alice + Olivia, LLC",
@@ -3239,7 +3544,8 @@ export const mceLeverageAccounts = [
       "514012486"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Chevron Technical Center, a division of Chevron U.S.A. Inc.",
@@ -3249,7 +3555,8 @@ export const mceLeverageAccounts = [
       "100019619"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Raia Drogasil",
@@ -3259,7 +3566,8 @@ export const mceLeverageAccounts = [
       "110007689"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Martins Com\u00e9rcio e Servi\u00e7o de Distribui\u00e7\u00e3o",
@@ -3269,7 +3577,8 @@ export const mceLeverageAccounts = [
       "546011821"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "SavvyMoney",
@@ -3279,7 +3588,8 @@ export const mceLeverageAccounts = [
       "100016677"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Take-Two Interactive Software, Inc.",
@@ -3289,7 +3599,8 @@ export const mceLeverageAccounts = [
       "6185511"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Chico's FAS   Inc.",
@@ -3299,7 +3610,8 @@ export const mceLeverageAccounts = [
       "514011392"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Carnival Cruise Line, a division of Carnival Corporation",
@@ -3309,7 +3621,8 @@ export const mceLeverageAccounts = [
       "7219942"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Distribuidora La Florida",
@@ -3319,7 +3632,8 @@ export const mceLeverageAccounts = [
       "100009461"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "AXS Group LLC",
@@ -3329,7 +3643,8 @@ export const mceLeverageAccounts = [
       "514035855"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Laboratoires de Biologie Vegetale Yves Rocher SA",
@@ -3339,7 +3654,8 @@ export const mceLeverageAccounts = [
       "100011745"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Abbott Laboratories",
@@ -3351,7 +3667,8 @@ export const mceLeverageAccounts = [
       "7295445"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "NCL (Bahamas) Ltd.",
@@ -3361,7 +3678,8 @@ export const mceLeverageAccounts = [
       "534000696"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Vaillant GmbH",
@@ -3371,7 +3689,8 @@ export const mceLeverageAccounts = [
       "100006096"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Formula One Management Limited",
@@ -3381,7 +3700,8 @@ export const mceLeverageAccounts = [
       "536001458"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Enel Global Services S.r.l.",
@@ -3392,7 +3712,8 @@ export const mceLeverageAccounts = [
       "510000484"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "THE STANDARD BANK of SOUTH AFRICA LTD",
@@ -3402,7 +3723,8 @@ export const mceLeverageAccounts = [
       "510001313"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "ADT LLC",
@@ -3412,7 +3734,8 @@ export const mceLeverageAccounts = [
       "514002908"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Amadeus Data Cloud + MC",
@@ -3422,7 +3745,8 @@ export const mceLeverageAccounts = [
       "536007689"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Zoox, Inc. DBA in California as Zoox Labs, Inc.",
@@ -3432,7 +3756,8 @@ export const mceLeverageAccounts = [
       "546013446"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Edgepark Medical Supplies (RGH Enterprises)",
@@ -3442,7 +3767,8 @@ export const mceLeverageAccounts = [
       "10410312"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "SEG Inc.",
@@ -3452,7 +3778,8 @@ export const mceLeverageAccounts = [
       "514011696"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Richemont International S.A",
@@ -3462,7 +3789,8 @@ export const mceLeverageAccounts = [
       "500008430"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Move On B&B Hotels",
@@ -3472,7 +3800,8 @@ export const mceLeverageAccounts = [
       "10962788"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "KPMG LLP",
@@ -3482,7 +3811,8 @@ export const mceLeverageAccounts = [
       "514007235"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "BANCO SANTANDER MEXICO S.A, INSTITUCION DE BANCA MULTIPLE",
@@ -3492,7 +3822,8 @@ export const mceLeverageAccounts = [
       "100012062"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "AGCO Corporation NA*",
@@ -3502,7 +3833,8 @@ export const mceLeverageAccounts = [
       "100009182"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Royal Caribbean Cruises Ltd.",
@@ -3512,7 +3844,8 @@ export const mceLeverageAccounts = [
       "1332579"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "DaVita Inc.",
@@ -3522,7 +3855,8 @@ export const mceLeverageAccounts = [
       "546001874"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Trimble Illuminate",
@@ -3532,7 +3866,8 @@ export const mceLeverageAccounts = [
       "546013415"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "PepsiCo, Inc.",
@@ -3544,7 +3879,8 @@ export const mceLeverageAccounts = [
       "100019596"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "reMarkable AS",
@@ -3554,7 +3890,8 @@ export const mceLeverageAccounts = [
       "536001209"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Vizio Inc. (MAIN)(Walmart)",
@@ -3564,7 +3901,8 @@ export const mceLeverageAccounts = [
       "10958523"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Independence Pet Holdings, Inc. Together with it's affiliates and subsidiaries",
@@ -3574,7 +3912,8 @@ export const mceLeverageAccounts = [
       "100009662"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Citibank, N.A.",
@@ -3584,7 +3923,8 @@ export const mceLeverageAccounts = [
       "7289665"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "O'Reilly Automotive Stores, Inc.",
@@ -3594,7 +3934,8 @@ export const mceLeverageAccounts = [
       "514010103"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Telecom Argentina S.A.",
@@ -3604,7 +3945,8 @@ export const mceLeverageAccounts = [
       "546003764"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Sams West, Inc.",
@@ -3614,7 +3956,8 @@ export const mceLeverageAccounts = [
       "100024869"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "California Physicians' Service d/b/a Blue Shield of California",
@@ -3624,7 +3967,8 @@ export const mceLeverageAccounts = [
       "514004935"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Totalplay Telecomunicaciones SAPI de CV // TPT890516JP5",
@@ -3634,7 +3978,8 @@ export const mceLeverageAccounts = [
       "7295172"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "HelloFresh SE",
@@ -3644,7 +3989,8 @@ export const mceLeverageAccounts = [
       "500009790"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Amica Mutual Insurance Company",
@@ -3654,7 +4000,8 @@ export const mceLeverageAccounts = [
       "546000639"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Telstra Limited",
@@ -3664,7 +4011,8 @@ export const mceLeverageAccounts = [
       "100017400"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "PVR INOX Ltd",
@@ -3674,7 +4022,8 @@ export const mceLeverageAccounts = [
       "526001231"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Wealth Enhancement Group, Llc",
@@ -3684,7 +4033,8 @@ export const mceLeverageAccounts = [
       "10960058"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Cushman & Wakefield Global, Inc",
@@ -3694,7 +4044,8 @@ export const mceLeverageAccounts = [
       "514010868"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "CSL Plasma",
@@ -3704,7 +4055,8 @@ export const mceLeverageAccounts = [
       "534002550"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "LeafFilter North, LLC",
@@ -3714,7 +4066,8 @@ export const mceLeverageAccounts = [
       "546014208"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Brew Culture, LLC",
@@ -3724,7 +4077,8 @@ export const mceLeverageAccounts = [
       "546014230"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Disney Worldwide Services, Inc",
@@ -3734,7 +4088,8 @@ export const mceLeverageAccounts = [
       "534002674"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "NMDP - MC Org",
@@ -3744,7 +4099,8 @@ export const mceLeverageAccounts = [
       "100004329"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Boozt Fashion AB",
@@ -3754,7 +4110,8 @@ export const mceLeverageAccounts = [
       "7275509"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "CMG Strategy Co., LLC",
@@ -3764,7 +4121,8 @@ export const mceLeverageAccounts = [
       "110007397"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Insulet Corporation - Classic Org",
@@ -3774,7 +4132,8 @@ export const mceLeverageAccounts = [
       "100006260"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "CIELO S.A - INSTITUICAO DE PAGAMENTO",
@@ -3784,7 +4143,8 @@ export const mceLeverageAccounts = [
       "100026160"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Foodstuffs Rewards Limited",
@@ -3794,7 +4154,8 @@ export const mceLeverageAccounts = [
       "534016651"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Southwest Airlines Co. - Employee Experience (HR)",
@@ -3804,7 +4165,8 @@ export const mceLeverageAccounts = [
       "514021290"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Marriott International Administrative Services, Inc.*",
@@ -3814,7 +4176,8 @@ export const mceLeverageAccounts = [
       "534005545"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Unicomer",
@@ -3824,7 +4187,8 @@ export const mceLeverageAccounts = [
       "100023982"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Insulet Corporation_",
@@ -3834,7 +4198,8 @@ export const mceLeverageAccounts = [
       "510002585"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Old Dominion University (Main)",
@@ -3844,7 +4209,8 @@ export const mceLeverageAccounts = [
       "100026640"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Logitech Europe S.A",
@@ -3854,7 +4220,8 @@ export const mceLeverageAccounts = [
       "546006378"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "The Pap\u00e9 Group Inc",
@@ -3864,7 +4231,8 @@ export const mceLeverageAccounts = [
       "546001711"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Banco do Brasil SA",
@@ -3874,7 +4242,8 @@ export const mceLeverageAccounts = [
       "546001350"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Affirm (Sales & Mktg)",
@@ -3884,7 +4253,8 @@ export const mceLeverageAccounts = [
       "110005314"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Univest Financial Corporation",
@@ -3894,7 +4264,8 @@ export const mceLeverageAccounts = [
       "100022116"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Banco Del Estado De Chile",
@@ -3904,7 +4275,8 @@ export const mceLeverageAccounts = [
       "514002097"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "PeopleConnect, Inc.",
@@ -3914,7 +4286,8 @@ export const mceLeverageAccounts = [
       "534017027"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "vidaXL B.V. - MC",
@@ -3924,7 +4297,8 @@ export const mceLeverageAccounts = [
       "536001960"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "NEWORCH SAS",
@@ -3934,7 +4308,8 @@ export const mceLeverageAccounts = [
       "100009348"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Xerox Corporation",
@@ -3944,7 +4319,8 @@ export const mceLeverageAccounts = [
       "546005609"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Australian Postal Corporation",
@@ -3954,7 +4330,8 @@ export const mceLeverageAccounts = [
       "10689512"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "GRUPO CASAS BAHIA S.A.",
@@ -3964,7 +4341,8 @@ export const mceLeverageAccounts = [
       "514001899"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "The Warehouse Limited",
@@ -3974,7 +4352,8 @@ export const mceLeverageAccounts = [
       "7205264"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "PRUDENTIAL VIETNAM ASSURANCE PRIVATE LIMITED",
@@ -3984,7 +4363,8 @@ export const mceLeverageAccounts = [
       "515014149"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "PruLife Insurance Corporation of U.K",
@@ -3994,7 +4374,8 @@ export const mceLeverageAccounts = [
       "515014150"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Unique Travel Corp",
@@ -4004,7 +4385,8 @@ export const mceLeverageAccounts = [
       "546011419"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Prudential BSN Takaful Berhad (Active org)",
@@ -4014,7 +4396,8 @@ export const mceLeverageAccounts = [
       "515014802"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Anti-Defamation League HQ",
@@ -4024,7 +4407,8 @@ export const mceLeverageAccounts = [
       "10966182"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Education.com",
@@ -4034,7 +4418,8 @@ export const mceLeverageAccounts = [
       "7220054"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Optus Systems Pty Ltd**",
@@ -4044,7 +4429,8 @@ export const mceLeverageAccounts = [
       "520001846"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Booking.com BV - B2B Accommodations",
@@ -4054,7 +4440,8 @@ export const mceLeverageAccounts = [
       "536002488"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Zoro Tools, Inc.",
@@ -4064,7 +4451,8 @@ export const mceLeverageAccounts = [
       "100002903"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "BANCO NACIONAL DE MEXICO S.A., INTEGRANTE DEL GRUPO FINANCIERO BANAMEX",
@@ -4074,7 +4462,8 @@ export const mceLeverageAccounts = [
       "546009404"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Devry University, Inc.",
@@ -4084,7 +4473,8 @@ export const mceLeverageAccounts = [
       "100011269"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "AbbVie Inc.",
@@ -4095,7 +4485,8 @@ export const mceLeverageAccounts = [
       "500008867"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "BACCARAT sa",
@@ -4105,7 +4496,8 @@ export const mceLeverageAccounts = [
       "510002789"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Abbvie Inc.",
@@ -4115,7 +4507,8 @@ export const mceLeverageAccounts = [
       "110007944"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Kumon North America, Inc.",
@@ -4125,7 +4518,8 @@ export const mceLeverageAccounts = [
       "110007815"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Treasure Island Resort & Casino",
@@ -4135,7 +4529,8 @@ export const mceLeverageAccounts = [
       "3842"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Bristol Myers Squibb - Data Cloud & Commercial Marketing Cloud - Production Org",
@@ -4145,7 +4540,8 @@ export const mceLeverageAccounts = [
       "110007257"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Aesio Mutuelle",
@@ -4155,7 +4551,8 @@ export const mceLeverageAccounts = [
       "510000996"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "athenahealth Inc. *",
@@ -4165,7 +4562,8 @@ export const mceLeverageAccounts = [
       "7234369"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Crocs, Inc. (Consumer Org)",
@@ -4175,7 +4573,8 @@ export const mceLeverageAccounts = [
       "10518406"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Skechers USA, Inc",
@@ -4185,7 +4584,8 @@ export const mceLeverageAccounts = [
       "100006009"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Build-A-Bear Workshop, Inc.",
@@ -4195,7 +4595,8 @@ export const mceLeverageAccounts = [
       "6242205"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Board of Supervisors of Louisiana State University and A&M College",
@@ -4205,7 +4606,8 @@ export const mceLeverageAccounts = [
       "546000887"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "*Claro S.A.",
@@ -4215,7 +4617,8 @@ export const mceLeverageAccounts = [
       "514006915"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Under Armour, Inc.",
@@ -4225,7 +4628,8 @@ export const mceLeverageAccounts = [
       "518000448"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Farm Credit Mid-America - MC",
@@ -4235,7 +4639,8 @@ export const mceLeverageAccounts = [
       "534002155"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "FARMACITY S.A",
@@ -4245,7 +4650,8 @@ export const mceLeverageAccounts = [
       "534005506"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Marcus & Millichap Real Estate Investment Services MMI",
@@ -4255,7 +4661,8 @@ export const mceLeverageAccounts = [
       "110007887"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Servus Credit Union Ltd.",
@@ -4265,7 +4672,8 @@ export const mceLeverageAccounts = [
       "526003681"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Natural Resources Defense Council, Inc.",
@@ -4275,7 +4683,8 @@ export const mceLeverageAccounts = [
       "526003688"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "PostNL Holding BV",
@@ -4285,7 +4694,8 @@ export const mceLeverageAccounts = [
       "10958449"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "PICPAY INSTITUI\u00c7\u00c3O DE PAGAMENTO S/A",
@@ -4295,7 +4705,8 @@ export const mceLeverageAccounts = [
       "546001846"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Kwik Trip, Inc.",
@@ -4305,7 +4716,8 @@ export const mceLeverageAccounts = [
       "514001309"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "NTUC Fairprice Co-operative Limited",
@@ -4315,7 +4727,8 @@ export const mceLeverageAccounts = [
       "110006393"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "British American Shared Services (GSD) Limited*",
@@ -4325,7 +4738,8 @@ export const mceLeverageAccounts = [
       "500007429"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Penn State World Campus & Graduate School",
@@ -4335,7 +4749,8 @@ export const mceLeverageAccounts = [
       "534004098"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "BECU",
@@ -4345,7 +4760,8 @@ export const mceLeverageAccounts = [
       "7000878"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Consorcio Ecuatoriano de Telecomunicaciones S.A. CONECEL",
@@ -4355,7 +4771,8 @@ export const mceLeverageAccounts = [
       "546000451"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "The Capital Group Companies, Inc. (MC Account)",
@@ -4365,7 +4782,8 @@ export const mceLeverageAccounts = [
       "10765366"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Campus Crusade for Christ, Inc.",
@@ -4375,7 +4793,8 @@ export const mceLeverageAccounts = [
       "534006091"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Harmony Public Schools",
@@ -4385,7 +4804,8 @@ export const mceLeverageAccounts = [
       "546002789"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "HomeServe USA Corp. (HSNA)",
@@ -4395,7 +4815,8 @@ export const mceLeverageAccounts = [
       "546013621"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "SanCor Salud",
@@ -4405,7 +4826,8 @@ export const mceLeverageAccounts = [
       "526001240"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Comporium Communications",
@@ -4415,7 +4837,8 @@ export const mceLeverageAccounts = [
       "534000686"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Indiana Office of Technology - DHS",
@@ -4425,7 +4848,8 @@ export const mceLeverageAccounts = [
       "546005966"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Zoetis [Touchpoint]",
@@ -4435,7 +4859,8 @@ export const mceLeverageAccounts = [
       "100015113"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "FedEx Freight, Inc.",
@@ -4445,7 +4870,8 @@ export const mceLeverageAccounts = [
       "534018118"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Triumph Intertrade AG",
@@ -4455,7 +4881,8 @@ export const mceLeverageAccounts = [
       "510004928"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Xero Limited",
@@ -4465,7 +4892,8 @@ export const mceLeverageAccounts = [
       "100016381"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "HP Inc *",
@@ -4475,7 +4903,8 @@ export const mceLeverageAccounts = [
       "1306115"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Co-operative Group Limited",
@@ -4485,7 +4914,8 @@ export const mceLeverageAccounts = [
       "500007785"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Banco Pan S.A.",
@@ -4495,7 +4925,8 @@ export const mceLeverageAccounts = [
       "100006805"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Aeroports de Paris",
@@ -4505,7 +4936,8 @@ export const mceLeverageAccounts = [
       "536002672"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Bunnings Group Limited",
@@ -4515,7 +4947,8 @@ export const mceLeverageAccounts = [
       "514000802"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "SAFG Technologies, LLC",
@@ -4525,7 +4958,8 @@ export const mceLeverageAccounts = [
       "100008543"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Brother International Corporation - Main",
@@ -4535,7 +4969,8 @@ export const mceLeverageAccounts = [
       "546003368"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Ecomaison",
@@ -4545,7 +4980,8 @@ export const mceLeverageAccounts = [
       "536004206"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Axsome Therapeutics, Inc.",
@@ -4555,7 +4991,8 @@ export const mceLeverageAccounts = [
       "526001030"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "LTA Operations Limited",
@@ -4565,7 +5002,8 @@ export const mceLeverageAccounts = [
       "500007912"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Texas Capital Bank",
@@ -4575,7 +5013,8 @@ export const mceLeverageAccounts = [
       "110005223"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Lloyds Wealth Management Limited",
@@ -4585,7 +5024,8 @@ export const mceLeverageAccounts = [
       "500009274"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "NS2.COM INTERNET S.A.",
@@ -4595,7 +5035,8 @@ export const mceLeverageAccounts = [
       "1429595"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Ferrari SpA",
@@ -4605,7 +5046,8 @@ export const mceLeverageAccounts = [
       "536006838"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "ACCOR SA",
@@ -4615,7 +5057,8 @@ export const mceLeverageAccounts = [
       "510005197"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "The Travelers Indemnity Company",
@@ -4625,7 +5068,8 @@ export const mceLeverageAccounts = [
       "10964289"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Focus Financial Partners, LLC",
@@ -4635,7 +5079,8 @@ export const mceLeverageAccounts = [
       "526002837"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Redstone Federal Credit Union",
@@ -4645,7 +5090,8 @@ export const mceLeverageAccounts = [
       "546014291"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "American Express Kabbage, Inc.",
@@ -4655,7 +5101,8 @@ export const mceLeverageAccounts = [
       "514009933"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Major League Soccer - MC Next",
@@ -4665,7 +5112,8 @@ export const mceLeverageAccounts = [
       "10358116"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Inspirali Educa\u00e7\u00e3o",
@@ -4675,7 +5123,8 @@ export const mceLeverageAccounts = [
       "546013225"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "ITAU UNIBANCO (M\u00e1quina)",
@@ -4685,7 +5134,8 @@ export const mceLeverageAccounts = [
       "514012614"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Marks and Spencer plc",
@@ -4695,7 +5145,8 @@ export const mceLeverageAccounts = [
       "1060191"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Electricity Generation and Retail Corporation (t/a Synergy)",
@@ -4705,7 +5156,8 @@ export const mceLeverageAccounts = [
       "534001038"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "GLOBO COMUNICACAO E PARTICIPACOES S/A - B2B - Org 3 - ID 359813",
@@ -4715,7 +5167,8 @@ export const mceLeverageAccounts = [
       "100026232"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "GLOBO COMUNICACAO E PARTICIPACOES S/A - D2C - ID 355073",
@@ -4725,7 +5178,8 @@ export const mceLeverageAccounts = [
       "100007184"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Spotify USA Inc.",
@@ -4735,7 +5189,8 @@ export const mceLeverageAccounts = [
       "100024642"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Oriflame Cosmetics AB",
@@ -4745,7 +5200,8 @@ export const mceLeverageAccounts = [
       "500009110"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Equatorial Servi\u00e7os S.A.",
@@ -4755,7 +5211,8 @@ export const mceLeverageAccounts = [
       "546003934"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Takeda Pharmaceuticals International AG",
@@ -4765,7 +5222,8 @@ export const mceLeverageAccounts = [
       "10958197"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Lilly Life Sciences Cloud Org - New",
@@ -4775,7 +5233,8 @@ export const mceLeverageAccounts = [
       "6195267"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "University of Kentucky Academic Org",
@@ -4785,7 +5244,8 @@ export const mceLeverageAccounts = [
       "10960095"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "PMI GLOBAL SERVICES UNIT INC",
@@ -4795,7 +5255,8 @@ export const mceLeverageAccounts = [
       "1047538"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "trivago N.V",
@@ -4805,7 +5266,8 @@ export const mceLeverageAccounts = [
       "6172748"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Cadena Comercial Oxxo, S.A. de C.V.",
@@ -4815,7 +5277,8 @@ export const mceLeverageAccounts = [
       "526002630"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Merkle Inc.",
@@ -4825,7 +5288,8 @@ export const mceLeverageAccounts = [
       "526002807"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "USAA (Data Cloud)",
@@ -4835,7 +5299,8 @@ export const mceLeverageAccounts = [
       "534019042"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Hot Topic, Inc.",
@@ -4845,7 +5310,8 @@ export const mceLeverageAccounts = [
       "7237444"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Caprice Holdings Limited",
@@ -4855,7 +5321,8 @@ export const mceLeverageAccounts = [
       "536003339"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Dunelm (Soft Furnishings) Ltd.",
@@ -4865,7 +5332,8 @@ export const mceLeverageAccounts = [
       "100003063"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "BENDA BILI (S\u00e9zane)",
@@ -4875,7 +5343,8 @@ export const mceLeverageAccounts = [
       "500009409"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "MECCA Brands Pty Ltd (CDP)",
@@ -4885,7 +5354,8 @@ export const mceLeverageAccounts = [
       "526001431"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Banco Agibank S.A",
@@ -4895,7 +5365,8 @@ export const mceLeverageAccounts = [
       "100019894"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "NRG Energy, Inc - Business - DE Business",
@@ -4905,7 +5376,8 @@ export const mceLeverageAccounts = [
       "6417338"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "NRG Energy, Inc - Home Energy - Texas Sales/Care",
@@ -4915,7 +5387,8 @@ export const mceLeverageAccounts = [
       "10875093"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Nintendo Co., Ltd.",
@@ -4925,7 +5398,8 @@ export const mceLeverageAccounts = [
       "7207004"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Internet Brands - Webmd Health Corp. Main - Marketing",
@@ -4935,7 +5409,8 @@ export const mceLeverageAccounts = [
       "7000665"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Telecom S.A.",
@@ -4945,7 +5420,8 @@ export const mceLeverageAccounts = [
       "546003764"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "BANCO INTER S.A.",
@@ -4955,7 +5431,8 @@ export const mceLeverageAccounts = [
       "515008015"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "UOC - Third Org",
@@ -4965,7 +5442,8 @@ export const mceLeverageAccounts = [
       "7279656"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Sony Pictures Entertainment Inc.**",
@@ -4975,7 +5453,8 @@ export const mceLeverageAccounts = [
       "6383269"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Fidelity Technology Group, LLC",
@@ -4985,7 +5464,8 @@ export const mceLeverageAccounts = [
       "1050979"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "SouthState Bank N.A.",
@@ -4995,7 +5475,8 @@ export const mceLeverageAccounts = [
       "110007913"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": null
   },
   {
     "accountName": "Guitar Center, Inc.",
@@ -5003,7 +5484,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "ADP, Inc.",
@@ -5011,7 +5493,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Amazon Kindle Direct Publishing Marketing (B2C)",
@@ -5019,7 +5502,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Boots UK Limited",
@@ -5027,7 +5511,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "CMA CGM SA (NOVA eData + Seareward)",
@@ -5035,7 +5520,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "SpireX Co., Ltd..",
@@ -5043,7 +5529,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "IKEA IT AB",
@@ -5051,7 +5538,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Vanquis Bank Ltd",
@@ -5059,7 +5547,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Deloitte Consulting LLP",
@@ -5067,7 +5556,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Deloitte Global Services Limited",
@@ -5075,7 +5565,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "PwC GLSC - Global Services Org 2",
@@ -5083,7 +5574,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Amazon Care (AHS) (Deprecated)",
@@ -5091,7 +5583,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Amazon AbeBooks Inc (Consumer)",
@@ -5099,7 +5592,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Amazon Web Services, Inc. (AWS)*",
@@ -5107,7 +5601,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Northwell Health, Inc.",
@@ -5115,7 +5610,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Bed Bath & Beyond, Inc.",
@@ -5123,7 +5619,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Heathrow Airport Limited",
@@ -5131,7 +5628,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "ROYAL CANIN JAPON, INC.",
@@ -5139,7 +5637,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Customer Scorecard Demo 1",
@@ -5147,7 +5646,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Comcast Cable Communications Management LLC, Effectv",
@@ -5155,7 +5655,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "WorkSafe Victoria",
@@ -5163,7 +5664,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Mitsubishi UFJ Morgan Stanley Securities Co., Ltd.",
@@ -5171,7 +5673,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "KDDI CORPORATION [Personal]",
@@ -5179,7 +5682,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Kenvue Brands LLC",
@@ -5187,7 +5691,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Edward D. Jones & Co., L.P.",
@@ -5195,7 +5700,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Elevance Health - Enterprise Communications",
@@ -5203,7 +5709,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "PACCAR PARTS",
@@ -5211,7 +5718,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Cox Communications Inc. (Wireless/Resi)",
@@ -5219,7 +5727,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Genpact India Private Limited",
@@ -5227,7 +5736,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Bajaj Finance Ltd (CDP)",
@@ -5235,7 +5745,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "American Family Life Assurance Company of Columbus",
@@ -5243,7 +5754,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Bombardier Inc.",
@@ -5251,7 +5763,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "TaylorMade Golf Company, Inc. (MAIN ACCOUNT)",
@@ -5259,7 +5772,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Caterpillar Inc. - CRM Innovation",
@@ -5267,7 +5781,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Eero Inc. (Devices)",
@@ -5275,7 +5790,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Unilever UK Central Resources Ltd (ENT)",
@@ -5283,7 +5799,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Rimac Seguros",
@@ -5291,7 +5808,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Cl\u00ednica Internacional S.A.",
@@ -5299,7 +5817,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Ecolab Data Cloud",
@@ -5307,7 +5826,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Centria Servicios Administrativos S.A.C.",
@@ -5315,7 +5835,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Sally Holdings LLC  (New Service Org)",
@@ -5323,7 +5844,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "United Service Organizations-CRM",
@@ -5331,7 +5853,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "HomeEquity Bank - FSC Org",
@@ -5339,7 +5862,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Colibri McKissock Investment Holdings, LLC",
@@ -5347,7 +5871,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Amazon Pharmacy Marketing (Healthcare)",
@@ -5355,7 +5880,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Rakuten Group, Inc.",
@@ -5363,7 +5889,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Link Logistics Real Estate LLC, a Delaware limited liability company",
@@ -5371,7 +5898,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Equinix (Main)",
@@ -5379,7 +5907,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "eToro Group",
@@ -5387,7 +5916,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Montway LLC DBA Montway Auto Transport",
@@ -5395,7 +5925,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Bethlehem Shared Services (MC)",
@@ -5403,7 +5934,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Florida Health Sciences Center, Inc., d/b/a Tampa General Hospital",
@@ -5411,7 +5943,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "SERVICIOS LIVERPOOL S.A. DE C.V.",
@@ -5419,7 +5952,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Deloitte Services LP",
@@ -5427,7 +5961,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Deloitte Consulting S.r.l. S.B.",
@@ -5435,7 +5970,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Deloitte SEA Services Sdn Bhd",
@@ -5443,7 +5979,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Deloitte",
@@ -5451,7 +5988,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "AmFam CDP 2022",
@@ -5459,7 +5997,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Mitsubishi Electric Trane HVAC US LLC",
@@ -5467,7 +6006,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Iren Ambiente",
@@ -5475,7 +6015,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Imperial Tobacco Limited",
@@ -5483,7 +6024,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Wal-Mart Canada Corp.",
@@ -5491,7 +6033,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "MedSleuth",
@@ -5499,7 +6042,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Datasite LLC, formerly known as Merrill Communications LLC",
@@ -5507,7 +6051,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "AGL Energy Limited",
@@ -5515,7 +6060,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "CCEP Group Services Limited (MC)",
@@ -5523,7 +6069,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Ford IMG",
@@ -5531,7 +6078,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Amazon Glue Connectors (AWS)",
@@ -5539,7 +6087,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "University of Colorado Boulder Ed Cloud",
@@ -5547,7 +6096,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "SUGI PHARMACY CO.,LTD.",
@@ -5555,7 +6105,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "BANYAN TREE HOTELS & RESORTS PTE. LTD.",
@@ -5563,7 +6114,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Amazon Developer Marketing (Devices)",
@@ -5571,7 +6123,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Soci\u00e9t\u00e9 des Loteries du Qu\u00e9bec, La",
@@ -5579,7 +6132,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "WEST JAPAN RAILWAY COMPANY",
@@ -5587,7 +6141,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Carillon Tower Advisers, Inc. d/b/a Raymond James Investment Management",
@@ -5595,7 +6150,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "PORTO SEGURO COMPANHIA DE SEGUROS GERAIS",
@@ -5603,7 +6159,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "AAA Northern California, Nevada & Utah",
@@ -5611,7 +6168,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Cochlear Limited",
@@ -5619,7 +6177,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Banco Ita\u00fa Chile",
@@ -5627,7 +6186,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Airgas, Inc.",
@@ -5635,7 +6195,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "CoStar Group, Inc. (Parent)",
@@ -5643,7 +6204,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Suncorp Corporate Services PTY LTD",
@@ -5651,7 +6213,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Express Wash Concepts",
@@ -5659,7 +6222,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "UCSF - CDHI + CS MC",
@@ -5667,7 +6231,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "UnionBank of the Philippines",
@@ -5675,7 +6240,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "PRUDENTIAL SERVICES SINGAPORE PTE. LTD.",
@@ -5683,7 +6249,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Tinker Federal Credit Union (Marketing/Mulesoft)",
@@ -5691,7 +6258,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Prudential Assurance Company Singapore (Pte) Limited",
@@ -5699,7 +6267,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Prudential Hong Kong Limited",
@@ -5707,7 +6276,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Urogen (11rNz)",
@@ -5715,7 +6285,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Lehigh Valley Health Network (LVHN) - Marketing Cloud + Core",
@@ -5723,7 +6294,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "The Mosaic Company",
@@ -5731,7 +6303,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Xplore Inc",
@@ -5739,7 +6312,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "The University of East Anglia",
@@ -5747,7 +6321,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Shoe Carnival, Inc.",
@@ -5755,7 +6330,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Prudential Life Assurance (Thailand) Public Company Limited",
@@ -5763,7 +6339,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Fidelity Information Services, LLC",
@@ -5771,7 +6348,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "GBT Travel Services UK Limited (Egencia)",
@@ -5779,7 +6357,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Grupo Pereira",
@@ -5787,7 +6366,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Johnson Controls, Inc.",
@@ -5795,7 +6375,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "West Virginia University - WVU Foundation",
@@ -5803,7 +6384,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Interglobe Aviation Ltd (Indigo)",
@@ -5811,7 +6393,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Georgia Department of Community Health",
@@ -5819,7 +6402,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "HHS - OS - ASPA - Digital Communications Division",
@@ -5827,7 +6411,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Sicoob Solu\u00e7\u00f5es de Pagamento Ltda",
@@ -5835,7 +6420,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Green Brick Partners, Inc.",
@@ -5843,7 +6429,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "PPL Electric Utilities Corporation",
@@ -5851,7 +6438,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "MY PLAN MANAGER.COM.AU PTY LTD",
@@ -5859,7 +6447,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Japan Airlines",
@@ -5867,7 +6456,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Baptist Health South Florida",
@@ -5875,7 +6465,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Broadway Direct (MC)",
@@ -5883,7 +6474,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "National Disability Insurance Agency",
@@ -5891,7 +6483,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Volkswagen AG",
@@ -5899,7 +6492,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "YMCAs of the USA- MC Org",
@@ -5907,7 +6501,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Return to Work Corporation of South Australia",
@@ -5915,7 +6510,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "HEINEKEN Spain B2B Marketplace",
@@ -5923,7 +6519,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "The Hospital Contribution Fund of Australia",
@@ -5931,7 +6528,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Randstad Marketing Cloud new",
@@ -5939,7 +6537,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Neom Company",
@@ -5947,7 +6546,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "F\u00f6rsvarsmakten*",
@@ -5955,7 +6555,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Indiana Department of Child Services - CWS - Healthy Families",
@@ -5963,7 +6564,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Asahi Europe & International Ltd",
@@ -5971,7 +6573,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Australian Football League (HQ)",
@@ -5979,7 +6582,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Indiana Family & Social Services Administration",
@@ -5987,7 +6591,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Al Tayer Insignia LLC.",
@@ -5995,7 +6600,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Indiana Bureau of Motor Vehicles",
@@ -6003,7 +6609,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "The Toronto-Dominion Bank",
@@ -6011,7 +6618,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "GRUPO RAMOS S.A",
@@ -6019,7 +6627,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Prudential Assurance Malaysia Berhad",
@@ -6027,7 +6636,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "HUMAN APPEAL",
@@ -6035,7 +6645,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Solaya Hospitality Management Group S. de R.L. de C.V.",
@@ -6043,7 +6654,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Alaska Airlines, Inc..",
@@ -6051,7 +6663,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Finnair Oyj B2B Sales",
@@ -6059,7 +6672,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Embrace Pet Insurance Agency, LLC",
@@ -6067,7 +6681,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "L\u2019Occitane International (Suisse) SA",
@@ -6075,7 +6690,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "American Association of Nurse Practitioners",
@@ -6083,7 +6699,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Department of Education",
@@ -6091,7 +6708,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Macquarie University Education Cloud",
@@ -6099,7 +6717,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Bupa Insurance Services Limited",
@@ -6107,7 +6726,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Massmart Holdings Limited",
@@ -6115,7 +6735,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "*- Groupe Technologies Desjardins Inc -*",
@@ -6123,7 +6744,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Banco Financiera Comercial Hondurena S.A. (Banco Ficohsa)",
@@ -6131,7 +6753,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Crown Equipment Corporation",
@@ -6139,7 +6762,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Caterpillar Inc.",
@@ -6147,7 +6771,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Capital Bank, NA",
@@ -6155,7 +6780,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Corporaci\u00f3n El Rosado S.A. 2",
@@ -6163,7 +6789,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Bank Leumi le-Israel B.M.",
@@ -6171,7 +6798,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Kogan Australia Pty Ltd",
@@ -6179,7 +6807,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Crohns & Colitis Foundation Inc.",
@@ -6187,7 +6816,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "A2A SpA",
@@ -6195,7 +6825,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Intesa Sanpaolo S.p.A. (Marketing Automation - Production)",
@@ -6203,7 +6834,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Oldcastle",
@@ -6211,7 +6843,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "HSBC Life (Singapore) Pte. Ltd",
@@ -6219,7 +6852,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "EMPRESA DE TECNOLOGIA E INFORMACOES DA PREVIDENCIA S.A. - DATAPREV",
@@ -6227,7 +6861,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "TELMEX",
@@ -6235,7 +6870,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Endesa Medios y Sistemas S.L. (Endesa B2C Cosmos)",
@@ -6243,7 +6879,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Ual\u00e1",
@@ -6251,7 +6888,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Banco Hipotecario S A",
@@ -6259,7 +6897,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Skis Rossignol SAS",
@@ -6267,7 +6906,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "GULF COAST REGIONAL BLOOD CENTER",
@@ -6275,7 +6915,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Banco BTG Pactual S.A.",
@@ -6283,7 +6924,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "ARC4 GESTAO DE ATIVOS S.A.",
@@ -6291,7 +6933,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "MANILA ELECTRIC COMPANY",
@@ -6299,7 +6942,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "GRAN TECNOLOGIA E EDUCACAO S/A",
@@ -6307,7 +6951,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Blueprint Medicines [Veeva Org]",
@@ -6315,7 +6960,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "SBA - MySBA",
@@ -6323,7 +6969,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Scandic Hotels Holding AB",
@@ -6331,7 +6978,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Pet Supplies Plus",
@@ -6339,7 +6987,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "PPC S.A. - \u0394\u0395\u0397",
@@ -6347,7 +6996,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Coinstar, LLC",
@@ -6355,7 +7005,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "APOLLO MANAGEMENT HOLDINGS, L.P.  By: Apollo Management Holdings GP, LLC*",
@@ -6363,7 +7014,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "SOCIEDADE DE ENSINO SUPERIOR ESTACIO DE SA LTDA",
@@ -6371,7 +7023,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Honda Motorcycle & Scooter India Pvt. Ltd.",
@@ -6379,7 +7032,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Getty Images (Seattle), Inc*",
@@ -6387,7 +7041,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "The Huntington National Bank",
@@ -6395,7 +7050,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Ford Credit - Wholesale MC",
@@ -6403,7 +7059,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Ford South America",
@@ -6411,7 +7068,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Queensland Building and Construction Commission (QBCC)",
@@ -6419,7 +7077,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Members 1st Federal Credit Union",
@@ -6427,7 +7086,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Super Retail Group Services Pty Ltd",
@@ -6435,7 +7095,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Erie Home",
@@ -6443,7 +7104,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Suncorp New Zealand Services Limited",
@@ -6451,7 +7113,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Experiencias Xcaret Parques SAPI de CV",
@@ -6459,7 +7122,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Fundaci\u00f3 Banc\u00e0ria \"La Caixa\"",
@@ -6467,7 +7131,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "AstraZeneca- US DTC",
@@ -6475,7 +7140,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "AstraZeneca - US HCP",
@@ -6483,7 +7149,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "YPF S.A 2",
@@ -6491,7 +7158,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Alzheimer's Research UK",
@@ -6499,7 +7167,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Mercedes-Benz Group AG",
@@ -6507,7 +7176,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Naturgy Iberia, S.A",
@@ -6515,7 +7185,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "FCA FIAT CHRYSLER AUTOMOVEIS BRASIL LTDA.",
@@ -6523,7 +7194,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "IAP - South Korea",
@@ -6531,7 +7203,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Stellantis Middle East FZE",
@@ -6539,7 +7212,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Stellantis Espa\u00f1a S.L.",
@@ -6547,7 +7221,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "\u00d6sterreichische Lotterien Ges.m.b.H.",
@@ -6555,7 +7230,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Health Care Services Corp - HealthSpring Medicare GBS - 00D1U000000xBKg",
@@ -6563,7 +7239,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "MercadoLibre SRL",
@@ -6571,7 +7248,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "BMW SELA - Rolls-Royce Motor Cars Limited",
@@ -6579,7 +7257,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Nexeye B.V.",
@@ -6587,7 +7266,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "STELLANTIS FINANCIAMENTOS SOCIEDADE DE CREDITO FINANCIAMENTO E INVESTIMENTO S.A.",
@@ -6595,7 +7275,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "El Palacio de Hierro, SA de CV - RFC - PHI830429MG6",
@@ -6603,7 +7284,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Banner Health**",
@@ -6611,7 +7293,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "ARAMIS GROUP",
@@ -6619,7 +7302,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "The Children\u2019s Place Services Company, LLC",
@@ -6627,7 +7311,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "South Carolina Department of Health and Human Services",
@@ -6635,7 +7320,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Free2move Deutschland GmbH",
@@ -6643,7 +7329,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "EKOSPORT",
@@ -6651,7 +7338,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Bell Canada COCD 1000",
@@ -6659,7 +7347,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Federal Reserve Bank of Dallas",
@@ -6667,7 +7356,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "L'Oreal Australia Pty Ltd",
@@ -6675,7 +7365,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "L'OREAL Europe - MC B2B",
@@ -6683,7 +7374,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "L'OREAL SA",
@@ -6691,7 +7383,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "L'Or\u00e9al Singapore Pte. Ltd.",
@@ -6699,7 +7392,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Stellantis - SWX",
@@ -6707,7 +7401,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Philip Morris International - US Localisation",
@@ -6715,7 +7410,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "U.S. Bank National Association",
@@ -6723,7 +7419,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Amazon Advertising (Ads)",
@@ -6731,7 +7428,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "International Olympic Committee",
@@ -6739,7 +7437,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "SOCIEDADE EDUCACIONAL LEONARDO DA VINCI LTDA",
@@ -6747,7 +7446,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "AgWest Farm Credit",
@@ -6755,7 +7455,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "CaixaBank Tech S.L.U.",
@@ -6763,7 +7464,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "MedPro Staffing",
@@ -6771,7 +7473,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "VidaCaixa S.A.U. de Seguros y Reaseguros",
@@ -6779,7 +7482,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Banco Diners Club del Ecuador S.A.",
@@ -6787,7 +7491,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Banco BPI SA",
@@ -6795,7 +7500,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "MOBILIER DE FRANCE",
@@ -6803,7 +7509,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Air Liquide Healthcare International Services & Technology (ALHIST)",
@@ -6811,7 +7518,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Bancolombia S.A.",
@@ -6819,7 +7527,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "ENGIE INFORMATION ET TECHNOLOGIES SA",
@@ -6827,7 +7536,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "AusNet Electricity Services Pty Ltd",
@@ -6835,7 +7545,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Sammons Financial Group - SIAG FSC Org",
@@ -6843,7 +7554,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Brother International Europe Ltd",
@@ -6851,7 +7563,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Brookdale Senior Living",
@@ -6859,7 +7572,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Dr. August Oetker Nahrungsmittel KG",
@@ -6867,7 +7581,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "The University of Texas M. D. Anderson Cancer Center",
@@ -6875,7 +7590,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Servco Pacific Inc",
@@ -6883,7 +7599,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Iplanrio",
@@ -6891,7 +7608,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "PROMOTUR TURISMO CANARIAS SA",
@@ -6899,7 +7617,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Security Enablement SFSC Playground (AWS)",
@@ -6907,7 +7626,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "O-Bank Co., Ltd",
@@ -6915,7 +7635,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Genmab US - SAP",
@@ -6923,7 +7644,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "State of Nevada Department of Motor Vehicles",
@@ -6931,7 +7653,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Banco C6 S.A.",
@@ -6939,7 +7662,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Florida Prepaid College Board",
@@ -6947,7 +7671,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Guinness World Records Limited",
@@ -6955,7 +7680,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Gesa Credit Union",
@@ -6963,7 +7689,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "National Mutual Insurance Federation of Agricultural Cooperatives",
@@ -6971,7 +7698,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Republic Services Procurement Inc.*",
@@ -6979,7 +7707,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Covetrus, Inc.*",
@@ -6987,7 +7716,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Orthotech, LLC",
@@ -6995,7 +7725,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Etrawler Unlimited Company",
@@ -7003,7 +7734,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Encoura - Primary Org",
@@ -7011,7 +7743,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Pacific Clinics (Former Uplift Family Services Account)",
@@ -7019,7 +7752,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "York University - Education Cloud SIS",
@@ -7027,7 +7761,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Chubb Group Holdings Inc.",
@@ -7035,7 +7770,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "British Columbia Lottery Corporation",
@@ -7043,7 +7779,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "iFIT Inc.",
@@ -7051,7 +7788,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "The Ohio State University",
@@ -7059,7 +7797,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Walmart Costa Rica",
@@ -7067,7 +7806,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Tata Play Limited",
@@ -7075,7 +7815,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "GlaxoSmithKline LLC*",
@@ -7083,7 +7824,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Raiffeisen Bank International AG",
@@ -7091,7 +7833,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "HF Management Services, LLC.",
@@ -7099,7 +7842,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Kele, Inc.",
@@ -7107,7 +7851,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Oscar Management Corporation",
@@ -7115,7 +7860,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Epsilon Data Management, LLC",
@@ -7123,7 +7869,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Epsilon as OSP for Customer #2",
@@ -7131,7 +7878,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Epsilon as OSP for Customer #5",
@@ -7139,7 +7887,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Epsilon as OSP for Customer #8",
@@ -7147,7 +7896,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Epsilon as OSP for Customer #4",
@@ -7155,7 +7905,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Epsilon as OSP for Customer #10",
@@ -7163,7 +7914,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Epsilon as OSP for Customer #3",
@@ -7171,7 +7923,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Epsilon as OSP for Customer #6",
@@ -7179,7 +7932,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Epsilon as OSP for Customer #7",
@@ -7187,7 +7941,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Epsilon as OSP for Customer #1",
@@ -7195,7 +7950,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Epsilon as OSP for Customer #9",
@@ -7203,7 +7959,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Serasa Experian",
@@ -7211,7 +7968,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Radiomovil DIPSA, S.A. de C.V.",
@@ -7219,7 +7977,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Westlake Canada Inc.",
@@ -7227,7 +7986,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Benevis",
@@ -7235,7 +7995,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "VistaJet International Limited",
@@ -7243,7 +8004,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Georgia-Pacific LLC Building Products",
@@ -7251,7 +8013,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Breville USA, Inc.",
@@ -7259,7 +8022,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Boyd Gaming Corporation",
@@ -7267,7 +8031,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "White Fox Boutique",
@@ -7275,7 +8040,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Prodesp - Empresa de TI do Estado de S\u00e3o Paulo_PPT",
@@ -7283,7 +8049,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Honda Canada Inc.",
@@ -7291,7 +8058,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Selfridges Retail Ltd.",
@@ -7299,7 +8067,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Fever Labs Inc",
@@ -7307,7 +8076,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Novo Nordisk A/S",
@@ -7315,7 +8085,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Tps Parking Management, LLC",
@@ -7323,7 +8094,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Medibank Private Limited",
@@ -7331,7 +8103,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Primark Limited",
@@ -7339,7 +8112,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "AEG Presents Marketing",
@@ -7347,7 +8121,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "West Australian Newspapers Limited",
@@ -7355,7 +8130,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Infocomm Media Development Authority of Singapore",
@@ -7363,7 +8139,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "F\u00e9d\u00e9ration Internationale de Football Association (FIFA) 4",
@@ -7371,7 +8148,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "City of Gold Coast",
@@ -7379,7 +8157,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "GTE Financial Credit Union",
@@ -7387,7 +8166,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "The Guardian Life Insurance Company of America",
@@ -7395,7 +8175,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "NITORI Co., Ltd.",
@@ -7403,7 +8184,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Information Systems Audit and Control Association, Inc.",
@@ -7411,7 +8193,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Rogers Communications Canada Inc.",
@@ -7419,7 +8202,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Federal National Mortgage Association",
@@ -7427,7 +8211,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "OCVIBE Data, LLC",
@@ -7435,7 +8220,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Navy Recruiting Command",
@@ -7443,7 +8229,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Aspen Dental Management, Inc.",
@@ -7451,7 +8238,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Federal Reserve Bank of Kansas City - FRFS",
@@ -7459,7 +8247,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [],
     "isLeveraged": false,
-    "hasMonitoring": false
+    "hasMonitoring": false,
+    "reason": null
   },
   {
     "accountName": "Embrace_Pet_Insurance",
@@ -7469,7 +8258,8 @@ export const mceLeverageAccounts = [
       "E7289391"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "ExxonMobil",
@@ -7479,7 +8269,8 @@ export const mceLeverageAccounts = [
       "E110006029"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "GeneralMills",
@@ -7489,7 +8280,8 @@ export const mceLeverageAccounts = [
       "E526002289"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Kohler",
@@ -7499,7 +8291,8 @@ export const mceLeverageAccounts = [
       "E100010227"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Qwest_Corporation",
@@ -7509,7 +8302,8 @@ export const mceLeverageAccounts = [
       "E515016411"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Anthem",
@@ -7519,7 +8313,8 @@ export const mceLeverageAccounts = [
       "E10848354"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Belk",
@@ -7529,7 +8324,8 @@ export const mceLeverageAccounts = [
       "E10971914"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "GuitarCenter",
@@ -7539,7 +8335,8 @@ export const mceLeverageAccounts = [
       "M546007482"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "CGS_International",
@@ -7549,7 +8346,8 @@ export const mceLeverageAccounts = [
       "E534000115"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Fanatics",
@@ -7559,7 +8357,8 @@ export const mceLeverageAccounts = [
       "E10986798"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Walmart Corp Comms",
@@ -7569,7 +8368,8 @@ export const mceLeverageAccounts = [
       "E6419278"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "American Electric Power",
@@ -7579,7 +8379,8 @@ export const mceLeverageAccounts = [
       "E524001472"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "AustralianPacificTouring",
@@ -7589,7 +8390,8 @@ export const mceLeverageAccounts = [
       "E100003463"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "BCI",
@@ -7599,7 +8401,8 @@ export const mceLeverageAccounts = [
       "E100019906"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "T-Mobile",
@@ -7609,7 +8412,8 @@ export const mceLeverageAccounts = [
       "M526001125"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "TVS",
@@ -7619,7 +8423,8 @@ export const mceLeverageAccounts = [
       "E534006724"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "WebMD",
@@ -7630,7 +8435,8 @@ export const mceLeverageAccounts = [
       "E7000131"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Zappos",
@@ -7640,7 +8446,8 @@ export const mceLeverageAccounts = [
       "E1056875"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "BOA",
@@ -7653,7 +8460,8 @@ export const mceLeverageAccounts = [
       "M522000111"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "BPI",
@@ -7663,7 +8471,8 @@ export const mceLeverageAccounts = [
       "E7289393"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "BrooksBrothers",
@@ -7673,7 +8482,8 @@ export const mceLeverageAccounts = [
       "E7000361"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "JOINT STOCK COMMERCIAL BANK FOR FOREIGN TRADE OF VIETNAM",
@@ -7683,7 +8493,8 @@ export const mceLeverageAccounts = [
       "E534016811"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "LVMHMoetHennessy-Louis Vuitton",
@@ -7693,7 +8504,8 @@ export const mceLeverageAccounts = [
       "E7285438"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "LandrysRestaurants",
@@ -7703,7 +8515,8 @@ export const mceLeverageAccounts = [
       "E514007677"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "MTA",
@@ -7713,7 +8526,8 @@ export const mceLeverageAccounts = [
       "E534003968"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Nationwide",
@@ -7723,7 +8537,8 @@ export const mceLeverageAccounts = [
       "E10856099"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Nautica",
@@ -7733,7 +8548,8 @@ export const mceLeverageAccounts = [
       "E7279337"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Northwell",
@@ -7743,7 +8559,8 @@ export const mceLeverageAccounts = [
       "E514011752"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "PT_Bank _OCBC _NISP",
@@ -7753,7 +8570,8 @@ export const mceLeverageAccounts = [
       "E514000801"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "UNIONBANK OF THE PHILIPPINES",
@@ -7763,7 +8581,8 @@ export const mceLeverageAccounts = [
       "E100011352"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Under_Armour",
@@ -7777,7 +8596,8 @@ export const mceLeverageAccounts = [
       "M518006208"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "WeddingWire",
@@ -7787,7 +8607,8 @@ export const mceLeverageAccounts = [
       "E7003136"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "AcmeWidgets1PProd",
@@ -7797,7 +8618,8 @@ export const mceLeverageAccounts = [
       "E10972290"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "AcmeWidgetsTest",
@@ -7807,7 +8629,8 @@ export const mceLeverageAccounts = [
       "E10972290"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "AdidasAG",
@@ -7824,7 +8647,8 @@ export const mceLeverageAccounts = [
       "M10981232"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Affirm",
@@ -7834,7 +8658,8 @@ export const mceLeverageAccounts = [
       "M110005626"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Amsive",
@@ -7844,7 +8669,8 @@ export const mceLeverageAccounts = [
       "E110007248"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "BBW",
@@ -7854,7 +8680,8 @@ export const mceLeverageAccounts = [
       "M7305077"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "BBW_Canada",
@@ -7864,7 +8691,8 @@ export const mceLeverageAccounts = [
       "M7316103"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "BGRetail",
@@ -7884,7 +8712,8 @@ export const mceLeverageAccounts = [
       "M7276386"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Banco_Inter_SA",
@@ -7894,7 +8723,8 @@ export const mceLeverageAccounts = [
       "M515008387"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "BestBuy",
@@ -7904,7 +8734,8 @@ export const mceLeverageAccounts = [
       "E10965271"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "BouyguesTelecom",
@@ -7915,7 +8746,8 @@ export const mceLeverageAccounts = [
       "M7226728"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "CapitalOne",
@@ -7925,7 +8757,8 @@ export const mceLeverageAccounts = [
       "M518004831"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Consorcio_Ecuatoriano_de_Telecomunicaciones_S.A._CONECEL",
@@ -7935,7 +8768,8 @@ export const mceLeverageAccounts = [
       "E546001399"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Cornerstone_Shared_Services",
@@ -7948,7 +8782,8 @@ export const mceLeverageAccounts = [
       "M6236768"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "CrateBarrel",
@@ -7959,7 +8794,8 @@ export const mceLeverageAccounts = [
       "M7200679"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Delta",
@@ -7970,7 +8806,8 @@ export const mceLeverageAccounts = [
       "E6419278"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Deluxe_Corporation",
@@ -7980,7 +8817,8 @@ export const mceLeverageAccounts = [
       "M514008804"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Fisher_Asset_Management_LLC",
@@ -7992,7 +8830,8 @@ export const mceLeverageAccounts = [
       "M534015154"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Focus_Financial",
@@ -8003,7 +8842,8 @@ export const mceLeverageAccounts = [
       "M534000112"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Ford_Pro",
@@ -8013,7 +8853,8 @@ export const mceLeverageAccounts = [
       "M534007369"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Ford_Retail",
@@ -8023,7 +8864,8 @@ export const mceLeverageAccounts = [
       "M534006025"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "ForresterResearch",
@@ -8033,7 +8875,8 @@ export const mceLeverageAccounts = [
       "E110005976"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "L'Oreal",
@@ -8046,7 +8889,8 @@ export const mceLeverageAccounts = [
       "M7299494"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "LabCorp",
@@ -8056,7 +8900,8 @@ export const mceLeverageAccounts = [
       "M100024080"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Landry's_Restaurants_Inc.*",
@@ -8066,7 +8911,8 @@ export const mceLeverageAccounts = [
       "E514007677"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Lululemon",
@@ -8076,7 +8922,8 @@ export const mceLeverageAccounts = [
       "M514005125"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Molina_Healthcare",
@@ -8087,7 +8934,8 @@ export const mceLeverageAccounts = [
       "M110006877"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "NBC_Sports_Group",
@@ -8097,7 +8945,8 @@ export const mceLeverageAccounts = [
       "M7320840"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "NavyFederalCreditUnion",
@@ -8107,7 +8956,8 @@ export const mceLeverageAccounts = [
       "E7215635"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "PACCAR",
@@ -8117,7 +8967,8 @@ export const mceLeverageAccounts = [
       "M518006336"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Pearson_Education_Inc",
@@ -8134,7 +8985,8 @@ export const mceLeverageAccounts = [
       "M510007820"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "PetSmart",
@@ -8145,7 +8997,8 @@ export const mceLeverageAccounts = [
       "M514007933"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "ProM_KohlsInc",
@@ -8155,7 +9008,8 @@ export const mceLeverageAccounts = [
       "E6249496"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "ProM_Urban",
@@ -8171,7 +9025,8 @@ export const mceLeverageAccounts = [
       "M514011508"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "ProgressiveCasualtyInsuranceCompany",
@@ -8181,7 +9036,8 @@ export const mceLeverageAccounts = [
       "M7000841"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "PruLife_Insurance",
@@ -8191,7 +9047,8 @@ export const mceLeverageAccounts = [
       "M515014657"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Resorts_World_Genting",
@@ -8201,7 +9058,8 @@ export const mceLeverageAccounts = [
       "E7275514"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "RoyalBankofCanada",
@@ -8215,7 +9073,8 @@ export const mceLeverageAccounts = [
       "M515015196"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "SSFCU",
@@ -8225,7 +9084,8 @@ export const mceLeverageAccounts = [
       "M546001142"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Sysco_G&S_Hotelier",
@@ -8235,7 +9095,8 @@ export const mceLeverageAccounts = [
       "M10984693"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Sysco_Gilchrist_&_Soames_B2C",
@@ -8245,7 +9106,8 @@ export const mceLeverageAccounts = [
       "M10984682"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Sysco_Guest_Supply",
@@ -8255,7 +9117,8 @@ export const mceLeverageAccounts = [
       "M10968458"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Sysco_Supplies_on_the_Fly",
@@ -8265,7 +9128,8 @@ export const mceLeverageAccounts = [
       "M10982598"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Take-Two_Interactive",
@@ -8276,7 +9140,8 @@ export const mceLeverageAccounts = [
       "M6193685"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Takeda Pharmaceuticals International AG",
@@ -8286,7 +9151,8 @@ export const mceLeverageAccounts = [
       "E510958197"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Tapestry_Stuart_Weitzman_CA",
@@ -8296,7 +9162,8 @@ export const mceLeverageAccounts = [
       "M515006050"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Tapestry_Stuart_Weitzman_US",
@@ -8306,7 +9173,8 @@ export const mceLeverageAccounts = [
       "M100038955"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "ThePapeGroup",
@@ -8316,7 +9184,8 @@ export const mceLeverageAccounts = [
       "M546003445"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "TitanCompanyLtd",
@@ -8326,7 +9195,8 @@ export const mceLeverageAccounts = [
       "E13033"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "USOPC",
@@ -8336,7 +9206,8 @@ export const mceLeverageAccounts = [
       "M534010059"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Urban",
@@ -8352,7 +9223,8 @@ export const mceLeverageAccounts = [
       "M514011511"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "WMU",
@@ -8363,7 +9235,8 @@ export const mceLeverageAccounts = [
       "M534007260"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Walmart",
@@ -8373,7 +9246,8 @@ export const mceLeverageAccounts = [
       "E6419278"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "WarnerBros",
@@ -8407,7 +9281,8 @@ export const mceLeverageAccounts = [
       "M6422333"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Zoetis",
@@ -8420,7 +9295,8 @@ export const mceLeverageAccounts = [
       "M515009474"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "PeoplesPartnership",
@@ -8430,7 +9306,8 @@ export const mceLeverageAccounts = [
       "E536008270"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Santander_UK_Plc",
@@ -8440,7 +9317,8 @@ export const mceLeverageAccounts = [
       "E536003118"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Brakes",
@@ -8451,7 +9329,8 @@ export const mceLeverageAccounts = [
       "M510005498"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Media-Participations_Paris",
@@ -8461,7 +9340,8 @@ export const mceLeverageAccounts = [
       "E536002406"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "LVMHMoetHennessy_LouisVuittonSE_CELINE_MAIN",
@@ -8471,7 +9351,8 @@ export const mceLeverageAccounts = [
       "E510003127"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "SOK",
@@ -8481,7 +9362,8 @@ export const mceLeverageAccounts = [
       "E510001221"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "ACCOR_SA",
@@ -8499,7 +9381,8 @@ export const mceLeverageAccounts = [
       "M510009336"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Avon Cosmetics Ltd",
@@ -8509,7 +9392,8 @@ export const mceLeverageAccounts = [
       "E536004898"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Avon_Cosmetics_Ltd",
@@ -8519,7 +9403,8 @@ export const mceLeverageAccounts = [
       "E536004898"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Brakes_CountryChoice",
@@ -8529,7 +9414,8 @@ export const mceLeverageAccounts = [
       "M510005499"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "COJO_Paris_2024",
@@ -8539,7 +9425,8 @@ export const mceLeverageAccounts = [
       "E500009907"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "MF",
@@ -8549,7 +9436,8 @@ export const mceLeverageAccounts = [
       "E510001796"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Renault_SAS",
@@ -8559,7 +9447,8 @@ export const mceLeverageAccounts = [
       "E500008601"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "Santander_UK",
@@ -8569,7 +9458,8 @@ export const mceLeverageAccounts = [
       "E536003118"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "UN_World_Food_Programme",
@@ -8579,7 +9469,8 @@ export const mceLeverageAccounts = [
       "E500008159"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "UniCredit",
@@ -8589,7 +9480,8 @@ export const mceLeverageAccounts = [
       "E500009383"
     ],
     "isLeveraged": true,
-    "hasMonitoring": true
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
   }
 ];
 

@@ -439,7 +439,8 @@ def generate_leverage_accounts(matched, monitoring_by_eid):
             'isSignature': True,
             'eids': acc.get('eidsWithProm', []),
             'isLeveraged': True,
-            'hasMonitoring': True
+            'hasMonitoring': True,
+            'reason': None
         })
 
     for acc in matched['signatureNotLeveraged']:
@@ -449,7 +450,8 @@ def generate_leverage_accounts(matched, monitoring_by_eid):
             'isSignature': True,
             'eids': [],
             'isLeveraged': False,
-            'hasMonitoring': False
+            'hasMonitoring': False,
+            'reason': None
         })
 
     # Non-signature accounts with ProM
@@ -461,7 +463,8 @@ def generate_leverage_accounts(matched, monitoring_by_eid):
             'isSignature': False,
             'eids': acc.get('tenantIds', []),
             'isLeveraged': True,
-            'hasMonitoring': True
+            'hasMonitoring': True,
+            'reason': 'No Signature Contract'
         })
 
     return leverage_accounts

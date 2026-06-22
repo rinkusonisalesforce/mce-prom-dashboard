@@ -125,12 +125,15 @@ function SignatureLeverageTable({ accounts }) {
               <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                 Operational Status
               </th>
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                Reason
+              </th>
             </tr>
           </thead>
           <tbody className="bg-white divide-y divide-gray-200">
             {filteredAccounts.length === 0 ? (
               <tr>
-                <td colSpan="5" className="px-6 py-4 text-center text-gray-500">
+                <td colSpan="6" className="px-6 py-4 text-center text-gray-500">
                   No accounts found
                 </td>
               </tr>
@@ -156,10 +159,11 @@ function SignatureLeverageTable({ accounts }) {
                   </td>
                   <td className="px-6 py-4 text-sm text-gray-900">
                     {(account.eids && account.eids.length > 0) ? (
-                      <div className="flex flex-wrap gap-1">
+                      <div className="flex flex-wrap gap-2">
                         {account.eids.map((eid, i) => (
-                          <span key={i} className="px-2 py-0.5 bg-gray-100 text-gray-700 rounded text-xs">
-                            {eid}
+                          <span key={i} className="flex items-center gap-1">
+                            <span className="text-green-500 font-bold">●</span>
+                            <span className="text-gray-700">{eid}</span>
                           </span>
                         ))}
                       </div>
@@ -177,6 +181,9 @@ function SignatureLeverageTable({ accounts }) {
                         Not leveraged
                       </span>
                     )}
+                  </td>
+                  <td className="px-6 py-4 text-sm text-gray-500">
+                    {account.reason || '-'}
                   </td>
                 </tr>
               ))
