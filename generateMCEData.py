@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Generate MCE Real Data from UTDP CSVs and Org62 Contracts
-Python version (no Node.js required)
+Supports both .csv and .xlsx formats for contracts
 """
 
 import csv
@@ -11,9 +11,30 @@ from pathlib import Path
 from datetime import datetime
 from collections import defaultdict
 
+# Try to import pandas for Excel support
+try:
+    import pandas as pd
+    HAS_PANDAS = True
+except ImportError:
+    HAS_PANDAS = False
+    print("Note: Install pandas for Excel support: pip3 install pandas openpyxl")
+
 # Configuration
-CSV_DIR = Path('/Users/rinku.soni/prom-signature-extension/data')
-CONTRACTS_FILE = Path('/Users/rinku.soni/prom-signature-extension/data/contracts.csv')
+DATA_DIR = Path('/Users/rinku.soni/prom-signature-extension/data')
+CSV_DIR = DATA_DIR
+
+# Try to find contracts file in multiple formats
+CONTRACTS_FILE = None
+for ext in ['.xlsx', '.csv']:
+    candidate = DATA_DIR / f'contracts{ext}'
+    if candidate.exists():
+        CONTRACTS_FILE = candidate
+        break
+
+# Fallback to old location if not found
+if not CONTRACTS_FILE:
+    CONTRACTS_FILE = Path('/Users/rinku.soni/prom-signature-extension/sample/contracts.csv')
+
 OUTPUT_FILE = Path(__file__).parent / 'src' / 'data' / 'mceRealData.js'
 
 SIGNATURE_PATTERNS = [

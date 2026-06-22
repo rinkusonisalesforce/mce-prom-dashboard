@@ -25,4 +25,6 @@ dist-ssr
 
 # Data files (keep in separate repo/location)
 data/*.csv
+data/*.xlsx
+data/*.xls
 !data/mceRealData.js
