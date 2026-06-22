@@ -1,12 +1,15 @@
 import { useState, useEffect } from 'react';
 import { useOrg62Data } from './useOrg62Data';
 
-// Import static data as fallback - NEW STRUCTURE
+// Import static data as fallback
 import {
   mceSummaryStats as staticStats,
   topMCETenants as staticTopTenants,
+  mceRegionalBreakdown as staticRegional,
   mceMonthlyGrowth as staticGrowth,
-  mceLeverageAccounts as staticLeverageAccounts,
+  signatureLeveragedAccounts as staticLeveraged,
+  signatureNotLeveragedAccounts as staticNotLeveraged,
+  nonSignatureWithPromAccounts as staticNonSignature,
 } from '../data/mceRealData';
 
 /**
@@ -37,8 +40,8 @@ export function useMCEData() {
       setUtdpData({
         stats: staticStats,
         topTenants: staticTopTenants,
+        regional: staticRegional,
         growth: staticGrowth,
-        leverageAccounts: staticLeverageAccounts,
       });
     }
   }, [isExtensionMode]);
@@ -52,22 +55,24 @@ export function useMCEData() {
       const leverageData = window.ProM.crossReference(utdpData, contracts);
 
       setDashboardData({
-        stats: utdpData.stats,
-        topTenants: utdpData.topTenants,
-        growth: utdpData.growth,
-        leverageAccounts: leverageData.leverageAccounts || utdpData.leverageAccounts,
+        ...utdpData,
         contracts: contracts,
         contractCount: contractCount,
+        leveraged: leverageData.leveraged,
+        notLeveraged: leverageData.notLeveraged,
+        nonSignature: leverageData.nonSignature,
+        leverageRate: leverageData.leverageRate,
       });
     } else {
       // No contracts yet, use static data
       setDashboardData({
-        stats: utdpData.stats,
-        topTenants: utdpData.topTenants,
-        growth: utdpData.growth,
-        leverageAccounts: utdpData.leverageAccounts,
+        ...utdpData,
         contracts: [],
         contractCount: 0,
+        leveraged: staticLeveraged,
+        notLeveraged: staticNotLeveraged,
+        nonSignature: staticNonSignature,
+        leverageRate: staticStats.leverageRate,
       });
     }
 
@@ -81,8 +86,8 @@ export function useMCEData() {
       setUtdpData({
         stats: staticStats,
         topTenants: staticTopTenants,
+        regional: staticRegional,
         growth: staticGrowth,
-        leverageAccounts: staticLeverageAccounts,
       });
     } catch (err) {
       console.error('[UTDP] Load failed:', err);

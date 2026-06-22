@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Generate MCE Real Data from UTDP CSVs and Org62 Contracts
-Updated to match new dashboard requirements
+Supports both .csv and .xlsx formats for contracts
 """
 
 import csv
@@ -106,8 +106,8 @@ def is_signature_contract(contract_name):
 
 def load_monitoring_data(month_name, year):
     """Load monitoring data for a specific month"""
-    na_file = CSV_DIR / f'NA_{month_name}{year}.csv'
-    eu_file = CSV_DIR / f'EU_{month_name}{year}.csv'
+    na_file = CSV_DIR / f'na_{month_name}{year}.csv'
+    eu_file = CSV_DIR / f'eu_{month_name}{year}.csv'
 
     data = []
 
@@ -138,75 +138,41 @@ def load_monitoring_data(month_name, year):
     return processed
 
 def load_contracts():
-    """Load contracts from CSV or Excel"""
+    """Load contracts from CSV"""
     if not CONTRACTS_FILE.exists():
         print(f'⚠️  Contracts file not found: {CONTRACTS_FILE}')
         return []
 
-    # Determine if Excel or CSV
-    file_ext = CONTRACTS_FILE.suffix.lower()
+    rows = parse_csv(CONTRACTS_FILE)
 
     contracts = []
+    for row in rows:
+        tenant_id = (row.get('Tenant Id: Name') or
+                    row.get('TenantId') or
+                    row.get('Tenant_Id__r.Name') or '')
 
-    if file_ext in ['.xlsx', '.xls'] and HAS_PANDAS:
-        # Read Excel
-        print(f'Reading Excel file: {CONTRACTS_FILE}')
-        df = pd.read_excel(CONTRACTS_FILE)
+        contract_name = (row.get('Contract Name') or
+                        row.get('ContractName') or
+                        row.get('Name') or '')
 
-        for _, row in df.iterrows():
-            tenant_id = (row.get('Tenant Id: Name') or
-                        row.get('TenantId') or
-                        row.get('Tenant_Id__r.Name') or '')
+        normalized_id = normalize_contract_tenant_id(tenant_id)
 
-            contract_name = (row.get('Contract Name') or
-                            row.get('ContractName') or
-                            row.get('Name') or '')
-
-            normalized_id = normalize_contract_tenant_id(tenant_id)
-
-            if normalized_id and is_signature_contract(contract_name):
-                contracts.append({
-                    'accountName': row.get('Account Name') or row.get('AccountName') or '',
-                    'tenantId': str(tenant_id),
-                    'normalizedTenantId': normalized_id,
-                    'contractName': contract_name,
-                    'status': row.get('Status') or row.get('Service_Contract_Status__c') or 'Active',
-                    'signaturePlan': contract_name,
-                    'endDate': str(row.get('EndDate') or ''),
-                    'isSignature': True
-                })
-    else:
-        # Read CSV
-        print(f'Reading CSV file: {CONTRACTS_FILE}')
-        rows = parse_csv(CONTRACTS_FILE)
-
-        for row in rows:
-            tenant_id = (row.get('Tenant Id: Name') or
-                        row.get('TenantId') or
-                        row.get('Tenant_Id__r.Name') or '')
-
-            contract_name = (row.get('Contract Name') or
-                            row.get('ContractName') or
-                            row.get('Name') or '')
-
-            normalized_id = normalize_contract_tenant_id(tenant_id)
-
-            if normalized_id and is_signature_contract(contract_name):
-                contracts.append({
-                    'accountName': row.get('Account Name') or row.get('AccountName') or '',
-                    'tenantId': tenant_id,
-                    'normalizedTenantId': normalized_id,
-                    'contractName': contract_name,
-                    'status': row.get('Status') or row.get('Service_Contract_Status__c') or 'Active',
-                    'signaturePlan': contract_name,
-                    'endDate': row.get('EndDate') or '',
-                    'isSignature': True
-                })
+        if normalized_id and is_signature_contract(contract_name):
+            contracts.append({
+                'accountName': row.get('Account Name') or row.get('AccountName') or '',
+                'tenantId': tenant_id,
+                'normalizedTenantId': normalized_id,
+                'contractName': contract_name,
+                'status': row.get('Status') or row.get('Service_Contract_Status__c') or 'Active',
+                'signaturePlan': contract_name,
+                'endDate': row.get('EndDate') or '',
+                'isSignature': True
+            })
 
     return contracts
 
 def match_data(monitoring_data, contracts):
-    """Match monitoring data to contracts - NEW LOGIC"""
+    """Match monitoring data to contracts"""
     # Build lookups
     monitoring_by_eid = defaultdict(list)
     for m in monitoring_data:
@@ -236,31 +202,26 @@ def match_data(monitoring_data, contracts):
     for account in account_map.values():
         total_monitors = 0
         has_monitoring = False
-        eids_with_prom = []
 
         for tenant_id in account['tenantIds']:
             normalized_id = normalize_contract_tenant_id(tenant_id)
             if normalized_id in monitoring_by_eid:
                 has_monitoring = True
-                eids_with_prom.append(tenant_id)
                 for m in monitoring_by_eid[normalized_id]:
                     total_monitors += m['monitors']
 
-        # NEW LOGIC: Minimum 1 tenant with ProM = enabled
         if account['hasActiveContract']:
-            if has_monitoring:  # At least 1 tenant has ProM
+            if has_monitoring:
                 signature_leveraged.append({
                     **account,
                     'monitors': total_monitors,
-                    'isLeveraged': True,
-                    'eidsWithProm': eids_with_prom
+                    'isLeveraged': True
                 })
             else:
                 signature_not_leveraged.append({
                     **account,
                     'monitors': 0,
-                    'isLeveraged': False,
-                    'eidsWithProm': []
+                    'isLeveraged': False
                 })
 
     # Find non-signature tenants with monitoring
@@ -281,31 +242,51 @@ def match_data(monitoring_data, contracts):
     }
 
 def generate_summary_stats(monitoring_data, matched):
-    """Generate summary statistics - NEW METRICS"""
+    """Generate summary statistics"""
     total_tenants = len(monitoring_data)
+    unique_accounts = len(set(m['customerName'] for m in monitoring_data))
     total_monitors = sum(m['monitors'] for m in monitoring_data)
     total_alerts = total_monitors
 
-    total_signature_accounts = (
+    na_data = [m for m in monitoring_data if m['region'] == 'NA']
+    eu_data = [m for m in monitoring_data if m['region'] == 'EU']
+
+    total_signature_contracts = (
         len(matched['signatureLeveraged']) +
         len(matched['signatureNotLeveraged'])
     )
 
-    signature_with_prom = len(matched['signatureLeveraged'])
-    signature_not_leveraged = len(matched['signatureNotLeveraged'])
-    non_signature_with_prom = len(matched['nonSignatureWithProm'])
+    signature_leveraged = len(matched['signatureLeveraged'])
+    leverage_rate = (
+        (signature_leveraged / total_signature_contracts * 100)
+        if total_signature_contracts > 0 else 0
+    )
 
     return {
-        'totalSignatureAccounts': total_signature_accounts,
-        'signatureWithProm': signature_with_prom,
         'promEnabledTenants': total_tenants,
-        'signatureNotLeveraged': signature_not_leveraged,
-        'nonSignatureWithProm': non_signature_with_prom,
+        'totalAccounts': unique_accounts,
+        'totalMonitors': total_monitors,
         'totalAlerts': total_alerts,
+        'avgMonitorsPerTenant': round(total_monitors / total_tenants, 1) if total_tenants > 0 else 0,
+        'totalSignatureContracts': total_signature_contracts,
+        'signatureLeveraged': signature_leveraged,
+        'leverageRate': round(leverage_rate, 1),
+        'signatureNotLeveraged': len(matched['signatureNotLeveraged']),
+        'nonSignatureWithProm': len(matched['nonSignatureWithProm']),
+        'naRegion': {
+            'tenants': len(na_data),
+            'monitors': sum(m['monitors'] for m in na_data),
+            'percentage': round(len(na_data) / total_tenants * 100, 1) if total_tenants > 0 else 0
+        },
+        'euRegion': {
+            'tenants': len(eu_data),
+            'monitors': sum(m['monitors'] for m in eu_data),
+            'percentage': round(len(eu_data) / total_tenants * 100, 1) if total_tenants > 0 else 0
+        }
     }
 
 def generate_growth_trend(contracts):
-    """Generate monthly growth trend - NEW METRICS"""
+    """Generate monthly growth trend"""
     trend = []
 
     for month in MONTHS:
@@ -315,17 +296,14 @@ def generate_growth_trend(contracts):
             continue
 
         matched = match_data(monitoring, contracts)
-
-        # NEW: signatureAccounts and accountsLeveragingProm
-        total_signature_accounts = (
-            len(matched['signatureLeveraged']) +
-            len(matched['signatureNotLeveraged'])
-        )
+        unique_accounts = len(set(m['customerName'] for m in monitoring))
 
         trend.append({
             'month': month['label'],
-            'signatureAccounts': total_signature_accounts,
-            'accountsLeveragingProm': len(matched['signatureLeveraged'])
+            'tenants': len(monitoring),
+            'monitors': sum(m['monitors'] for m in monitoring),
+            'accounts': unique_accounts,
+            'signatureLeveraged': len(matched['signatureLeveraged'])
         })
 
     return trend
@@ -356,50 +334,6 @@ def generate_top_tenants(monitoring_data, matched):
 
     return top10
 
-def generate_leverage_accounts(matched, monitoring_by_eid):
-    """Generate accounts for leverage table - NEW TABLE"""
-    leverage_accounts = []
-
-    # Signature accounts
-    for acc in matched['signatureLeveraged']:
-        leverage_accounts.append({
-            'accountName': acc['accountName'],
-            'serviceProvider': 'Marketing Cloud',
-            'isSignature': True,
-            'eids': acc.get('eidsWithProm', []),
-            'isLeveraged': True,
-            'hasMonitoring': True
-        })
-
-    for acc in matched['signatureNotLeveraged']:
-        leverage_accounts.append({
-            'accountName': acc['accountName'],
-            'serviceProvider': 'Marketing Cloud',
-            'isSignature': True,
-            'eids': [],
-            'isLeveraged': False,
-            'hasMonitoring': False
-        })
-
-    # Non-signature accounts with ProM
-    non_sig_accounts = {}
-    for m in matched['nonSignatureWithProm']:
-        acc_name = m['customerName']
-        if acc_name not in non_sig_accounts:
-            non_sig_accounts[acc_name] = {
-                'accountName': acc_name,
-                'serviceProvider': 'Marketing Cloud',
-                'isSignature': False,
-                'eids': [],
-                'isLeveraged': True,
-                'hasMonitoring': True
-            }
-        non_sig_accounts[acc_name]['eids'].append(m['tenantId'])
-
-    leverage_accounts.extend(non_sig_accounts.values())
-
-    return leverage_accounts
-
 def generate_javascript_file(data):
     """Generate JavaScript file content"""
     timestamp = datetime.now().strftime('%Y-%m-%d')
@@ -427,10 +361,20 @@ export const mceMonthlyGrowth = {json.dumps(data['growthTrend'], indent=2)};
 export const topMCETenants = {json.dumps(data['topTenants'], indent=2)};
 
 // ============================================================================
-// SIGNATURE LEVERAGE BY ACCOUNT
+// SIGNATURE LEVERAGE ANALYSIS
 // ============================================================================
 
-export const mceLeverageAccounts = {json.dumps(data['leverageAccounts'], indent=2)};
+export const signatureLeveragedAccounts = {json.dumps(data['signatureLeveraged'][:20], indent=2)};
+
+export const signatureNotLeveragedAccounts = {json.dumps(data['signatureNotLeveraged'][:20], indent=2)};
+
+export const nonSignatureWithPromAccounts = {json.dumps(data['nonSignatureWithProm'][:20], indent=2)};
+
+// ============================================================================
+// REGIONAL BREAKDOWN
+// ============================================================================
+
+export const mceRegionalBreakdown = {json.dumps(data['regionalBreakdown'], indent=2)};
 
 // ============================================================================
 // DATA GENERATION METADATA
@@ -446,8 +390,8 @@ export const dataMetadata = {{
   "generationScript": "generateMCEData.py",
   "stats": {{
     "totalMonitoring": {data['summaryStats']['promEnabledTenants']},
-    "totalSignatureAccounts": {data['summaryStats']['totalSignatureAccounts']},
-    "signatureWithProm": {data['summaryStats']['signatureWithProm']}
+    "totalContracts": {data['summaryStats']['totalSignatureContracts']},
+    "matchedAccounts": {data['summaryStats']['signatureLeveraged']}
   }}
 }};
 '''
@@ -481,7 +425,7 @@ def main():
     # Match data
     print('🔗 Matching monitoring to contracts...')
     matched = match_data(monitoring_data, contracts)
-    print(f'   ✅ Signature w/ ProM:     {len(matched["signatureLeveraged"])}')
+    print(f'   ✅ Signature Leveraged:     {len(matched["signatureLeveraged"])}')
     print(f'   ⚠️  Signature Not Leveraged: {len(matched["signatureNotLeveraged"])}')
     print(f'   ℹ️  Non-Signature with ProM: {len(matched["nonSignatureWithProm"])}')
     print()
@@ -493,18 +437,58 @@ def main():
     growth_trend = generate_growth_trend(contracts)
     top_tenants = generate_top_tenants(monitoring_data, matched)
 
-    # Build monitoring lookup for leverage accounts
-    monitoring_by_eid = defaultdict(list)
-    for m in monitoring_data:
-        monitoring_by_eid[m['normalizedEid']].append(m)
+    regional_breakdown = [
+        {
+            'region': 'North America',
+            'code': 'NA',
+            **summary_stats['naRegion']
+        },
+        {
+            'region': 'Europe',
+            'code': 'EU',
+            **summary_stats['euRegion']
+        }
+    ]
 
-    leverage_accounts = generate_leverage_accounts(matched, monitoring_by_eid)
+    # Format accounts data
+    signature_leveraged_accounts = []
+    for acc in matched['signatureLeveraged'][:20]:
+        signature_leveraged_accounts.append({
+            'accountName': acc['accountName'],
+            'tenantIds': acc['tenantIds'],
+            'monitors': acc['monitors'],
+            'contractStatus': 'Active',
+            'signaturePlan': acc['contracts'][0]['signaturePlan'] if acc['contracts'] else ''
+        })
+
+    signature_not_leveraged_accounts = []
+    for acc in matched['signatureNotLeveraged'][:20]:
+        signature_not_leveraged_accounts.append({
+            'accountName': acc['accountName'],
+            'tenantIds': acc['tenantIds'],
+            'contractStatus': 'Active',
+            'reason': 'No monitoring configured',
+            'signaturePlan': acc['contracts'][0]['signaturePlan'] if acc['contracts'] else ''
+        })
+
+    non_signature_accounts = []
+    for m in matched['nonSignatureWithProm'][:20]:
+        non_signature_accounts.append({
+            'accountName': m['customerName'],
+            'tenantIds': [m['tenantId']],
+            'monitors': m['monitors'],
+            'reason': 'No Signature Contract',
+            'contractStatus': None
+        })
 
     output_data = {
         'summaryStats': summary_stats,
         'growthTrend': growth_trend,
         'topTenants': top_tenants,
-        'leverageAccounts': leverage_accounts,
+        'signatureLeveraged': signature_leveraged_accounts,
+        'signatureNotLeveraged': signature_not_leveraged_accounts,
+        'nonSignatureWithProm': non_signature_accounts,
+        'regionalBreakdown': regional_breakdown,
         'contractsSource': str(CONTRACTS_FILE)
     }
 
@@ -523,14 +507,21 @@ def main():
     print('=' * 80)
     print()
     print('Summary:')
-    print(f'  Signature Accounts:         {summary_stats["totalSignatureAccounts"]}')
-    print(f'  Signature w/ ProM:          {summary_stats["signatureWithProm"]}')
-    print(f'  ProM Enabled Tenants:       {summary_stats["promEnabledTenants"]}')
-    print(f'  Signature Not Leveraged:    {summary_stats["signatureNotLeveraged"]}')
-    print(f'  Non-Signature w/ ProM:      {summary_stats["nonSignatureWithProm"]}')
-    print(f'  Total Alerts:               {summary_stats["totalAlerts"]}')
+    print(f'  Total Tenants:              {summary_stats["promEnabledTenants"]}')
+    print(f'  Total Monitors:             {summary_stats["totalMonitors"]}')
+    print(f'  Signature Contracts:        {summary_stats["totalSignatureContracts"]}')
+    print(f'  Leverage Rate:              {summary_stats["leverageRate"]}%')
+    print(f'  Leveraged Accounts:         {summary_stats["signatureLeveraged"]}')
+    print(f'  Not Leveraged Accounts:     {summary_stats["signatureNotLeveraged"]}')
     print()
     print(f'📄 Output file: {OUTPUT_FILE}')
+    print()
+    print('Next steps:')
+    print('  1. Create React dashboard (or use GitHub one as base)')
+    print('  2. Copy mceRealData.js to dashboard/src/data/')
+    print('  3. Update imports in App.jsx')
+    print('  4. Run: npm run dev')
+    print('  5. Deploy: npm run build && npm run deploy')
     print()
 
 if __name__ == '__main__':

@@ -1,9 +1,8 @@
 import { useEffect } from 'react';
 import StatCard from './components/StatCard';
-import AdoptionChart from './components/AdoptionChart';
-import RegionalBreakdown from './components/RegionalBreakdown';
+import GrowthTrendChart from './components/GrowthTrendChart';
 import TopTenantsTable from './components/TopTenantsTable';
-import LeverageTable from './components/LeverageTable';
+import SignatureLeverageTable from './components/SignatureLeverageTable';
 import { useMCEData } from './hooks/useMCEData';
 
 // Load extension utilities globally
@@ -45,100 +44,89 @@ function App() {
 
   const stats = data.stats || {};
   const topTenants = data.topTenants || [];
-  const regional = data.regional || [];
   const growth = data.growth || [];
-  const leveraged = data.leveraged || [];
-  const notLeveraged = data.notLeveraged || [];
-  const nonSignature = data.nonSignature || [];
+  const leverageAccounts = data.leverageAccounts || [];
+
   return (
     <div className="min-h-screen bg-gray-100">
       {/* Header */}
-      <header className="shadow-sm" style={{ background: '#0176D3' }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      <header className="shadow-sm" style={{ background: '#4A90E2' }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex justify-between items-center">
-            <div>
-              <h1 className="text-3xl font-bold text-white">
-                Proactive Monitoring Dashboard
-              </h1>
-              <p className="text-sm text-white opacity-90 mt-1">
-                Real-time adoption metrics and service health
-              </p>
-              <p className="text-xs text-white opacity-75 mt-1">
-                {isExtensionMode ? (
-                  <>Org62: {contractCount.toLocaleString()} contracts. UTDP latest: {lastUpdated.toLocaleDateString('en-US', { month: 'short', year: 'numeric' })}</>
-                ) : (
-                  'Offline mode - using static data'
-                )}
-              </p>
-            </div>
-            <div className="text-right space-y-2">
-              <p className="text-sm text-white opacity-80">Last updated</p>
+            <h1 className="text-2xl font-bold text-white">
+              MCE Proactive Monitoring Dashboard
+            </h1>
+            <div className="text-right">
+              <p className="text-xs text-white opacity-80">Last updated</p>
               <p className="text-sm font-medium text-white">
-                {lastUpdated.toLocaleString()}
+                {lastUpdated.toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' })}, {lastUpdated.toLocaleTimeString('en-GB')}
               </p>
-              {isExtensionMode && (
-                <button
-                  onClick={refreshData}
-                  disabled={loading}
-                  className="px-4 py-2 bg-white text-blue-600 rounded-md font-medium hover:bg-blue-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
-                >
-                  {loading ? 'Loading...' : 'Refresh data'}
-                </button>
-              )}
-              {!isExtensionMode && (
-                <button
-                  className="px-4 py-2 bg-gray-300 text-gray-700 rounded-md font-medium cursor-default"
-                  disabled
-                >
-                  Load demo (offline)
-                </button>
-              )}
             </div>
           </div>
-          {error && (
-            <div className="mt-4 p-3 bg-red-100 border border-red-400 text-red-700 rounded">
-              <strong>Error:</strong> {error}
-            </div>
-          )}
         </div>
       </header>
 
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
 
-        {/* Summary Statistics */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+        {/* 7 Metric Cards - 4 cols then 3 cols */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
+          <StatCard
+            title="MCE Signature Accounts"
+            value={(stats.totalSignatureAccounts || 0).toLocaleString()}
+            subtitle="Total signature contract accounts"
+            icon="📋"
+          />
+          <StatCard
+            title="Signature w/ ProM Enabled"
+            value={(stats.signatureWithProm || 0).toLocaleString()}
+            subtitle="Signature accounts leveraging ProM"
+            icon="✅"
+          />
           <StatCard
             title="ProM Enabled MCE Tenants"
             value={(stats.promEnabledTenants || 0).toLocaleString()}
-            subtitle="Active tenant IDs"
+            subtitle="Active tenant IDs with monitoring"
             icon="🔍"
           />
           <StatCard
-            title="MCE Accounts"
-            value={(stats.totalAccounts || 0).toLocaleString()}
-            subtitle="Unique accounts with MCE ProM"
-            icon="🏢"
+            title="Signature w/ ProM Not Leveraged"
+            value={(stats.signatureNotLeveraged || 0).toLocaleString()}
+            subtitle="Signature accounts without ProM"
+            icon="⚠️"
+          />
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+          <StatCard
+            title="Non-Signature w/ ProM"
+            value={(stats.nonSignatureWithProm || 0).toLocaleString()}
+            subtitle="Non-signature accounts using ProM"
+            icon="ℹ️"
           />
           <StatCard
-            title="Total Alert Configurations"
-            value={(stats.totalMonitors || 0).toLocaleString()}
-            subtitle="Monitors enabled (latest month)"
+            title="Total Configured Alerts"
+            value={(stats.totalAlerts || 0).toLocaleString()}
+            subtitle="Total monitors configured"
             icon="🔔"
           />
         </div>
 
-
-        {/* Growth Chart */}
+        {/* Growth Trend Chart */}
         {growth.length > 0 && (
           <div className="mb-8">
-            <AdoptionChart data={growth} />
+            <GrowthTrendChart data={growth} />
           </div>
         )}
 
         {/* Top MCE Tenants Table */}
         <div className="mb-8">
           <TopTenantsTable tenants={topTenants} />
+        </div>
+
+        {/* Signature Leverage by Account Table */}
+        <div className="mb-8">
+          <SignatureLeverageTable accounts={leverageAccounts} />
         </div>
       </main>
 
