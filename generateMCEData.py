@@ -22,21 +22,7 @@ except ImportError:
 # Configuration
 DATA_DIR = Path('/Users/rinku.soni/prom-signature-extension/data')
 CSV_DIR = DATA_DIR
-
-# Try to find contracts file in multiple formats
-CONTRACTS_FILE = None
-
-# Try new filename first (with status column)
-for filename in ['Contracts_June2026.xlsx', 'contracts.xlsx', 'contracts.csv']:
-    candidate = DATA_DIR / filename
-    if candidate.exists():
-        CONTRACTS_FILE = candidate
-        break
-
-# Fallback to old location if not found
-if not CONTRACTS_FILE:
-    CONTRACTS_FILE = Path('/Users/rinku.soni/prom-signature-extension/sample/contracts.csv')
-
+HISTORY_DIR = DATA_DIR / 'history'
 OUTPUT_FILE = Path(__file__).parent / 'src' / 'data' / 'mceRealData.js'
 
 SIGNATURE_PATTERNS = [
@@ -45,11 +31,89 @@ SIGNATURE_PATTERNS = [
     'Signature Success - US Only - MC Engagement',
 ]
 
-MONTHS = [
-    {'date': '6', 'month': 'April', 'year': '2026', 'label': 'Apr 6, 2026', 'combined': True},
-    {'date': '7', 'month': 'June', 'year': '2026', 'label': 'Jun 7, 2026', 'combined': False},
-    {'date': '22', 'month': 'June', 'year': '2026', 'label': 'Jun 22, 2026', 'combined': False},
-]
+# -----------------------------------------------------------------------
+# Auto-discover latest contracts file (newest .xlsx or .csv in data dir)
+# -----------------------------------------------------------------------
+def find_latest_contracts():
+    candidates = sorted(
+        list(DATA_DIR.glob('Contracts_*.xlsx')) +
+        list(DATA_DIR.glob('contracts*.xlsx')) +
+        list(DATA_DIR.glob('Contracts_*.csv')) +
+        list(DATA_DIR.glob('contracts*.csv')),
+        key=lambda p: p.stat().st_mtime,
+        reverse=True
+    )
+    if candidates:
+        return candidates[0]
+    fallback = Path('/Users/rinku.soni/prom-signature-extension/sample/contracts.csv')
+    return fallback if fallback.exists() else None
+
+CONTRACTS_FILE = find_latest_contracts()
+
+# -----------------------------------------------------------------------
+# Auto-discover UTDP CSV files: find all NA_*.csv / EU_*.csv / NAandEU_*.csv
+# Build MONTHS list dynamically from what files actually exist
+# -----------------------------------------------------------------------
+def discover_utdp_months():
+    """Scan data directory and build MONTHS list from available CSV files."""
+    import re
+    from datetime import datetime
+
+    found = {}  # key: (date_str, month_str, year_str) → entry dict
+
+    # Match combined files: NAandEU_6April2026.csv
+    for f in DATA_DIR.glob('NAandEU_*.csv'):
+        m = re.match(r'NAandEU_(\d+)([A-Za-z]+)(\d{4})\.csv', f.name)
+        if m:
+            d, mo, yr = m.group(1), m.group(2), m.group(3)
+            key = f"{yr}-{mo}-{d}"
+            dt = datetime.strptime(f"{d} {mo} {yr}", "%d %B %Y")
+            found[key] = {
+                'date': d, 'month': mo, 'year': yr,
+                'label': dt.strftime('%b %-d, %Y'),
+                'combined': True,
+                'sort_key': dt
+            }
+
+    # Match separate NA/EU files: NA_7June2026.csv + EU_7June2026.csv
+    na_files = {}
+    eu_files = {}
+    for f in DATA_DIR.glob('NA_*.csv'):
+        m = re.match(r'NA_(\d+)([A-Za-z]+)(\d{4})\.csv', f.name)
+        if m:
+            d, mo, yr = m.group(1), m.group(2), m.group(3)
+            na_files[f"{yr}-{mo}-{d}"] = (d, mo, yr)
+    for f in DATA_DIR.glob('EU_*.csv'):
+        m = re.match(r'EU_(\d+)([A-Za-z]+)(\d{4})\.csv', f.name)
+        if m:
+            d, mo, yr = m.group(1), m.group(2), m.group(3)
+            eu_files[f"{yr}-{mo}-{d}"] = (d, mo, yr)
+
+    # Only include dates where BOTH NA and EU exist
+    for key in set(na_files) & set(eu_files):
+        if key not in found:
+            d, mo, yr = na_files[key]
+            dt = datetime.strptime(f"{d} {mo} {yr}", "%d %B %Y")
+            found[key] = {
+                'date': d, 'month': mo, 'year': yr,
+                'label': dt.strftime('%b %-d, %Y'),
+                'combined': False,
+                'sort_key': dt
+            }
+
+    # Sort by date, return only the most recent one (current snapshot)
+    sorted_months = sorted(found.values(), key=lambda x: x['sort_key'])
+    return sorted_months
+
+MONTHS = discover_utdp_months()
+if not MONTHS:
+    print("⚠️  No UTDP CSV files found in data directory!")
+    print(f"   Expected: NA_<date><month><year>.csv / EU_<date><month><year>.csv")
+    print(f"   In: {DATA_DIR}")
+    sys.exit(1)
+
+# Use only the latest snapshot for current metrics
+CURRENT_MONTH = MONTHS[-1]
 
 def parse_csv(filepath):
     """Parse CSV file"""
@@ -409,33 +473,45 @@ def generate_summary_stats(monitoring_data, matched):
     }
 
 def generate_growth_trend(contracts):
-    """Generate growth trend - NEW METRICS"""
+    """Generate growth trend from history snapshots directory.
+    Reads all dated JSON snapshots from data/history/ folder.
+    Falls back to computing from MONTHS if no history exists.
+    """
     trend = []
 
-    for month_data in MONTHS:
-        monitoring = load_monitoring_data(
-            month_data['date'],
-            month_data['month'],
-            month_data['year'],
-            month_data.get('combined', False)
-        )
+    # Read from history snapshots if they exist
+    if HISTORY_DIR.exists():
+        snapshot_files = sorted(HISTORY_DIR.glob('*.json'))
+        for snap_file in snapshot_files:
+            try:
+                with open(snap_file) as f:
+                    snap = json.load(f)
+                trend.append({
+                    'month': snap['label'],
+                    'signatureAccounts': snap['signatureAccounts'],
+                    'accountsLeveragingProm': snap['signatureWithProm']
+                })
+            except Exception:
+                pass
 
-        if not monitoring:
-            continue
-
-        matched = match_data(monitoring, contracts)
-
-        # NEW: signatureAccounts and accountsLeveragingProm
-        total_signature_accounts = (
-            len(matched['signatureLeveraged']) +
-            len(matched['signatureNotLeveraged'])
-        )
-
-        trend.append({
-            'month': month_data['label'],
-            'signatureAccounts': total_signature_accounts,
-            'accountsLeveragingProm': len(matched['signatureLeveraged'])
-        })
+    # Fallback: compute from MONTHS CSV files if no history
+    if not trend:
+        for month_data in MONTHS:
+            monitoring = load_monitoring_data(
+                month_data['date'],
+                month_data['month'],
+                month_data['year'],
+                month_data.get('combined', False)
+            )
+            if not monitoring:
+                continue
+            matched = match_data(monitoring, contracts)
+            total_sig = len(matched['signatureLeveraged']) + len(matched['signatureNotLeveraged'])
+            trend.append({
+                'month': month_data['label'],
+                'signatureAccounts': total_sig,
+                'accountsLeveragingProm': len(matched['signatureLeveraged'])
+            })
 
     return trend
 
