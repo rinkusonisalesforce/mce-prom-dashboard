@@ -68,20 +68,27 @@ else
 fi
 
 # ------------------------------------------------------------------------------
-# STEP 2: Find latest Contracts Excel from Downloads (optional)
+# STEP 2: Fetch latest Contracts from Org62 via Chrome session cookie
 # ------------------------------------------------------------------------------
 echo ""
-echo "📋 Step 2: Looking for Contracts Excel in ~/Downloads..."
+echo "📋 Step 2: Fetching contracts from Org62 (using Chrome session)..."
 
-CONTRACTS_FILE=$(ls -t "$DOWNLOADS_DIR"/Contracts_*.xlsx "$DOWNLOADS_DIR"/contracts_*.xlsx "$DOWNLOADS_DIR"/Service_Contracts*.xlsx 2>/dev/null | head -1)
+cd "$SCRIPT_DIR"
+python3 fetchOrg62.py
 
-if [ -z "$CONTRACTS_FILE" ]; then
-    echo "   ℹ️  No new Contracts file found — using existing file in data folder"
-    echo "      (Export from Org62 report when contracts change)"
-else
-    CONTRACTS_FILENAME=$(basename "$CONTRACTS_FILE")
-    cp "$CONTRACTS_FILE" "$DATA_DIR/$CONTRACTS_FILENAME"
-    echo "   ✅ Found and copied: $CONTRACTS_FILENAME"
+if [ $? -ne 0 ]; then
+    echo ""
+    echo "   ⚠️  Org62 auto-fetch failed."
+    echo "   Falling back: checking ~/Downloads for manually exported Contracts file..."
+
+    CONTRACTS_DL=$(ls -t "$DOWNLOADS_DIR"/Contracts_*.xlsx "$DOWNLOADS_DIR"/contracts_*.xlsx 2>/dev/null | head -1)
+    if [ -n "$CONTRACTS_DL" ]; then
+        CONTRACTS_FILENAME=$(basename "$CONTRACTS_DL")
+        cp "$CONTRACTS_DL" "$DATA_DIR/$CONTRACTS_FILENAME"
+        echo "   ✅ Found and copied from Downloads: $CONTRACTS_FILENAME"
+    else
+        echo "   ℹ️  No new Contracts file found — using existing file in data folder"
+    fi
 fi
 
 # ------------------------------------------------------------------------------
