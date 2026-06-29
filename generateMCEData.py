@@ -11,6 +11,21 @@ from pathlib import Path
 from datetime import datetime
 from collections import defaultdict
 
+# -----------------------------------------------------------------------
+# MID → EID cache (populated by resolve-mids.py)
+# MIDs are member-level IDs (M-prefix) used in UTDP.
+# Contracts store EIDs (enterprise-level). The cache maps
+# the numeric part of a MID to its parent EID numeric part.
+# -----------------------------------------------------------------------
+def load_mid_cache():
+    cache_file = Path(__file__).parent / 'mid_to_eid_cache.json'
+    if cache_file.exists():
+        with open(cache_file) as f:
+            return json.load(f)
+    return {}
+
+MID_TO_EID = load_mid_cache()
+
 # Try to import pandas for Excel support
 try:
     import pandas as pd
@@ -125,12 +140,30 @@ def parse_csv(filepath):
     return data
 
 def normalize_eid(eid):
-    """Strip E/M prefix and get numeric part"""
+    """Strip E/M prefix and get numeric part.
+
+    For M-prefix IDs (MIDs / member tenants): look up the parent EID
+    from the cache populated by resolve-mids.py.  If not in cache,
+    returns '' so the row is treated as unresolved (not matched to
+    any contract, shows in non-signature section with a note).
+    """
+    import re
     if not eid:
         return ''
-    # Remove E/M prefix and any non-numeric characters
-    import re
-    digits = re.sub(r'[^0-9]', '', str(eid))
+    s = str(eid).strip()
+
+    if s.upper().startswith('M'):
+        mid_num = re.sub(r'[^0-9]', '', s)
+        if mid_num in MID_TO_EID:
+            # Resolved — use the parent EID
+            return MID_TO_EID[mid_num].lstrip('0') or '0'
+        else:
+            # Unresolved MID — keep as-is with 'mid:' prefix so we can
+            # identify it in match_data() and flag it separately
+            return f'mid:{mid_num}'
+
+    # E-prefix or bare number
+    digits = re.sub(r'[^0-9]', '', s)
     return digits.lstrip('0') or '0'
 
 def normalize_contract_tenant_id(tenant_id):
@@ -425,7 +458,11 @@ def match_data(monitoring_data, contracts):
         normalized_eid = m['normalizedEid']
 
         # Determine reason
-        if normalized_eid in eid_to_inactive_status:
+        if normalized_eid.startswith('mid:'):
+            # Unresolved MID — parent EID unknown, cannot check contracts
+            mid_num = normalized_eid[4:]
+            reason = f"MID unresolved (run: python3 resolve-mids.py → .mcmember {mid_num} in SupportBot)"
+        elif normalized_eid in eid_to_inactive_status:
             reason = f"Signature Contract {eid_to_inactive_status[normalized_eid]}"
         else:
             reason = "No Signature Contract"
@@ -720,6 +757,25 @@ def main():
     print()
     print(f'📄 Output file: {OUTPUT_FILE}')
     print()
+
+    # Warn about unresolved MIDs
+    unresolved = [
+        m for m in monitoring_data
+        if m['normalizedEid'].startswith('mid:')
+    ]
+    if unresolved:
+        unresolved_mids = sorted({m['tenantId'] for m in unresolved})
+        print('⚠️  UNRESOLVED MIDs (cannot match to contracts):')
+        print(f'   Count: {len(unresolved_mids)}')
+        print(f'   Run:   python3 resolve-mids.py')
+        print(f'   Then:  look each up in Slack SupportBot using .mcmember <number>')
+        print(f'   MIDs:  {", ".join(unresolved_mids[:10])}{"..." if len(unresolved_mids) > 10 else ""}')
+        print()
+    else:
+        unresolved_count = sum(1 for v in MID_TO_EID.values() if v)
+        if unresolved_count or load_mid_cache():
+            print(f'✅ All MIDs resolved via cache ({len(MID_TO_EID)} mappings loaded)')
+            print()
 
 if __name__ == '__main__':
     try:

@@ -105,6 +105,26 @@ if [ $? -ne 0 ]; then
 fi
 
 # ------------------------------------------------------------------------------
+# STEP 2b: Check for unresolved MIDs (M-prefix IDs in UTDP that need EID lookup)
+# ------------------------------------------------------------------------------
+echo ""
+echo "🔍 Step 2b: Checking for unresolved MIDs in UTDP data..."
+
+cd "$SCRIPT_DIR"
+MID_CHECK=$(python3 resolve-mids.py --check 2>&1)
+echo "$MID_CHECK"
+
+# If there are unknowns, offer interactive resolution now
+if echo "$MID_CHECK" | grep -q "Needs lookup:.*[1-9]"; then
+    echo ""
+    echo "   ⚠️  Some MIDs are unresolved — these tenants CANNOT be matched to contracts."
+    echo "   Run:  python3 resolve-mids.py"
+    echo "   Then look each up in Slack SupportBot:  .mcmember <number>"
+    echo ""
+    read -p "   Press Enter to continue WITHOUT resolving (they'll show as unresolved), or Ctrl+C to stop and resolve first: "
+fi
+
+# ------------------------------------------------------------------------------
 # STEP 3: Regenerate dashboard data
 # ------------------------------------------------------------------------------
 echo ""
