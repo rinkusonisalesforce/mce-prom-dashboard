@@ -80,7 +80,7 @@ if [ -z "$NA_FILE" ] || [ -z "$EU_FILE" ]; then
     echo "   - NA_<date>.csv  (e.g. NA_29June2026.csv)"
     echo "   - EU_<date>.csv  (e.g. EU_29June2026.csv)"
     echo ""
-    read -p "   Press Enter to continue WITHOUT new UTDP data, or Ctrl+C to cancel: "
+    echo "   ⚠️  Continuing with existing UTDP data already in the data folder..."
 else
     NA_FILENAME=$(basename "$NA_FILE")
     EU_FILENAME=$(basename "$EU_FILE")
@@ -129,14 +129,12 @@ cd "$SCRIPT_DIR"
 MID_CHECK=$(python3 resolve-mids.py --check 2>&1)
 echo "$MID_CHECK"
 
-# If there are unknowns, offer interactive resolution now
+# Warn about unresolved MIDs but always continue — never block the update
 if echo "$MID_CHECK" | grep -q "Needs lookup:.*[1-9]"; then
     echo ""
-    echo "   ⚠️  Some MIDs are unresolved — these tenants CANNOT be matched to contracts."
-    echo "   Run:  python3 resolve-mids.py"
-    echo "   Then look each up in Slack SupportBot:  .mcmember <number>"
-    echo ""
-    read -p "   Press Enter to continue WITHOUT resolving (they'll show as unresolved), or Ctrl+C to stop and resolve first: "
+    echo "   ⚠️  Some MIDs are unresolved — those tenants will show as 'MID unresolved' in the dashboard."
+    echo "   To resolve them run:  python3 resolve-mids.py"
+    echo "   Continuing with update..."
 fi
 
 # ------------------------------------------------------------------------------
@@ -270,7 +268,9 @@ cd "$SCRIPT_DIR"
 if git diff --quiet && git diff --staged --quiet; then
     echo "   ℹ️  No changes to commit — dashboard is already up to date"
 else
+    # Stage data file and any script changes
     git add src/data/mceRealData.js
+    git diff --name-only weekly-update.sh | grep -q . && git add weekly-update.sh || true
     git commit -m "Weekly update: MCE ProM data for $TODAY
 
 - Updated UTDP monitoring data
