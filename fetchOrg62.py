@@ -120,10 +120,21 @@ def decrypt_cookie_value(encrypted_value, key):
     pad_len = decrypted[-1]
     if pad_len < 1 or pad_len > 16:
         pad_len = 0
-    result = decrypted[:-pad_len] if pad_len else decrypted
-    # Strip to ASCII-safe characters only (session IDs are always ASCII)
-    return result.decode('utf-8', errors='ignore').strip()\
-                 .encode('ascii', errors='ignore').decode('ascii')
+    raw = decrypted[:-pad_len] if pad_len else decrypted
+
+    # Chrome prepends a 32-byte random prefix before the actual cookie value.
+    # Salesforce session IDs always start with the org ID: "00D...!"
+    # Find that anchor and return everything from there.
+    import re as _re
+    match = _re.search(rb'00D[A-Za-z0-9]{12,}![A-Za-z0-9._\-/+=]+', raw)
+    if match:
+        return match.group(0).decode('ascii', errors='ignore')
+
+    # Fallback: strip the 32-byte prefix Chrome adds, then return ASCII-only
+    if len(raw) > 32:
+        raw = raw[32:]
+    return raw.decode('utf-8', errors='ignore').strip()\
+               .encode('ascii', errors='ignore').decode('ascii')
 
 
 def get_org62_session_id():
