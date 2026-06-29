@@ -55,14 +55,16 @@ echo "   Fallback: ~/Downloads/"
 
 find_csv() {
     local prefix=$1
-    # Check Google Drive first
-    local f=$(ls -t "$GDRIVE_DIR"/${prefix}_*.csv "$GDRIVE_DIR"/${prefix,,}_*.csv 2>/dev/null | head -1)
+    # Use find + sort by modification time (newest first) — works on macOS bash 3.2
+    local f=$(find "$GDRIVE_DIR" -maxdepth 1 -iname "${prefix}_*.csv" 2>/dev/null \
+              -exec ls -t {} + 2>/dev/null | head -1)
     if [ -n "$f" ]; then
         echo "$f"
         return
     fi
     # Fall back to Downloads
-    ls -t "$DOWNLOADS_DIR"/${prefix}_*.csv "$DOWNLOADS_DIR"/${prefix,,}_*.csv 2>/dev/null | head -1
+    find "$DOWNLOADS_DIR" -maxdepth 1 -iname "${prefix}_*.csv" 2>/dev/null \
+        -exec ls -t {} + 2>/dev/null | head -1
 }
 
 NA_FILE=$(find_csv "NA")
