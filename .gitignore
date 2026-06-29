@@ -23,8 +23,15 @@ dist-ssr
 *.sln
 *.sw?
 
-# Data files (keep in separate repo/location)
+# Data files (keep in separate repo/location — never commit raw data or secrets)
 data/*.csv
 data/*.xlsx
 data/*.xls
 !data/mceRealData.js
+
+# History snapshots — stay local only (written by weekly-update.sh)
+data/history/
+
+# Org62 contracts Excel files (contain customer data — never commit)
+Contracts_*.xlsx
+contracts_*.xlsx
