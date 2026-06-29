@@ -2,11 +2,14 @@
 # =============================================================================
 # MCE ProM Dashboard — Weekly Update Script
 # =============================================================================
-# Run this once per week after downloading your NA/EU CSVs from Centro.
+# Run this once per week after UTDP CSVs are dropped in the shared folder.
+#
+# UTDP CSV drop zone (Google Drive — share this folder with your teammate):
+#   ~/Library/CloudStorage/GoogleDrive-rinku.soni@salesforce.com/My Drive/MCE-ProM-Data/
 #
 # What this script does:
-#   1. Finds the latest NA/EU CSVs from ~/Downloads and moves them to data folder
-#   2. Finds the latest Contracts Excel from ~/Downloads (if present)
+#   1. Finds latest NA/EU CSVs from Google Drive shared folder (or ~/Downloads fallback)
+#   2. Auto-fetches latest Org62 contracts via Chrome session cookie
 #   3. Regenerates dashboard data
 #   4. Saves a dated snapshot for the trend chart history
 #   5. Commits and pushes to both GitHub and git.soma
@@ -14,11 +17,6 @@
 #
 # Usage:
 #   ./weekly-update.sh
-#
-# Before running:
-#   - Download NA_<date>.csv from Centro via RoyalTSX → ~/Downloads
-#   - Download EU_<date>.csv from Centro via RoyalTSX → ~/Downloads
-#   - (Optional) Export Contracts report from Org62 → ~/Downloads as Contracts_<date>.xlsx
 # =============================================================================
 
 set -e
@@ -26,6 +24,7 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 DATA_DIR="/Users/rinku.soni/prom-signature-extension/data"
 DOWNLOADS_DIR="$HOME/Downloads"
+GDRIVE_DIR="$HOME/Library/CloudStorage/GoogleDrive-rinku.soni@salesforce.com/My Drive/MCE-ProM-Data"
 TODAY=$(date +%Y-%m-%d)
 
 echo "=============================================="
@@ -35,36 +34,50 @@ echo "=============================================="
 echo ""
 
 # ------------------------------------------------------------------------------
-# STEP 1: Find and move latest UTDP CSVs from Downloads
+# STEP 1: Find latest UTDP CSVs — check Google Drive first, then ~/Downloads
 # ------------------------------------------------------------------------------
-echo "📂 Step 1: Looking for UTDP CSV files in ~/Downloads..."
+echo "📂 Step 1: Looking for UTDP CSV files..."
+echo "   Primary:  Google Drive/MCE-ProM-Data/"
+echo "   Fallback: ~/Downloads/"
 
-# Find latest NA CSV (matches NA_*.csv or na_*.csv)
-NA_FILE=$(ls -t "$DOWNLOADS_DIR"/NA_*.csv "$DOWNLOADS_DIR"/na_*.csv 2>/dev/null | head -1)
-EU_FILE=$(ls -t "$DOWNLOADS_DIR"/EU_*.csv "$DOWNLOADS_DIR"/eu_*.csv 2>/dev/null | head -1)
+find_csv() {
+    local prefix=$1
+    # Check Google Drive first
+    local f=$(ls -t "$GDRIVE_DIR"/${prefix}_*.csv "$GDRIVE_DIR"/${prefix,,}_*.csv 2>/dev/null | head -1)
+    if [ -n "$f" ]; then
+        echo "$f"
+        return
+    fi
+    # Fall back to Downloads
+    ls -t "$DOWNLOADS_DIR"/${prefix}_*.csv "$DOWNLOADS_DIR"/${prefix,,}_*.csv 2>/dev/null | head -1
+}
+
+NA_FILE=$(find_csv "NA")
+EU_FILE=$(find_csv "EU")
 
 if [ -z "$NA_FILE" ] || [ -z "$EU_FILE" ]; then
     echo ""
-    echo "⚠️  UTDP CSV files not found in ~/Downloads"
+    echo "⚠️  UTDP CSV files not found in Google Drive or ~/Downloads"
     echo ""
-    echo "   Please download from Centro via RoyalTSX:"
-    echo "   - NA_<date>.csv  (e.g. NA_24June2026.csv)"
-    echo "   - EU_<date>.csv  (e.g. EU_24June2026.csv)"
-    echo "   Then re-run this script."
+    echo "   Ask your teammate to drop files into the shared Google Drive folder:"
+    echo "   📁 MCE-ProM-Data/"
+    echo "   Files needed:"
+    echo "   - NA_<date>.csv  (e.g. NA_29June2026.csv)"
+    echo "   - EU_<date>.csv  (e.g. EU_29June2026.csv)"
     echo ""
     read -p "   Press Enter to continue WITHOUT new UTDP data, or Ctrl+C to cancel: "
 else
     NA_FILENAME=$(basename "$NA_FILE")
     EU_FILENAME=$(basename "$EU_FILE")
+    NA_SOURCE=$(echo "$NA_FILE" | grep -q "GoogleDrive" && echo "Google Drive" || echo "Downloads")
+    EU_SOURCE=$(echo "$EU_FILE" | grep -q "GoogleDrive" && echo "Google Drive" || echo "Downloads")
 
-    echo "   ✅ Found NA: $NA_FILENAME"
-    echo "   ✅ Found EU: $EU_FILENAME"
+    echo "   ✅ Found NA: $NA_FILENAME  (from $NA_SOURCE)"
+    echo "   ✅ Found EU: $EU_FILENAME  (from $EU_SOURCE)"
 
-    # Move to data folder (keep original filename)
     cp "$NA_FILE" "$DATA_DIR/$NA_FILENAME"
     cp "$EU_FILE" "$DATA_DIR/$EU_FILENAME"
-
-    echo "   📁 Copied to: $DATA_DIR/"
+    echo "   📁 Copied to data folder"
 fi
 
 # ------------------------------------------------------------------------------
