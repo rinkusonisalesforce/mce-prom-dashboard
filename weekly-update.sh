@@ -2,10 +2,7 @@
 # =============================================================================
 # MCE ProM Dashboard — Weekly Update Script
 # =============================================================================
-# Run this once per week after UTDP CSVs are dropped in the shared folder.
-#
-# UTDP CSV drop zone (Google Drive — share this folder with your teammate):
-#   ~/Library/CloudStorage/GoogleDrive-rinku.soni@salesforce.com/My Drive/MCE-ProM-Data/
+# Run this once per week (or let cron run it automatically every Friday).
 #
 # What this script does:
 #   1. Finds latest NA/EU CSVs from Google Drive shared folder (or ~/Downloads fallback)
@@ -17,14 +14,30 @@
 #
 # Usage:
 #   ./weekly-update.sh
+#
+# First-time setup on a new machine:
+#   cp local.env.template local.env
+#   edit local.env with your DATA_DIR and GDRIVE_EMAIL
 # =============================================================================
 
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-DATA_DIR="/Users/rinku.soni/prom-signature-extension/data"
+
+# ------------------------------------------------------------------------------
+# Load local.env for machine-specific paths (not committed to git)
+# ------------------------------------------------------------------------------
+if [ -f "$SCRIPT_DIR/local.env" ]; then
+    source "$SCRIPT_DIR/local.env"
+else
+    echo "⚠️  No local.env found. Copy local.env.template → local.env and configure it."
+    echo "   cd $SCRIPT_DIR && cp local.env.template local.env"
+    exit 1
+fi
+
+# Build Google Drive path from local.env values
 DOWNLOADS_DIR="$HOME/Downloads"
-GDRIVE_DIR="$HOME/Library/CloudStorage/GoogleDrive-rinku.soni@salesforce.com/My Drive/MCE-ProM-Data"
+GDRIVE_DIR="$HOME/Library/CloudStorage/GoogleDrive-${GDRIVE_EMAIL}/My Drive/${GDRIVE_FOLDER}"
 TODAY=$(date +%Y-%m-%d)
 
 echo "=============================================="

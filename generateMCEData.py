@@ -34,8 +34,18 @@ except ImportError:
     HAS_PANDAS = False
     print("Note: Install pandas for Excel support: pip3 install pandas openpyxl")
 
-# Configuration
-DATA_DIR = Path('/Users/rinku.soni/prom-signature-extension/data')
+# Configuration — reads DATA_DIR from local.env if present, else uses default
+def _load_data_dir():
+    import os
+    local_env = Path(__file__).parent / 'local.env'
+    if local_env.exists():
+        for line in local_env.read_text().splitlines():
+            line = line.strip()
+            if line.startswith('DATA_DIR='):
+                return Path(os.path.expanduser(line.split('=', 1)[1].strip()))
+    return Path(os.path.expanduser('~/prom-signature-extension/data'))
+
+DATA_DIR = _load_data_dir()
 CSV_DIR = DATA_DIR
 HISTORY_DIR = DATA_DIR / 'history'
 OUTPUT_FILE = Path(__file__).parent / 'src' / 'data' / 'mceRealData.js'
@@ -60,7 +70,7 @@ def find_latest_contracts():
     )
     if candidates:
         return candidates[0]
-    fallback = Path('/Users/rinku.soni/prom-signature-extension/sample/contracts.csv')
+    fallback = Path.home() / 'prom-signature-extension' / 'sample' / 'contracts.csv'
     return fallback if fallback.exists() else None
 
 CONTRACTS_FILE = find_latest_contracts()

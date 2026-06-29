@@ -37,7 +37,17 @@ from datetime import datetime
 ORG62_HOST     = 'org62.my.salesforce.com'
 ORG62_URL      = f'https://{ORG62_HOST}'
 SF_API_VERSION = '59.0'
-DATA_DIR       = Path('/Users/rinku.soni/prom-signature-extension/data')
+def _load_data_dir():
+    import os
+    local_env = Path(__file__).parent / 'local.env'
+    if local_env.exists():
+        for line in local_env.read_text().splitlines():
+            line = line.strip()
+            if line.startswith('DATA_DIR='):
+                return Path(os.path.expanduser(line.split('=', 1)[1].strip()))
+    return Path(os.path.expanduser('~/prom-signature-extension/data'))
+
+DATA_DIR = _load_data_dir()
 REPORT_ID      = '00Oed000009bXHZEA2'  # from your report URL
 
 CHROME_PROFILE = os.path.expanduser(
@@ -79,7 +89,7 @@ def get_chrome_encryption_key():
                 "macOS blocked Keychain access.\n\n"
                 "Fix: Run this script directly from Terminal.app (not from an IDE):\n"
                 "  1. Open Terminal.app\n"
-                "  2. cd /Users/rinku.soni/mce-prom-dashboard\n"
+                "  2. cd ~/mce-prom-dashboard\n"
                 "  3. python3 fetchOrg62.py\n"
                 "  4. Click 'Always Allow' on the Keychain popup"
             )

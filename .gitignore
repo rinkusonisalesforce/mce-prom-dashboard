@@ -29,6 +29,9 @@ data/*.xlsx
 data/*.xls
 !data/mceRealData.js
 
+# Local machine config (each user has their own — never commit)
+local.env
+
 # History snapshots — stay local only (written by weekly-update.sh)
 data/history/
 

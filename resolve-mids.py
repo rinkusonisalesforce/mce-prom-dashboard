@@ -26,7 +26,17 @@ import re
 import sys
 from pathlib import Path
 
-DATA_DIR   = Path('/Users/rinku.soni/prom-signature-extension/data')
+def _load_data_dir():
+    import os
+    local_env = Path(__file__).parent / 'local.env'
+    if local_env.exists():
+        for line in local_env.read_text().splitlines():
+            line = line.strip()
+            if line.startswith('DATA_DIR='):
+                return Path(os.path.expanduser(line.split('=', 1)[1].strip()))
+    return Path(os.path.expanduser('~/prom-signature-extension/data'))
+
+DATA_DIR = _load_data_dir()
 CACHE_FILE = Path(__file__).parent / 'mid_to_eid_cache.json'
 
 # -----------------------------------------------------------------------
