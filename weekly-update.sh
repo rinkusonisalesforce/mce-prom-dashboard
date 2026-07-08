@@ -18,6 +18,7 @@
 # First-time setup on a new machine:
 #   cp local.env.template local.env
 #   edit local.env with your DATA_DIR and GDRIVE_EMAIL
+#   python3 -m pip install --user -r requirements.txt
 # =============================================================================
 
 set -e
