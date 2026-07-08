@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import StatCard from './components/StatCard';
 import GrowthTrendChart from './components/GrowthTrendChart';
-import TopTenantsTable from './components/TopTenantsTable';
 import SignatureLeverageTable from './components/SignatureLeverageTable';
 import { useMCEData } from './hooks/useMCEData';
 
@@ -43,7 +42,6 @@ function App() {
   }
 
   const stats = data.stats || {};
-  const topTenants = data.topTenants || [];
   const growth = data.growth || [];
   const leverageAccounts = data.leverageAccounts || [];
 
@@ -72,19 +70,19 @@ function App() {
         {/* 7 Metric Cards - 3 cols + 3 cols + 1 col */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
           <StatCard
-            title="MCE Signature Accounts"
+            title="Signature Accounts"
             value={(stats.totalSignatureAccounts || 0).toLocaleString()}
             subtitle="Total signature contract accounts"
             icon="📋"
           />
           <StatCard
-            title="MCE ProM Leveraged Signature Account"
+            title="ProM Leveraged (Signature)"
             value={(stats.signatureWithProm || 0).toLocaleString()}
             subtitle="Signature accounts leveraging ProM"
             icon="✅"
           />
           <StatCard
-            title="MCE ProM Not Leveraged Signature Account"
+            title="ProM Not Leveraged"
             value={(stats.signatureNotLeveraged || 0).toLocaleString()}
             subtitle="Signature accounts without ProM"
             icon="⚠️"
@@ -93,19 +91,19 @@ function App() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
           <StatCard
-            title="ProM Enabled MCE Tenants"
+            title="ProM Enabled Tenants"
             value={(stats.promEnabledTenants || 0).toLocaleString()}
             subtitle="Active tenant IDs with monitoring"
             icon="🔍"
           />
           <StatCard
-            title="MCE ProM Leveraged Non Signature Account"
+            title="ProM Leveraged (Non-Sig)"
             value={(stats.nonSignatureWithProm || 0).toLocaleString()}
             subtitle="Non-signature accounts using ProM"
             icon="ℹ️"
           />
           <StatCard
-            title="Total Configured Alerts"
+            title="Configured Alerts"
             value={(stats.totalAlerts || 0).toLocaleString()}
             subtitle="Total monitors configured"
             icon="🔔"
@@ -118,11 +116,6 @@ function App() {
             <GrowthTrendChart data={growth} />
           </div>
         )}
-
-        {/* Top MCE Tenants Table */}
-        <div className="mb-8">
-          <TopTenantsTable tenants={topTenants} />
-        </div>
 
         {/* Signature Leverage by Account Table */}
         <div className="mb-8">

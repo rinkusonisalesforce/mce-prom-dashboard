@@ -534,6 +534,7 @@ def generate_growth_trend(contracts):
                 with open(snap_file) as f:
                     snap = json.load(f)
                 trend.append({
+                    'date': snap.get('date', ''),
                     'month': snap['label'],
                     'signatureAccounts': snap['signatureAccounts'],
                     'accountsLeveragingProm': snap['signatureWithProm']
@@ -554,7 +555,9 @@ def generate_growth_trend(contracts):
                 continue
             matched = match_data(monitoring, contracts)
             total_sig = len(matched['signatureLeveraged']) + len(matched['signatureNotLeveraged'])
+            sort_key = month_data.get('sort_key')
             trend.append({
+                'date': sort_key.strftime('%Y-%m-%d') if sort_key else '',
                 'month': month_data['label'],
                 'signatureAccounts': total_sig,
                 'accountsLeveragingProm': len(matched['signatureLeveraged'])

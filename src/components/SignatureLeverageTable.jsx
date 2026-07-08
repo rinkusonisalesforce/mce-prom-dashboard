@@ -1,5 +1,39 @@
 import { useState } from 'react';
 
+function toCsvValue(value) {
+  const str = value === null || value === undefined ? '' : String(value);
+  if (/[",\n]/.test(str)) {
+    return `"${str.replace(/"/g, '""')}"`;
+  }
+  return str;
+}
+
+function exportAccountsToCsv(accounts, filename) {
+  const headers = ['Account', 'Service Provider', 'Signature', 'EIDs (ProM)', 'Operational Status', 'Reason'];
+  const rows = accounts.map((account) => [
+    account.accountName || '',
+    account.serviceProvider || 'Marketing Cloud',
+    account.isSignature ? 'Yes' : 'No',
+    (account.eids || []).join('; '),
+    account.isLeveraged ? 'Leveraged' : 'Not leveraged',
+    account.reason || '',
+  ]);
+
+  const csvContent = [headers, ...rows]
+    .map((row) => row.map(toCsvValue).join(','))
+    .join('\n');
+
+  const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = filename;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  URL.revokeObjectURL(url);
+}
+
 function SignatureLeverageTable({ accounts }) {
   const [filter, setFilter] = useState('all');
   const [searchTerm, setSearchTerm] = useState('');
@@ -55,9 +89,23 @@ function SignatureLeverageTable({ accounts }) {
     setCurrentPage(1);
   };
 
+  const handleExport = () => {
+    const date = new Date().toISOString().slice(0, 10);
+    exportAccountsToCsv(filteredAccounts, `mce-signature-leverage-${filter}-${date}.csv`);
+  };
+
   return (
     <div className="bg-white rounded-lg shadow-md p-6">
-      <h2 className="text-xl font-semibold mb-4">Signature Leverage by Account</h2>
+      <div className="flex items-center justify-between mb-4 flex-wrap gap-2">
+        <h2 className="text-xl font-semibold">Signature Leverage by Account</h2>
+        <button
+          onClick={handleExport}
+          disabled={filteredAccounts.length === 0}
+          className="flex items-center gap-2 px-4 py-2 rounded-md font-medium text-sm bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+        >
+          ⬇ Export CSV
+        </button>
+      </div>
 
       {/* Search Bar */}
       <div className="mb-4">

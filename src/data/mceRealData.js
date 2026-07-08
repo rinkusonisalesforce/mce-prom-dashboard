@@ -1,5 +1,5 @@
 // MCE (Marketing Cloud Engagement) Proactive Monitoring Data
-// Auto-generated on 2026-06-29
+// Auto-generated on 2026-07-08
 // Source: UTDP Exports + Org62 Service Contracts
 
 // ============================================================================
@@ -8,10 +8,10 @@
 
 export const mceSummaryStats = {
   "totalSignatureAccounts": 790,
-  "signatureWithProm": 493,
+  "signatureWithProm": 495,
   "promEnabledTenants": 851,
-  "signatureNotLeveraged": 297,
-  "nonSignatureWithProm": 104,
+  "signatureNotLeveraged": 295,
+  "nonSignatureWithProm": 57,
   "totalAlerts": 2496
 };
 
@@ -39,6 +39,11 @@ export const mceMonthlyGrowth = [
     "month": "Jun 29, 2026",
     "signatureAccounts": 790,
     "accountsLeveragingProm": 493
+  },
+  {
+    "month": "Jul 8, 2026",
+    "signatureAccounts": 790,
+    "accountsLeveragingProm": 495
   }
 ];
 
@@ -2411,6 +2416,17 @@ export const mceLeverageAccounts = [
     "reason": null
   },
   {
+    "accountName": "Guitar Center, Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "546006634"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true,
+    "reason": null
+  },
+  {
     "accountName": "Hancock Whitney Bank - Main",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
@@ -2556,7 +2572,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [
       "10765352",
-      "524008125"
+      "524008125",
+      "518000136"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -3762,6 +3779,17 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [
       "100017800"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true,
+    "reason": null
+  },
+  {
+    "accountName": "PACCAR PARTS",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7204856"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -7135,15 +7163,6 @@ export const mceLeverageAccounts = [
     "reason": null
   },
   {
-    "accountName": "Guitar Center, Inc.",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": true,
-    "eids": [],
-    "isLeveraged": false,
-    "hasMonitoring": false,
-    "reason": null
-  },
-  {
     "accountName": "GULF COAST REGIONAL BLOOD CENTER",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
@@ -7694,15 +7713,6 @@ export const mceLeverageAccounts = [
   },
   {
     "accountName": "Oscar Management Corporation",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": true,
-    "eids": [],
-    "isLeveraged": false,
-    "hasMonitoring": false,
-    "reason": null
-  },
-  {
-    "accountName": "PACCAR PARTS",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [],
@@ -8580,17 +8590,6 @@ export const mceLeverageAccounts = [
     "reason": "Signature Contract Expired"
   },
   {
-    "accountName": "GuitarCenter",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M546007482"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 546007482 in SupportBot)"
-  },
-  {
     "accountName": "CGS_International",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
@@ -8655,17 +8654,6 @@ export const mceLeverageAccounts = [
     "isLeveraged": true,
     "hasMonitoring": true,
     "reason": "Signature Contract Expired"
-  },
-  {
-    "accountName": "T-Mobile",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M526001125"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 526001125 in SupportBot)"
   },
   {
     "accountName": "TVS",
@@ -8823,21 +8811,6 @@ export const mceLeverageAccounts = [
     "reason": "No Signature Contract"
   },
   {
-    "accountName": "Under_Armour",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M518004387",
-      "M518004388",
-      "M518000498",
-      "M518004389",
-      "M518006208"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 518004387 in SupportBot)"
-  },
-  {
     "accountName": "WeddingWire",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
@@ -8871,35 +8844,6 @@ export const mceLeverageAccounts = [
     "reason": "No Signature Contract"
   },
   {
-    "accountName": "AdidasAG",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M10964987",
-      "M10977585",
-      "M10977635",
-      "M10979435",
-      "M10979661",
-      "M10980052",
-      "M10980345",
-      "M10981232"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 10964987 in SupportBot)"
-  },
-  {
-    "accountName": "Affirm",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M110005626"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 110005626 in SupportBot)"
-  },
-  {
     "accountName": "Amsive",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
@@ -8909,73 +8853,6 @@ export const mceLeverageAccounts = [
     "isLeveraged": true,
     "hasMonitoring": true,
     "reason": "Signature Contract Expired"
-  },
-  {
-    "accountName": "BBW",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M7305077"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 7305077 in SupportBot)"
-  },
-  {
-    "accountName": "BBW_Canada",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M7316103"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 7316103 in SupportBot)"
-  },
-  {
-    "accountName": "BGRetail",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M518004732",
-      "M7221103",
-      "M7222883",
-      "M7222885",
-      "M7222886",
-      "M7222888",
-      "M7222891",
-      "M7222925",
-      "M7222927",
-      "M7222928",
-      "M7235144",
-      "M7276386"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 518004732 in SupportBot)"
-  },
-  {
-    "accountName": "BOA",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M522000110",
-      "M522000111"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 522000110 in SupportBot)"
-  },
-  {
-    "accountName": "Banco_Inter_SA",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M515008387"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 515008387 in SupportBot)"
   },
   {
     "accountName": "BestBuy",
@@ -8989,29 +8866,6 @@ export const mceLeverageAccounts = [
     "reason": "Signature Contract Expired"
   },
   {
-    "accountName": "BouyguesTelecom",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M7213695",
-      "M7226728"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 7213695 in SupportBot)"
-  },
-  {
-    "accountName": "CapitalOne",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M518004831"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 518004831 in SupportBot)"
-  },
-  {
     "accountName": "Consorcio_Ecuatoriano_de_Telecomunicaciones_S.A._CONECEL",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
@@ -9021,32 +8875,6 @@ export const mceLeverageAccounts = [
     "isLeveraged": true,
     "hasMonitoring": true,
     "reason": "No Signature Contract"
-  },
-  {
-    "accountName": "Cornerstone_Shared_Services",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M6236764",
-      "M6236766",
-      "M6236767",
-      "M6236768"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 6236764 in SupportBot)"
-  },
-  {
-    "accountName": "CrateBarrel",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M7200677",
-      "M7200679"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 7200677 in SupportBot)"
   },
   {
     "accountName": "Delta",
@@ -9061,64 +8889,6 @@ export const mceLeverageAccounts = [
     "reason": "No Signature Contract"
   },
   {
-    "accountName": "Deluxe_Corporation",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M514008804"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 514008804 in SupportBot)"
-  },
-  {
-    "accountName": "Fisher_Asset_Management_LLC",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M534003737",
-      "M534003738",
-      "M534015154"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 534003737 in SupportBot)"
-  },
-  {
-    "accountName": "Focus_Financial",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M534000111",
-      "M534000112"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 534000111 in SupportBot)"
-  },
-  {
-    "accountName": "Ford_Pro",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M534007369"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 534007369 in SupportBot)"
-  },
-  {
-    "accountName": "Ford_Retail",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M534006025"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 534006025 in SupportBot)"
-  },
-  {
     "accountName": "ForresterResearch",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
@@ -9128,43 +8898,6 @@ export const mceLeverageAccounts = [
     "isLeveraged": true,
     "hasMonitoring": true,
     "reason": "No Signature Contract"
-  },
-  {
-    "accountName": "Highmark_Inc",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M518000136",
-      "M524008125"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 518000136 in SupportBot)"
-  },
-  {
-    "accountName": "L'Oreal",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M7202503",
-      "M7205741",
-      "M7298601",
-      "M7299494"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 7202503 in SupportBot)"
-  },
-  {
-    "accountName": "LabCorp",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M100024080"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 100024080 in SupportBot)"
   },
   {
     "accountName": "Landry's_Restaurants_Inc.*",
@@ -9178,40 +8911,6 @@ export const mceLeverageAccounts = [
     "reason": "Signature Contract Expired"
   },
   {
-    "accountName": "Lululemon",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M514005125"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 514005125 in SupportBot)"
-  },
-  {
-    "accountName": "Molina_Healthcare",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M110005208",
-      "M110006877"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 110005208 in SupportBot)"
-  },
-  {
-    "accountName": "NBC_Sports_Group",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M7320840"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 7320840 in SupportBot)"
-  },
-  {
     "accountName": "NavyFederalCreditUnion",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
@@ -9221,46 +8920,6 @@ export const mceLeverageAccounts = [
     "isLeveraged": true,
     "hasMonitoring": true,
     "reason": "No Signature Contract"
-  },
-  {
-    "accountName": "PACCAR",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M518006336"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 518006336 in SupportBot)"
-  },
-  {
-    "accountName": "Pearson_Education_Inc",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M514021074",
-      "M514021075",
-      "M7229610",
-      "M7229612",
-      "M7309124",
-      "M7318031",
-      "M510007820"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 514021074 in SupportBot)"
-  },
-  {
-    "accountName": "PetSmart",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M514007931",
-      "M514007933"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 514007931 in SupportBot)"
   },
   {
     "accountName": "ProM_KohlsInc",
@@ -9274,45 +8933,6 @@ export const mceLeverageAccounts = [
     "reason": "No Signature Contract"
   },
   {
-    "accountName": "ProM_Urban",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M514011500",
-      "M514011501",
-      "M514011503",
-      "M514011505",
-      "M514011506",
-      "M514011507",
-      "M514011508"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 514011500 in SupportBot)"
-  },
-  {
-    "accountName": "ProgressiveCasualtyInsuranceCompany",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M7000841"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 7000841 in SupportBot)"
-  },
-  {
-    "accountName": "PruLife_Insurance",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M515014657"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 515014657 in SupportBot)"
-  },
-  {
     "accountName": "Resorts_World_Genting",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
@@ -9322,88 +8942,6 @@ export const mceLeverageAccounts = [
     "isLeveraged": true,
     "hasMonitoring": true,
     "reason": "Signature Contract Expired"
-  },
-  {
-    "accountName": "RoyalBankofCanada",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M100030569",
-      "M1072338",
-      "M1350425",
-      "M1424033",
-      "M515015196"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 100030569 in SupportBot)"
-  },
-  {
-    "accountName": "SSFCU",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M546001142"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 546001142 in SupportBot)"
-  },
-  {
-    "accountName": "Sysco_G&S_Hotelier",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M10984693"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 10984693 in SupportBot)"
-  },
-  {
-    "accountName": "Sysco_Gilchrist_&_Soames_B2C",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M10984682"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 10984682 in SupportBot)"
-  },
-  {
-    "accountName": "Sysco_Guest_Supply",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M10968458"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 10968458 in SupportBot)"
-  },
-  {
-    "accountName": "Sysco_Supplies_on_the_Fly",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M10982598"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 10982598 in SupportBot)"
-  },
-  {
-    "accountName": "Take-Two_Interactive",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M6193684",
-      "M6193685"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 6193684 in SupportBot)"
   },
   {
     "accountName": "Takeda Pharmaceuticals International AG",
@@ -9417,39 +8955,6 @@ export const mceLeverageAccounts = [
     "reason": "No Signature Contract"
   },
   {
-    "accountName": "Tapestry_Stuart_Weitzman_CA",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M515006050"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 515006050 in SupportBot)"
-  },
-  {
-    "accountName": "Tapestry_Stuart_Weitzman_US",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M100038955"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 100038955 in SupportBot)"
-  },
-  {
-    "accountName": "ThePapeGroup",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M546003445"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 546003445 in SupportBot)"
-  },
-  {
     "accountName": "TitanCompanyLtd",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
@@ -9461,46 +8966,6 @@ export const mceLeverageAccounts = [
     "reason": "No Signature Contract"
   },
   {
-    "accountName": "USOPC",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M534010059"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 534010059 in SupportBot)"
-  },
-  {
-    "accountName": "Urban",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M514011500",
-      "M514011501",
-      "M514011503",
-      "M514011506",
-      "M514011507",
-      "M514011508",
-      "M514011511"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 514011500 in SupportBot)"
-  },
-  {
-    "accountName": "WMU",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M534007259",
-      "M534007260"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 534007259 in SupportBot)"
-  },
-  {
     "accountName": "Walmart",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
@@ -9510,56 +8975,6 @@ export const mceLeverageAccounts = [
     "isLeveraged": true,
     "hasMonitoring": true,
     "reason": "No Signature Contract"
-  },
-  {
-    "accountName": "WarnerBros",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M520000808",
-      "M520000876",
-      "M520000935",
-      "M520001104",
-      "M520001302",
-      "M520001488",
-      "M520001650",
-      "M520001727",
-      "M520002124",
-      "M520002331",
-      "M520002846",
-      "M6379182",
-      "M6384859",
-      "M6386410",
-      "M6393252",
-      "M6396334",
-      "M6397400",
-      "M6406403",
-      "M6409444",
-      "M6412901",
-      "M6414992",
-      "M6415843",
-      "M6422070",
-      "M6422286",
-      "M6422333"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 520000808 in SupportBot)"
-  },
-  {
-    "accountName": "Zoetis",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M100015113",
-      "M100017849",
-      "M100017850",
-      "M100018123",
-      "M515009474"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 100015113 in SupportBot)"
   },
   {
     "accountName": "PeoplesPartnership",
@@ -9629,25 +9044,6 @@ export const mceLeverageAccounts = [
     "reason": "No Signature Contract"
   },
   {
-    "accountName": "ACCOR_SA",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M510007294",
-      "M510007396",
-      "M510007965",
-      "M510008011",
-      "M510008012",
-      "M510008016",
-      "M510008795",
-      "M510009325",
-      "M510009336"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 510007294 in SupportBot)"
-  },
-  {
     "accountName": "Avon Cosmetics Ltd",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
@@ -9678,7 +9074,7 @@ export const mceLeverageAccounts = [
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 510005499 in SupportBot)"
+    "reason": "No Signature Contract"
   },
   {
     "accountName": "COJO_Paris_2024",
@@ -9753,7 +9149,7 @@ export const mceLeverageAccounts = [
 // ============================================================================
 
 export const dataMetadata = {
-  "lastUpdated": "2026-06-29",
+  "lastUpdated": "2026-07-08",
   "dataSource": {
     "monitoring": "UTDP Exports (CSV files)",
     "contracts": "/Users/rinku.soni/prom-signature-extension/data/Contracts_29June2026.xlsx",
@@ -9763,6 +9159,6 @@ export const dataMetadata = {
   "stats": {
     "totalMonitoring": 851,
     "totalSignatureAccounts": 790,
-    "signatureWithProm": 493
+    "signatureWithProm": 495
   }
 };
