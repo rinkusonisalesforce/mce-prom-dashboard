@@ -439,6 +439,19 @@ def match_data(monitoring_data, contracts):
                     'eidsWithProm': []
                 })
 
+    # Total Signature Tenants: every MC/ExactTarget tenant ID (EID) that
+    # belongs to a Signature account with an active contract — with or
+    # without ProM monitoring. This is a tenant-level count, not an
+    # account-level count (an account can have multiple tenant IDs).
+    signature_tenant_ids = set()
+    for account in account_map.values():
+        if not account['hasActiveContract']:
+            continue
+        for tenant_id in account['tenantIds']:
+            normalized_id = normalize_contract_tenant_id(tenant_id)
+            if normalized_id:
+                signature_tenant_ids.add(normalized_id)
+
     # Find non-signature accounts with monitoring
     # ONLY exclude specific EIDs that have ACTIVE signature contracts
     active_signature_tenant_ids = set(
@@ -492,7 +505,8 @@ def match_data(monitoring_data, contracts):
     return {
         'signatureLeveraged': signature_leveraged,
         'signatureNotLeveraged': signature_not_leveraged,
-        'nonSignatureWithProm': non_signature_with_prom
+        'nonSignatureWithProm': non_signature_with_prom,
+        'totalSignatureTenants': len(signature_tenant_ids)
     }
 
 def generate_summary_stats(monitoring_data, matched):
@@ -509,10 +523,12 @@ def generate_summary_stats(monitoring_data, matched):
     signature_with_prom = len(matched['signatureLeveraged'])
     signature_not_leveraged = len(matched['signatureNotLeveraged'])
     non_signature_with_prom = len(matched['nonSignatureWithProm'])
+    total_signature_tenants = matched['totalSignatureTenants']
 
     return {
         'totalSignatureAccounts': total_signature_accounts,
         'signatureWithProm': signature_with_prom,
+        'totalSignatureTenants': total_signature_tenants,
         'promEnabledTenants': total_tenants,
         'signatureNotLeveraged': signature_not_leveraged,
         'nonSignatureWithProm': non_signature_with_prom,
@@ -763,6 +779,7 @@ def main():
     print('Summary:')
     print(f'  Signature Accounts:         {summary_stats["totalSignatureAccounts"]}')
     print(f'  Signature w/ ProM:          {summary_stats["signatureWithProm"]}')
+    print(f'  Total Signature Tenants:    {summary_stats["totalSignatureTenants"]}')
     print(f'  ProM Enabled Tenants:       {summary_stats["promEnabledTenants"]}')
     print(f'  Signature Not Leveraged:    {summary_stats["signatureNotLeveraged"]}')
     print(f'  Non-Signature w/ ProM:      {summary_stats["nonSignatureWithProm"]}')

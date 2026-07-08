@@ -9,6 +9,7 @@
 export const mceSummaryStats = {
   "totalSignatureAccounts": 791,
   "signatureWithProm": 496,
+  "totalSignatureTenants": 968,
   "promEnabledTenants": 858,
   "signatureNotLeveraged": 295,
   "nonSignatureWithProm": 62,
@@ -21,26 +22,31 @@ export const mceSummaryStats = {
 
 export const mceMonthlyGrowth = [
   {
+    "date": "2026-04-06",
     "month": "Apr 6, 2026",
     "signatureAccounts": 789,
     "accountsLeveragingProm": 457
   },
   {
+    "date": "2026-06-07",
     "month": "Jun 7, 2026",
     "signatureAccounts": 789,
     "accountsLeveragingProm": 481
   },
   {
+    "date": "2026-06-22",
     "month": "Jun 22, 2026",
     "signatureAccounts": 789,
     "accountsLeveragingProm": 491
   },
   {
+    "date": "2026-06-29",
     "month": "Jun 29, 2026",
     "signatureAccounts": 790,
     "accountsLeveragingProm": 493
   },
   {
+    "date": "2026-07-08",
     "month": "Jul 8, 2026",
     "signatureAccounts": 791,
     "accountsLeveragingProm": 496

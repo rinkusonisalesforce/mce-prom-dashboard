@@ -286,7 +286,56 @@ Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>"
     echo "   Pushing to git.soma..."
     git push soma main
 
-    echo "   ✅ Pushed to both repos — GitHub Actions will auto-deploy Pages"
+    echo "   ✅ Pushed to both repos — GitHub Actions will auto-deploy GitHub Pages"
+fi
+
+# ------------------------------------------------------------------------------
+# STEP 7: Deploy git.soma Pages
+# ------------------------------------------------------------------------------
+# git.soma has no CI/Actions equivalent, so unlike GitHub Pages (auto-deployed
+# by .github/workflows/deploy.yml) this repo's gh-pages branch on git.soma must
+# be built and pushed manually. We build dist/ locally and force-push its
+# contents to soma's gh-pages branch via a throwaway worktree (dist/ itself is
+# gitignored, so a plain `git subtree push` finds no new commits to push).
+echo ""
+echo "🌐 Step 7: Deploying to git.soma Pages..."
+
+# Make sure node/npm are on PATH even under cron's minimal environment
+export PATH="/opt/homebrew/bin:$PATH"
+
+cd "$SCRIPT_DIR"
+if ! command -v npm >/dev/null 2>&1; then
+    echo "   ⚠️  npm not found — skipping git.soma Pages deploy."
+else
+    echo "   🏗️  Building dashboard..."
+    if ! npm run build >/dev/null 2>&1; then
+        echo "   ❌ Build failed — skipping git.soma Pages deploy. Run 'npm run build' manually to see the error."
+    else
+        SOMA_WORKTREE=$(mktemp -d "${TMPDIR:-/tmp}/soma-gh-pages.XXXXXX")
+
+        git fetch soma gh-pages >/dev/null 2>&1
+        if git worktree add --detach "$SOMA_WORKTREE" soma/gh-pages >/dev/null 2>&1; then
+            (
+                cd "$SOMA_WORKTREE"
+                git rm -rf . >/dev/null 2>&1 || true
+                cp -r "$SCRIPT_DIR/dist/." "$SOMA_WORKTREE/"
+                git add -A
+                if git diff --staged --quiet; then
+                    echo "   ℹ️  git.soma Pages already up to date — nothing to deploy"
+                else
+                    git commit -q -m "Auto-deploy dashboard update $(cd "$SCRIPT_DIR" && git rev-parse main)"
+                    git push soma HEAD:gh-pages >/dev/null 2>&1 \
+                        && echo "   ✅ Deployed to git.soma Pages" \
+                        || echo "   ❌ Push to git.soma gh-pages failed — check SSH access to git.soma"
+                fi
+            )
+            cd "$SCRIPT_DIR"
+            git worktree remove "$SOMA_WORKTREE" --force >/dev/null 2>&1
+        else
+            echo "   ❌ Could not create worktree for git.soma gh-pages deploy"
+        fi
+        rm -rf "$SOMA_WORKTREE" 2>/dev/null || true
+    fi
 fi
 
 echo ""
