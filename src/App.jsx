@@ -67,8 +67,8 @@ function App() {
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
 
-        {/* 8 Metric Cards - 3 cols + 4 cols */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
+        {/* 8 Metric Cards - 4 cols + 4 cols */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
           <StatCard
             title="Signature Accounts"
             value={(stats.totalSignatureAccounts || 0).toLocaleString()}
@@ -76,43 +76,49 @@ function App() {
             icon="📋"
           />
           <StatCard
-            title="ProM Leveraged (Signature)"
+            title="ProM Leveraged Accounts"
             value={(stats.signatureWithProm || 0).toLocaleString()}
             subtitle="Signature accounts leveraging ProM"
             icon="✅"
           />
           <StatCard
-            title="ProM Not Leveraged"
+            title="ProM Not Leveraged Accounts"
             value={(stats.signatureNotLeveraged || 0).toLocaleString()}
             subtitle="Signature accounts without ProM"
             icon="⚠️"
+          />
+          <StatCard
+            title="Total Configured Alerts"
+            value={(stats.totalAlerts || 0).toLocaleString()}
+            subtitle="Total monitors configured"
+            icon="🔔"
           />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
           <StatCard
-            title="Total Signature Tenants"
+            title="Signature Tenants"
             value={(stats.totalSignatureTenants || 0).toLocaleString()}
-            subtitle="All MC/ExactTarget tenants of signature accounts (with or without monitoring)"
+            subtitle="Total MCE signature tenants"
             icon="🏢"
           />
           <StatCard
-            title="ProM Enabled Tenants"
-            value={(stats.promEnabledTenants || 0).toLocaleString()}
-            subtitle="Active tenant IDs with monitoring"
+            title="ProM Leveraged Tenants"
+            value={(stats.signatureTenantsLeveraged || 0).toLocaleString()}
+            subtitle="Signature tenants with ProM monitoring"
             icon="🔍"
           />
           <StatCard
-            title="ProM Leveraged (Non-Sig)"
+            title="ProM Not Leveraged Tenants"
+            value={(stats.signatureTenantsNotLeveraged || 0).toLocaleString()}
+            subtitle="Signature tenants without ProM monitoring"
+            icon="🚫"
+          />
+          <StatCard
+            title="Non-SIG ProM Leveraged"
             value={(stats.nonSignatureWithProm || 0).toLocaleString()}
             subtitle="Non-signature accounts using ProM"
             icon="ℹ️"
-          />
-          <StatCard
-            title="Configured Alerts"
-            value={(stats.totalAlerts || 0).toLocaleString()}
-            subtitle="Total monitors configured"
-            icon="🔔"
           />
         </div>
 

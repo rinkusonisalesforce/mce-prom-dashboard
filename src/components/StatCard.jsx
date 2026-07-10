@@ -8,7 +8,7 @@ export default function StatCard({ title, value, subtitle, icon }) {
           </div>
           <div className="ml-5 w-0 flex-1">
             <dl>
-              <dt className="text-sm font-medium text-gray-500 truncate uppercase tracking-wide">
+              <dt className="text-sm font-medium text-gray-500 uppercase tracking-wide leading-snug">
                 {title}
               </dt>
               <dd className="flex items-baseline">
