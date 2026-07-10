@@ -443,7 +443,13 @@ def match_data(monitoring_data, contracts):
     # belongs to a Signature account with an active contract — with or
     # without ProM monitoring. This is a tenant-level count, not an
     # account-level count (an account can have multiple tenant IDs).
+    #
+    # Of those, split into tenants that DO have ProM monitoring
+    # (signature_tenants_leveraged) vs tenants that DON'T
+    # (signature_tenants_not_leveraged) — a tenant-level view that mirrors
+    # the account-level leveraged/not-leveraged split above.
     signature_tenant_ids = set()
+    signature_tenant_ids_leveraged = set()
     for account in account_map.values():
         if not account['hasActiveContract']:
             continue
@@ -451,6 +457,10 @@ def match_data(monitoring_data, contracts):
             normalized_id = normalize_contract_tenant_id(tenant_id)
             if normalized_id:
                 signature_tenant_ids.add(normalized_id)
+                if normalized_id in monitoring_by_eid:
+                    signature_tenant_ids_leveraged.add(normalized_id)
+
+    signature_tenant_ids_not_leveraged = signature_tenant_ids - signature_tenant_ids_leveraged
 
     # Find non-signature accounts with monitoring
     # ONLY exclude specific EIDs that have ACTIVE signature contracts
@@ -506,7 +516,9 @@ def match_data(monitoring_data, contracts):
         'signatureLeveraged': signature_leveraged,
         'signatureNotLeveraged': signature_not_leveraged,
         'nonSignatureWithProm': non_signature_with_prom,
-        'totalSignatureTenants': len(signature_tenant_ids)
+        'totalSignatureTenants': len(signature_tenant_ids),
+        'signatureTenantsLeveraged': len(signature_tenant_ids_leveraged),
+        'signatureTenantsNotLeveraged': len(signature_tenant_ids_not_leveraged)
     }
 
 def generate_summary_stats(monitoring_data, matched):
@@ -524,6 +536,8 @@ def generate_summary_stats(monitoring_data, matched):
     signature_not_leveraged = len(matched['signatureNotLeveraged'])
     non_signature_with_prom = len(matched['nonSignatureWithProm'])
     total_signature_tenants = matched['totalSignatureTenants']
+    signature_tenants_leveraged = matched['signatureTenantsLeveraged']
+    signature_tenants_not_leveraged = matched['signatureTenantsNotLeveraged']
 
     return {
         'totalSignatureAccounts': total_signature_accounts,
@@ -533,6 +547,8 @@ def generate_summary_stats(monitoring_data, matched):
         'signatureNotLeveraged': signature_not_leveraged,
         'nonSignatureWithProm': non_signature_with_prom,
         'totalAlerts': total_alerts,
+        'signatureTenantsLeveraged': signature_tenants_leveraged,
+        'signatureTenantsNotLeveraged': signature_tenants_not_leveraged,
     }
 
 def generate_growth_trend(contracts):
@@ -784,6 +800,8 @@ def main():
     print(f'  Signature Not Leveraged:    {summary_stats["signatureNotLeveraged"]}')
     print(f'  Non-Signature w/ ProM:      {summary_stats["nonSignatureWithProm"]}')
     print(f'  Total Alerts:               {summary_stats["totalAlerts"]}')
+    print(f'  SIG Tenants Leveraged:      {summary_stats["signatureTenantsLeveraged"]}')
+    print(f'  SIG Tenants Not Leveraged:  {summary_stats["signatureTenantsNotLeveraged"]}')
     print()
     print(f'📄 Output file: {OUTPUT_FILE}')
     print()
