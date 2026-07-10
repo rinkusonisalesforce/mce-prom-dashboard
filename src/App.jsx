@@ -88,10 +88,10 @@ function App() {
             icon="⚠️"
           />
           <StatCard
-            title="Total Configured Alerts"
-            value={(stats.totalAlerts || 0).toLocaleString()}
-            subtitle="Total monitors configured"
-            icon="🔔"
+            title="Non-SIG ProM Leveraged"
+            value={(stats.nonSignatureWithProm || 0).toLocaleString()}
+            subtitle="Non-signature accounts using ProM"
+            icon="ℹ️"
           />
         </div>
 
@@ -115,10 +115,10 @@ function App() {
             icon="🚫"
           />
           <StatCard
-            title="Non-SIG ProM Leveraged"
-            value={(stats.nonSignatureWithProm || 0).toLocaleString()}
-            subtitle="Non-signature accounts using ProM"
-            icon="ℹ️"
+            title="Total Configured Alerts"
+            value={(stats.totalAlerts || 0).toLocaleString()}
+            subtitle="Total monitors configured"
+            icon="🔔"
           />
         </div>
 
