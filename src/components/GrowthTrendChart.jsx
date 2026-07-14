@@ -18,14 +18,38 @@ function parseDate(point) {
   return isNaN(d.getTime()) ? null : d;
 }
 
-function getWeekKey(d) {
-  // ISO-ish week key: year + week number (Monday-start weeks)
+const MONTH_ABBR = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+// Week runs Sunday -> Saturday (not ISO Monday-start).
+function getWeekStart(d) {
   const date = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
-  const dayNum = (date.getUTCDay() + 6) % 7; // 0 = Monday
-  date.setUTCDate(date.getUTCDate() - dayNum + 3);
-  const firstThursday = new Date(Date.UTC(date.getUTCFullYear(), 0, 4));
-  const week = 1 + Math.round(((date - firstThursday) / 86400000 - 3 + ((firstThursday.getUTCDay() + 6) % 7)) / 7);
-  return `${date.getUTCFullYear()}-W${String(week).padStart(2, '0')}`;
+  const dayNum = date.getUTCDay(); // 0 = Sunday
+  date.setUTCDate(date.getUTCDate() - dayNum);
+  return date;
+}
+
+function getWeekKey(d) {
+  // Sortable, unique per Sun-Sat week: the week's starting (Sunday) date.
+  return getWeekStart(d).toISOString().slice(0, 10);
+}
+
+function getWeekLabel(d) {
+  const start = getWeekStart(d);
+  const end = new Date(start);
+  end.setUTCDate(end.getUTCDate() + 6);
+  return `${start.getUTCDate()} ${MONTH_ABBR[start.getUTCMonth()]} to ${end.getUTCDate()} ${MONTH_ABBR[end.getUTCMonth()]}`;
+}
+
+// Fiscal quarter: Q1 = Feb-Apr, Q2 = May-Jul, Q3 = Aug-Oct, Q4 = Nov-Jan.
+// Jan belongs to the Q4 of the fiscal year that started the previous Nov,
+// so its fiscal year is (calendar year - 1).
+function getFiscalQuarter(d) {
+  const month = d.getMonth(); // 0 = Jan .. 11 = Dec
+  const year = d.getFullYear();
+  const shifted = (month + 11) % 12; // Feb -> 0, Mar -> 1, ..., Jan -> 11
+  const quarter = Math.floor(shifted / 3) + 1;
+  const fiscalYear = month === 0 ? year - 1 : year;
+  return { quarter, fiscalYear };
 }
 
 function getBucketKey(d, range) {
@@ -33,8 +57,10 @@ function getBucketKey(d, range) {
   switch (range) {
     case 'weekly':
       return getWeekKey(d);
-    case 'quarterly':
-      return `${year}-Q${Math.floor(d.getMonth() / 3) + 1}`;
+    case 'quarterly': {
+      const { quarter, fiscalYear } = getFiscalQuarter(d);
+      return `FY${fiscalYear}-Q${quarter}`;
+    }
     case 'yearly':
       return `${year}`;
     case 'monthly':
@@ -47,9 +73,11 @@ function getBucketLabel(d, range) {
   const year = d.getFullYear();
   switch (range) {
     case 'weekly':
-      return `Wk ${getWeekKey(d).split('-W')[1]} '${String(year).slice(-2)}`;
-    case 'quarterly':
-      return `Q${Math.floor(d.getMonth() / 3) + 1} ${year}`;
+      return getWeekLabel(d);
+    case 'quarterly': {
+      const { quarter, fiscalYear } = getFiscalQuarter(d);
+      return `Q${quarter} FY${fiscalYear}`;
+    }
     case 'yearly':
       return `${year}`;
     case 'monthly':
