@@ -12,7 +12,7 @@ export const mceSummaryStats = {
   "totalSignatureTenants": 991,
   "promEnabledTenants": 871,
   "signatureNotLeveraged": 309,
-  "nonSignatureWithProm": 67,
+  "nonSignatureWithProm": 66,
   "totalAlerts": 2571,
   "signatureTenantsLeveraged": 554,
   "signatureTenantsNotLeveraged": 437
@@ -64,7 +64,7 @@ export const mceMonthlyGrowth = [
     "accountsLeveragingProm": 503
   },
   {
-    "month": "Aug 3, 2026",
+    "month": "Jul 31, 2026",
     "signatureAccounts": 814,
     "accountsLeveragingProm": 505
   }
@@ -9225,17 +9225,6 @@ export const mceLeverageAccounts = [
     "isLeveraged": true,
     "hasMonitoring": true,
     "reason": "Signature Contract Expired"
-  },
-  {
-    "accountName": "Cadena_Comercial_Oxxo",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M534007792"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 534007792 in SupportBot)"
   },
   {
     "accountName": "Delta",
