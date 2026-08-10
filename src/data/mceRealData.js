@@ -69,7 +69,7 @@ export const mceMonthlyGrowth = [
     "accountsLeveragingProm": 505
   },
   {
-    "month": "Aug 10, 2026",
+    "month": "Aug 7, 2026",
     "signatureAccounts": 816,
     "accountsLeveragingProm": 509
   }
