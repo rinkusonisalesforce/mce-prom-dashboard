@@ -12,7 +12,7 @@ export const mceSummaryStats = {
   "totalSignatureTenants": 1003,
   "promEnabledTenants": 878,
   "signatureNotLeveraged": 311,
-  "nonSignatureWithProm": 67,
+  "nonSignatureWithProm": 66,
   "totalAlerts": 2582,
   "signatureTenantsLeveraged": 562,
   "signatureTenantsNotLeveraged": 441
@@ -9332,18 +9332,6 @@ export const mceLeverageAccounts = [
     "isLeveraged": true,
     "hasMonitoring": true,
     "reason": "No Signature Contract"
-  },
-  {
-    "accountName": "Alaska_Airlines",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M546015120",
-      "M546015121"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 546015120 in SupportBot)"
   },
   {
     "accountName": "BestBuy",
