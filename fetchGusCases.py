@@ -33,6 +33,10 @@ from datetime import datetime
 GUS_HOST       = os.environ.get('GUS_HOST', 'gus.my.salesforce.com')
 GUS_URL        = f'https://{GUS_HOST}'
 SF_API_VERSION = '59.0'
+# GUS Case table is huge, so a bare Subject LIKE scan times out. Give the
+# request room and bound the query with an indexable CreatedDate window.
+HTTP_TIMEOUT   = int(os.environ.get('GUS_TIMEOUT', '180'))
+LOOKBACK_DAYS  = int(os.environ.get('GUS_LOOKBACK_DAYS', '730'))
 
 CHROME_PROFILE = os.path.expanduser(
     '~/Library/Application Support/Google/Chrome/Default'
@@ -159,7 +163,7 @@ def get_session_id(host):
 def sf_get(session_id, endpoint, params=None):
     url = f"{GUS_URL}/services/data/v{SF_API_VERSION}/{endpoint}"
     headers = {'Authorization': f'Bearer {session_id}', 'Content-Type': 'application/json'}
-    resp = requests.get(url, headers=headers, params=params, timeout=30)
+    resp = requests.get(url, headers=headers, params=params, timeout=HTTP_TIMEOUT)
     if resp.status_code == 401:
         raise RuntimeError(
             f"GUS session expired (401 Unauthorized).\n"
@@ -215,12 +219,17 @@ def fetch_prom_cases(session_id):
     downstream logic can decide, per job name, whether the *most recent*
     case is a deletion.
     """
-    print(f"   Querying GUS for Cases with '{SUBJECT_MATCH}' in subject...")
+    print(f"   Querying GUS for Cases with '{SUBJECT_MATCH}' in subject "
+          f"(last {LOOKBACK_DAYS} days, timeout {HTTP_TIMEOUT}s)...")
+    # CreatedDate = LAST_N_DAYS:<n> is indexable, so the optimizer starts from
+    # a bounded set instead of scanning every Case. Widen with GUS_LOOKBACK_DAYS
+    # if older deletions need to be captured.
     soql = (
         "SELECT Id, CaseNumber, Subject, Description, Status, "
         "CreatedDate, ClosedDate "
         "FROM Case "
         f"WHERE Subject LIKE '%{SUBJECT_MATCH}%' "
+        f"AND CreatedDate = LAST_N_DAYS:{LOOKBACK_DAYS} "
         "ORDER BY CreatedDate ASC"
     )
     records = []
