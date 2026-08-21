@@ -193,6 +193,84 @@ def normalize_contract_tenant_id(tenant_id):
 
     return s.lstrip('0') or '0'
 
+# -----------------------------------------------------------------------
+# GUS delete-case exclusion (Non-SIG ProM Leveraged accuracy)
+#
+# The Splunk/UTDP export sometimes still reports monitoring jobs for
+# accounts that have already been offboarded/deleted (e.g. Geico).  Every
+# account deletion logs a GUS Case whose Subject contains
+# "MCE ProM Monitoring Jobs" + "delete" and whose Description lists the
+# deleted job names.  Job names embed the account EID/MID, e.g.
+#   ProM_MC_SNHU_E7314446_Deliverability
+#
+# Rule (per user): for a given EID, if the number of UNIQUE job names that
+# are currently deleted (most-recent case for that job = a deletion) is
+# >= the account's enabled monitor count, treat the account as fully
+# offboarded and exclude it from Non-SIG ProM Leveraged.
+# -----------------------------------------------------------------------
+import re as _re
+
+_JOB_NAME_RE = _re.compile(r'[A-Za-z0-9]+(?:_[A-Za-z0-9]+)+')
+_EID_IN_JOB_RE = _re.compile(r'[EeMm]\d{5,}')
+
+
+def find_latest_prom_cases():
+    candidates = sorted(
+        DATA_DIR.glob('GusProMCases_*.json'),
+        key=lambda p: p.stat().st_mtime,
+        reverse=True
+    )
+    return candidates[0] if candidates else None
+
+
+def _extract_jobs(description):
+    """Return list of (job_name, normalized_eid) found in a case description."""
+    if not description:
+        return []
+    out = []
+    for token in _JOB_NAME_RE.findall(description):
+        m = _EID_IN_JOB_RE.search(token)
+        if not m:
+            continue
+        eid = normalize_eid(m.group(0))
+        if eid and not eid.startswith('mid:'):
+            out.append((token, eid))
+    return out
+
+
+def load_deleted_jobs_by_eid():
+    """Parse the latest GusProMCases file into {eid: set(deleted_job_names)}.
+
+    For each unique job name, we find its MOST RECENT case by CreatedDate.
+    If that most-recent case is a deletion, the job is considered deleted.
+    (CreatedDate ISO-8601 strings sort lexicographically.)
+    """
+    cases_file = find_latest_prom_cases()
+    if not cases_file:
+        return {}, None
+    try:
+        cases = json.loads(Path(cases_file).read_text())
+    except Exception as e:
+        print(f'   ⚠️  Could not read GUS cases file {cases_file}: {e}')
+        return {}, cases_file
+
+    job_latest = {}  # job_name -> (created_date_str, is_delete, eid)
+    for c in cases:
+        subject = c.get('Subject') or ''
+        is_delete = 'delet' in subject.lower()
+        created = c.get('CreatedDate') or ''
+        for job_name, eid in _extract_jobs(c.get('Description') or ''):
+            prev = job_latest.get(job_name)
+            if prev is None or created >= prev[0]:
+                job_latest[job_name] = (created, is_delete, eid)
+
+    deleted_by_eid = defaultdict(set)
+    for job_name, (created, is_delete, eid) in job_latest.items():
+        if is_delete:
+            deleted_by_eid[eid].add(job_name)
+    return deleted_by_eid, cases_file
+
+
 def is_signature_contract(contract_name):
     """Check if contract name matches Signature patterns"""
     if not contract_name:
@@ -483,6 +561,30 @@ def match_data(monitoring_data, contracts):
         m for m in monitoring_data
         if m['normalizedEid'] not in active_signature_tenant_ids
     ]
+
+    # --- Exclude offboarded accounts using GUS delete-cases ------------
+    # For each non-sig EID: if the number of unique DELETED job names
+    # (most-recent case = delete) is >= the enabled monitor count, the
+    # account has been fully offboarded — drop it from Non-SIG ProM
+    # Leveraged. This ONLY affects the non-signature set.
+    deleted_by_eid, cases_file = load_deleted_jobs_by_eid()
+    if cases_file:
+        excluded = []
+        kept = []
+        for m in non_sig_monitoring:
+            deleted_count = len(deleted_by_eid.get(m['normalizedEid'], ()))
+            enabled_count = m['monitors']
+            if enabled_count > 0 and deleted_count >= enabled_count:
+                excluded.append((m['customerName'], m['tenantId'],
+                                 enabled_count, deleted_count))
+            else:
+                kept.append(m)
+        non_sig_monitoring = kept
+        print(f'   🗑️  GUS delete-case exclusion ({cases_file.name}): '
+              f'{len(excluded)} offboarded EID(s) removed from Non-SIG ProM Leveraged')
+        for name, tid, en, de in excluded:
+            print(f'        - {name} ({tid}): enabled={en}, deleted jobs={de}')
+    # -------------------------------------------------------------------
 
     # Group by account name to get unique ACCOUNTS (not EIDs)
     non_sig_accounts = {}
