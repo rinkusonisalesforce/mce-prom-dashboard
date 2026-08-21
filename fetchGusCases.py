@@ -34,9 +34,12 @@ GUS_HOST       = os.environ.get('GUS_HOST', 'gus.my.salesforce.com')
 GUS_URL        = f'https://{GUS_HOST}'
 SF_API_VERSION = '59.0'
 # GUS Case table is huge, so a bare Subject LIKE scan times out. Give the
-# request room and bound the query with an indexable CreatedDate window.
+# request room and bound the query with an indexable CreatedDate literal.
+# GUS uses Salesforce's own fiscal calendar (Feb–Jan), which matches our
+# fiscal year, so THIS_FISCAL_YEAR is the right default. Override with e.g.
+# GUS_DATE_FILTER='LAST_N_DAYS:1095' to widen to older deletions.
 HTTP_TIMEOUT   = int(os.environ.get('GUS_TIMEOUT', '180'))
-LOOKBACK_DAYS  = int(os.environ.get('GUS_LOOKBACK_DAYS', '730'))
+DATE_FILTER    = os.environ.get('GUS_DATE_FILTER', 'THIS_FISCAL_YEAR')
 
 CHROME_PROFILE = os.path.expanduser(
     '~/Library/Application Support/Google/Chrome/Default'
@@ -220,16 +223,16 @@ def fetch_prom_cases(session_id):
     case is a deletion.
     """
     print(f"   Querying GUS for Cases with '{SUBJECT_MATCH}' in subject "
-          f"(last {LOOKBACK_DAYS} days, timeout {HTTP_TIMEOUT}s)...")
-    # CreatedDate = LAST_N_DAYS:<n> is indexable, so the optimizer starts from
-    # a bounded set instead of scanning every Case. Widen with GUS_LOOKBACK_DAYS
-    # if older deletions need to be captured.
+          f"(CreatedDate = {DATE_FILTER}, timeout {HTTP_TIMEOUT}s)...")
+    # CreatedDate = <literal> is indexable, so the optimizer starts from a
+    # bounded set instead of scanning every Case. THIS_FISCAL_YEAR uses GUS's
+    # Salesforce fiscal calendar (Feb–Jan). Override with GUS_DATE_FILTER.
     soql = (
         "SELECT Id, CaseNumber, Subject, Description, Status, "
         "CreatedDate, ClosedDate "
         "FROM Case "
         f"WHERE Subject LIKE '%{SUBJECT_MATCH}%' "
-        f"AND CreatedDate = LAST_N_DAYS:{LOOKBACK_DAYS} "
+        f"AND CreatedDate = {DATE_FILTER} "
         "ORDER BY CreatedDate ASC"
     )
     records = []
