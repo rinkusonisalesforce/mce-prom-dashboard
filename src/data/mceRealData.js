@@ -13,7 +13,7 @@ export const mceSummaryStats = {
   "promEnabledTenants": 842,
   "signatureNotLeveraged": 306,
   "nonSignatureWithProm": 44,
-  "totalAlerts": 2547,
+  "totalAlerts": 2552,
   "signatureTenantsLeveraged": 563,
   "signatureTenantsNotLeveraged": 437
 };
