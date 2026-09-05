@@ -8,6 +8,25 @@ const RANGE_OPTIONS = [
   { value: 'yearly', label: 'Yearly' },
 ];
 
+const VIEW_OPTIONS = [
+  { value: 'accounts', label: 'Accounts' },
+  { value: 'tenants', label: 'Tenants' },
+];
+
+// Which data keys / labels each view renders.
+const VIEW_SERIES = {
+  accounts: {
+    total: { key: 'signatureAccounts', name: 'Signature Accounts' },
+    leveraged: { key: 'accountsLeveragingProm', name: 'Accounts Leveraging ProM' },
+    notLeveraged: { key: 'accountsNotLeveraged', name: 'ProM Not Leveraged Accounts' },
+  },
+  tenants: {
+    total: { key: 'signatureTenants', name: 'Signature Tenants' },
+    leveraged: { key: 'tenantsLeveragingProm', name: 'Tenants Leveraging ProM' },
+    notLeveraged: { key: 'tenantsNotLeveraged', name: 'ProM Not Leveraged Tenants' },
+  },
+};
+
 function parseDate(point) {
   if (point.date) {
     const d = new Date(point.date);
@@ -110,6 +129,10 @@ function aggregate(data, range) {
       date,
       signatureAccounts: point.signatureAccounts,
       accountsLeveragingProm: point.accountsLeveragingProm,
+      accountsNotLeveraged: point.accountsNotLeveraged,
+      signatureTenants: point.signatureTenants,
+      tenantsLeveragingProm: point.tenantsLeveragingProm,
+      tenantsNotLeveraged: point.tenantsNotLeveraged,
     });
   }
 
@@ -119,20 +142,41 @@ function aggregate(data, range) {
       month: b.label,
       signatureAccounts: b.signatureAccounts,
       accountsLeveragingProm: b.accountsLeveragingProm,
+      accountsNotLeveraged: b.accountsNotLeveraged,
+      signatureTenants: b.signatureTenants,
+      tenantsLeveragingProm: b.tenantsLeveragingProm,
+      tenantsNotLeveraged: b.tenantsNotLeveraged,
     }));
 }
 
 function GrowthTrendChart({ data }) {
   const [range, setRange] = useState('monthly');
+  const [view, setView] = useState('accounts');
 
   const chartData = useMemo(() => aggregate(data, range), [data, range]);
+  const series = VIEW_SERIES[view];
 
   return (
     <div className="bg-white rounded-lg shadow-md p-6">
       <div className="flex items-center justify-between mb-4 flex-wrap gap-2">
-        <h2 className="text-xl font-semibold">MCE Tenant Growth Trend</h2>
+        <h2 className="text-xl font-semibold">MCE Growth Trend</h2>
         <div className="flex items-center gap-2">
-          <label htmlFor="trend-range" className="text-sm text-gray-500">
+          <label htmlFor="trend-view" className="text-sm text-gray-500">
+            Show
+          </label>
+          <select
+            id="trend-view"
+            value={view}
+            onChange={(e) => setView(e.target.value)}
+            className="text-sm border border-gray-300 rounded-md px-3 py-1.5 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+          >
+            {VIEW_OPTIONS.map((opt) => (
+              <option key={opt.value} value={opt.value}>
+                {opt.label}
+              </option>
+            ))}
+          </select>
+          <label htmlFor="trend-range" className="text-sm text-gray-500 ml-2">
             View by
           </label>
           <select
@@ -158,16 +202,23 @@ function GrowthTrendChart({ data }) {
           <Legend />
           <Line
             type="monotone"
-            dataKey="signatureAccounts"
+            dataKey={series.total.key}
             stroke="#4A90E2"
-            name="Signature Accounts"
+            name={series.total.name}
             strokeWidth={2}
           />
           <Line
             type="monotone"
-            dataKey="accountsLeveragingProm"
+            dataKey={series.leveraged.key}
             stroke="#7CB342"
-            name="Accounts Leveraging ProM"
+            name={series.leveraged.name}
+            strokeWidth={2}
+          />
+          <Line
+            type="monotone"
+            dataKey={series.notLeveraged.key}
+            stroke="#E24A4A"
+            name={series.notLeveraged.name}
             strokeWidth={2}
           />
         </LineChart>

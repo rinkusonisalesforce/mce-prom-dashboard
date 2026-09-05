@@ -667,11 +667,18 @@ def generate_growth_trend(contracts):
             try:
                 with open(snap_file) as f:
                     snap = json.load(f)
+                sig_tenants = snap.get('signatureTenants', 0)
+                tenants_prom = snap.get('tenantsLeveragingProm', 0)
                 trend.append({
                     'date': snap.get('date', ''),
                     'month': snap['label'],
                     'signatureAccounts': snap['signatureAccounts'],
-                    'accountsLeveragingProm': snap['signatureWithProm']
+                    'accountsLeveragingProm': snap['signatureWithProm'],
+                    'accountsNotLeveraged': snap.get('signatureNotLeveraged',
+                        snap['signatureAccounts'] - snap['signatureWithProm']),
+                    'signatureTenants': sig_tenants,
+                    'tenantsLeveragingProm': tenants_prom,
+                    'tenantsNotLeveraged': max(sig_tenants - tenants_prom, 0)
                 })
             except Exception:
                 pass

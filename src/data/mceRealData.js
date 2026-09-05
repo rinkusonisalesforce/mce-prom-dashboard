@@ -26,72 +26,128 @@ export const mceMonthlyGrowth = [
   {
     "month": "Apr 6, 2026",
     "signatureAccounts": 789,
-    "accountsLeveragingProm": 457
+    "accountsLeveragingProm": 457,
+    "accountsNotLeveraged": 332,
+    "signatureTenants": 968,
+    "tenantsLeveragingProm": 508,
+    "tenantsNotLeveraged": 460
   },
   {
     "month": "Jun 7, 2026",
     "signatureAccounts": 789,
-    "accountsLeveragingProm": 481
+    "accountsLeveragingProm": 481,
+    "accountsNotLeveraged": 308,
+    "signatureTenants": 968,
+    "tenantsLeveragingProm": 532,
+    "tenantsNotLeveraged": 436
   },
   {
     "month": "Jun 22, 2026",
     "signatureAccounts": 789,
-    "accountsLeveragingProm": 491
+    "accountsLeveragingProm": 491,
+    "accountsNotLeveraged": 298,
+    "signatureTenants": 969,
+    "tenantsLeveragingProm": 541,
+    "tenantsNotLeveraged": 428
   },
   {
     "month": "Jun 29, 2026",
     "signatureAccounts": 790,
-    "accountsLeveragingProm": 493
+    "accountsLeveragingProm": 493,
+    "accountsNotLeveraged": 297,
+    "signatureTenants": 969,
+    "tenantsLeveragingProm": 545,
+    "tenantsNotLeveraged": 424
   },
   {
     "month": "Jul 8, 2026",
     "signatureAccounts": 791,
-    "accountsLeveragingProm": 496
+    "accountsLeveragingProm": 496,
+    "accountsNotLeveraged": 295,
+    "signatureTenants": 968,
+    "tenantsLeveragingProm": 546,
+    "tenantsNotLeveraged": 422
   },
   {
     "month": "Jul 10, 2026",
     "signatureAccounts": 794,
-    "accountsLeveragingProm": 497
+    "accountsLeveragingProm": 497,
+    "accountsNotLeveraged": 297,
+    "signatureTenants": 971,
+    "tenantsLeveragingProm": 547,
+    "tenantsNotLeveraged": 424
   },
   {
     "month": "Jul 20, 2026",
     "signatureAccounts": 797,
-    "accountsLeveragingProm": 501
+    "accountsLeveragingProm": 501,
+    "accountsNotLeveraged": 296,
+    "signatureTenants": 975,
+    "tenantsLeveragingProm": 551,
+    "tenantsNotLeveraged": 424
   },
   {
     "month": "Jul 24, 2026",
     "signatureAccounts": 800,
-    "accountsLeveragingProm": 503
+    "accountsLeveragingProm": 503,
+    "accountsNotLeveraged": 297,
+    "signatureTenants": 977,
+    "tenantsLeveragingProm": 553,
+    "tenantsNotLeveraged": 424
   },
   {
     "month": "Jul 31, 2026",
     "signatureAccounts": 814,
-    "accountsLeveragingProm": 505
+    "accountsLeveragingProm": 505,
+    "accountsNotLeveraged": 309,
+    "signatureTenants": 991,
+    "tenantsLeveragingProm": 554,
+    "tenantsNotLeveraged": 437
   },
   {
     "month": "Aug 7, 2026",
     "signatureAccounts": 816,
-    "accountsLeveragingProm": 509
+    "accountsLeveragingProm": 509,
+    "accountsNotLeveraged": 307,
+    "signatureTenants": 993,
+    "tenantsLeveragingProm": 558,
+    "tenantsNotLeveraged": 435
   },
   {
     "month": "Aug 14, 2026",
     "signatureAccounts": 825,
-    "accountsLeveragingProm": 514
+    "accountsLeveragingProm": 514,
+    "accountsNotLeveraged": 311,
+    "signatureTenants": 1003,
+    "tenantsLeveragingProm": 562,
+    "tenantsNotLeveraged": 441
   },
   {
     "month": "Aug 21, 2026",
     "signatureAccounts": 821,
-    "accountsLeveragingProm": 510
+    "accountsLeveragingProm": 510,
+    "accountsNotLeveraged": 311,
+    "signatureTenants": 999,
+    "tenantsLeveragingProm": 557,
+    "tenantsNotLeveraged": 442
   },
   {
     "month": "Aug 28, 2026",
     "signatureAccounts": 823,
-    "accountsLeveragingProm": 517
+    "accountsLeveragingProm": 517,
+    "accountsNotLeveraged": 306,
+    "signatureTenants": 1000,
+    "tenantsLeveragingProm": 563,
+    "tenantsNotLeveraged": 437
   },
   {
     "month": "Sep 4, 2026",
     "signatureAccounts": 831,
-    "accountsLeveragingProm": 521
+    "accountsLeveragingProm": 521,
+    "accountsNotLeveraged": 310,
+    "signatureTenants": 1007,
+    "tenantsLeveragingProm": 566,
+    "tenantsNotLeveraged": 441
   }
 ];
 

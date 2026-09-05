@@ -200,7 +200,9 @@ snapshot = {
     "signatureNotLeveraged": extract("signatureNotLeveraged"),
     "promEnabledTenants": extract("promEnabledTenants"),
     "nonSignatureWithProm": extract("nonSignatureWithProm"),
-    "totalAlerts": extract("totalAlerts")
+    "totalAlerts": extract("totalAlerts"),
+    "signatureTenants": extract("totalSignatureTenants"),
+    "tenantsLeveragingProm": extract("signatureTenantsLeveraged")
 }
 
 snapshot_file = os.path.join(history_dir, f"{today}.json")
@@ -248,7 +250,11 @@ print(f"   Found {len(snapshots)} historical snapshots")
 growth_js = json.dumps([{
     "month": s["label"],
     "signatureAccounts": s["signatureAccounts"],
-    "accountsLeveragingProm": s["signatureWithProm"]
+    "accountsLeveragingProm": s["signatureWithProm"],
+    "accountsNotLeveraged": s.get("signatureNotLeveraged", s["signatureAccounts"] - s["signatureWithProm"]),
+    "signatureTenants": s.get("signatureTenants", 0),
+    "tenantsLeveragingProm": s.get("tenantsLeveragingProm", 0),
+    "tenantsNotLeveraged": max(s.get("signatureTenants", 0) - s.get("tenantsLeveragingProm", 0), 0)
 } for s in snapshots], indent=2)
 
 # Replace the mceMonthlyGrowth array in the JS file
