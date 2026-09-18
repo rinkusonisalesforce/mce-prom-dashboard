@@ -139,18 +139,10 @@ if echo "$MID_CHECK" | grep -q "Needs lookup:.*[1-9]"; then
 fi
 
 # ------------------------------------------------------------------------------
-# STEP 2c: Fetch GUS "MCE ProM Monitoring Jobs" delete-cases (Chrome session)
-#   Used to exclude offboarded accounts (stale Splunk jobs) from the
-#   Non-SIG ProM Leveraged count.  NON-FATAL: a GUS session issue must not
-#   block the dashboard update — generateMCEData falls back to the last
-#   cases file, or skips exclusion entirely if none exists.
+# STEP 2c: (REMOVED Sep 2026) GUS delete-case fetch is no longer needed —
+#   UTDP files are now shared directly, so offboarded/deleted jobs no longer
+#   appear in the export and there is nothing stale to exclude.
 # ------------------------------------------------------------------------------
-echo ""
-echo "🗂️  Step 2c: Fetching GUS delete-cases (using Chrome session)..."
-
-cd "$SCRIPT_DIR"
-python3 fetchGusCases.py \
-    || echo "   ⚠️  GUS case fetch failed — continuing without a fresh delete-case list (will reuse the most recent GusProMCases file if one exists)."
 
 # ------------------------------------------------------------------------------
 # STEP 3: Regenerate dashboard data

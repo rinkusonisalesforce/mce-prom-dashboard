@@ -1,5 +1,5 @@
 // MCE (Marketing Cloud Engagement) Proactive Monitoring Data
-// Auto-generated on 2026-09-14
+// Auto-generated on 2026-09-18
 // Source: UTDP Exports + Org62 Service Contracts
 
 // ============================================================================
@@ -7,14 +7,14 @@
 // ============================================================================
 
 export const mceSummaryStats = {
-  "totalSignatureAccounts": 837,
-  "signatureWithProm": 526,
-  "totalSignatureTenants": 1012,
-  "promEnabledTenants": 851,
-  "signatureNotLeveraged": 311,
+  "totalSignatureAccounts": 838,
+  "signatureWithProm": 528,
+  "totalSignatureTenants": 1015,
+  "promEnabledTenants": 855,
+  "signatureNotLeveraged": 310,
   "nonSignatureWithProm": 46,
-  "totalAlerts": 2575,
-  "signatureTenantsLeveraged": 570,
+  "totalAlerts": 2582,
+  "signatureTenantsLeveraged": 573,
   "signatureTenantsNotLeveraged": 442
 };
 
@@ -156,6 +156,15 @@ export const mceMonthlyGrowth = [
     "accountsNotLeveraged": 311,
     "signatureTenants": 1012,
     "tenantsLeveragingProm": 570,
+    "tenantsNotLeveraged": 442
+  },
+  {
+    "month": "Sep 18, 2026",
+    "signatureAccounts": 838,
+    "accountsLeveragingProm": 528,
+    "accountsNotLeveraged": 310,
+    "signatureTenants": 1015,
+    "tenantsLeveragingProm": 573,
     "tenantsNotLeveraged": 442
   }
 ];
@@ -333,9 +342,9 @@ export const mceLeverageAccounts = [
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [
+      "1051632",
       "518000436",
-      "7295445",
-      "1051632"
+      "7295445"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -369,8 +378,8 @@ export const mceLeverageAccounts = [
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [
-      "500008867",
-      "7281696"
+      "7281696",
+      "500008867"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -471,10 +480,10 @@ export const mceLeverageAccounts = [
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [
+      "100010605",
       "534005284",
-      "100010605",
-      "100010605",
-      "534005284"
+      "534005284",
+      "100010605"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -1098,8 +1107,8 @@ export const mceLeverageAccounts = [
     "eids": [
       "100010776",
       "510003825",
-      "510003825",
-      "100010776"
+      "100010776",
+      "510003825"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -1238,11 +1247,11 @@ export const mceLeverageAccounts = [
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [
+      "10965271",
       "97338",
       "7210119",
       "97338",
-      "7210119",
-      "10965271"
+      "7210119"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -1276,6 +1285,18 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [
       "546000887"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true,
+    "reason": null
+  },
+  {
+    "accountName": "Bombardier Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "7230591",
+      "7230591"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -1566,7 +1587,7 @@ export const mceLeverageAccounts = [
     "reason": null
   },
   {
-    "accountName": "Cardinal Health, Inc.",
+    "accountName": "Cardinal Health, Inc.*",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [
@@ -2037,9 +2058,9 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [
       "515011075",
+      "515011075",
       "100029263",
-      "100029263",
-      "515011075"
+      "100029263"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -2171,17 +2192,6 @@ export const mceLeverageAccounts = [
     "reason": null
   },
   {
-    "accountName": "Edgepark Medical Supplies (RGH Enterprises)",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": true,
-    "eids": [
-      "10410312"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": null
-  },
-  {
     "accountName": "El Corte Ingl\u00e9s SA",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
@@ -2216,6 +2226,18 @@ export const mceLeverageAccounts = [
     "reason": null
   },
   {
+    "accountName": "Elevance Health - Enterprise Communications",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "524002855",
+      "524002855"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true,
+    "reason": null
+  },
+  {
     "accountName": "Embrace Pet Insurance Agency, LLC",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
@@ -2231,8 +2253,8 @@ export const mceLeverageAccounts = [
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [
-      "7295600",
-      "510000484"
+      "510000484",
+      "7295600"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -2266,10 +2288,10 @@ export const mceLeverageAccounts = [
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [
-      "526001067",
-      "526001067",
       "526000870",
-      "526000870"
+      "526000870",
+      "526001067",
+      "526001067"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -2834,9 +2856,9 @@ export const mceLeverageAccounts = [
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [
-      "524008125",
+      "10765352",
       "518000136",
-      "10765352"
+      "524008125"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -3165,8 +3187,8 @@ export const mceLeverageAccounts = [
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [
-      "536002503",
-      "7290789"
+      "7290789",
+      "536002503"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -3381,16 +3403,16 @@ export const mceLeverageAccounts = [
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [
-      "7220265",
-      "10520839",
-      "1063224",
-      "10520839",
-      "1313665",
-      "1063224",
-      "1313665",
-      "7220265",
       "7294910",
-      "7294910"
+      "7220265",
+      "7220265",
+      "1313665",
+      "10520839",
+      "1063224",
+      "10520839",
+      "7294910",
+      "1313665",
+      "1063224"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -3469,10 +3491,10 @@ export const mceLeverageAccounts = [
     "eids": [
       "7285438",
       "7225755",
-      "7288722",
-      "7285438",
       "7225755",
-      "510003127"
+      "510003127",
+      "7285438",
+      "7288722"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -3552,9 +3574,9 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [
       "515016390",
-      "515016390",
       "10785911",
-      "515014180"
+      "515014180",
+      "515016390"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -3766,8 +3788,8 @@ export const mceLeverageAccounts = [
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [
-      "7226039",
       "7232216",
+      "7226039",
       "7232216"
     ],
     "isLeveraged": true,
@@ -3779,8 +3801,8 @@ export const mceLeverageAccounts = [
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [
-      "7325424",
-      "1085014"
+      "1085014",
+      "7325424"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -3871,8 +3893,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [
       "7236234",
-      "7236234",
-      "510002839"
+      "510002839",
+      "7236234"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -4153,12 +4175,12 @@ export const mceLeverageAccounts = [
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [
-      "514013485",
-      "514013485",
-      "110006164",
-      "110006164",
       "7209172",
-      "7209172"
+      "110006164",
+      "514013485",
+      "7209172",
+      "110006164",
+      "514013485"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -4215,10 +4237,10 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [
       "100019596",
-      "546002027",
-      "510001704",
       "100019596",
-      "100019596"
+      "546002027",
+      "100019596",
+      "510001704"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -4284,18 +4306,18 @@ export const mceLeverageAccounts = [
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [
-      "100014861",
+      "100019531",
       "100024142",
-      "100019531",
-      "510000729",
-      "510000729",
-      "100019531",
       "510006456",
-      "100024142",
       "7297301",
+      "100019531",
       "100014861",
+      "510000729",
+      "100024142",
+      "510000729",
       "510006456",
-      "7297301"
+      "7297301",
+      "100014861"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -4319,6 +4341,17 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [
       "10958449"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true,
+    "reason": null
+  },
+  {
+    "accountName": "PPC S.A. - \u0394\u0395\u0397",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536000827"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -4623,8 +4656,8 @@ export const mceLeverageAccounts = [
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [
-      "515010912",
-      "100008070"
+      "100008070",
+      "515010912"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -4635,8 +4668,8 @@ export const mceLeverageAccounts = [
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [
-      "100015922",
-      "6235230"
+      "6235230",
+      "100015922"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -4669,9 +4702,9 @@ export const mceLeverageAccounts = [
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [
-      "1065704",
+      "1080352",
       "100026341",
-      "1080352"
+      "1065704"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -5062,9 +5095,9 @@ export const mceLeverageAccounts = [
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [
-      "534001074",
       "6151033",
-      "6151033"
+      "6151033",
+      "534001074"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -5425,8 +5458,8 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [
       "6426366",
-      "6426366",
       "7000682",
+      "6426366",
       "7000682"
     ],
     "isLeveraged": true,
@@ -5598,8 +5631,8 @@ export const mceLeverageAccounts = [
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [
-      "7231532",
-      "518004860"
+      "518004860",
+      "7231532"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -5809,10 +5842,10 @@ export const mceLeverageAccounts = [
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [
-      "10848680",
       "7003799",
+      "524002965",
       "10848680",
-      "524002965"
+      "10848680"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -6820,15 +6853,6 @@ export const mceLeverageAccounts = [
     "reason": null
   },
   {
-    "accountName": "Bombardier Inc.",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": true,
-    "eids": [],
-    "isLeveraged": false,
-    "hasMonitoring": false,
-    "reason": null
-  },
-  {
     "accountName": "Boots UK Limited",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
@@ -7226,15 +7250,6 @@ export const mceLeverageAccounts = [
   },
   {
     "accountName": "Electricit\u00e9 de France SA",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": true,
-    "eids": [],
-    "isLeveraged": false,
-    "hasMonitoring": false,
-    "reason": null
-  },
-  {
-    "accountName": "Elevance Health - Enterprise Communications",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [],
@@ -7981,6 +7996,15 @@ export const mceLeverageAccounts = [
     "reason": null
   },
   {
+    "accountName": "JCOM Co., Ltd.[HQ]",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false,
+    "reason": null
+  },
+  {
     "accountName": "Johnson Controls, Inc.",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
@@ -8072,6 +8096,15 @@ export const mceLeverageAccounts = [
   },
   {
     "accountName": "Lennox International Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false,
+    "reason": null
+  },
+  {
+    "accountName": "Livelo S.A.",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [],
@@ -8378,15 +8411,6 @@ export const mceLeverageAccounts = [
   },
   {
     "accountName": "PORTO SEGURO COMPANHIA DE SEGUROS GERAIS",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": true,
-    "eids": [],
-    "isLeveraged": false,
-    "hasMonitoring": false,
-    "reason": null
-  },
-  {
-    "accountName": "PPC S.A. - \u0394\u0395\u0397",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [],
@@ -9203,17 +9227,6 @@ export const mceLeverageAccounts = [
     "reason": "Signature Contract Cancelled"
   },
   {
-    "accountName": "FARMACITY_S.A",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E534005506"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "Signature Contract Expired"
-  },
-  {
     "accountName": "KwikTrip",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
@@ -9402,6 +9415,17 @@ export const mceLeverageAccounts = [
     "reason": "Signature Contract Expired"
   },
   {
+    "accountName": "Bombardier_Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": false,
+    "eids": [
+      "E7301031"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true,
+    "reason": "No Signature Contract"
+  },
+  {
     "accountName": "ConnectFirstandServusCredit Union",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
@@ -9417,8 +9441,8 @@ export const mceLeverageAccounts = [
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
     "eids": [
-      "E6419278",
-      "E524003253"
+      "E524003253",
+      "E6419278"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -9630,16 +9654,16 @@ export const mceLeverageAccounts = [
 // ============================================================================
 
 export const dataMetadata = {
-  "lastUpdated": "2026-09-14",
+  "lastUpdated": "2026-09-18",
   "dataSource": {
     "monitoring": "UTDP Exports (CSV files)",
-    "contracts": "/Users/rinku.soni/prom-signature-extension/data/Contracts_14September2026.xlsx",
+    "contracts": "/Users/rinku.soni/prom-signature-extension/data/Contracts_18September2026.xlsx",
     "matchingLogic": "Tenant ID (EID) cross-reference"
   },
   "generationScript": "generateMCEData.py",
   "stats": {
-    "totalMonitoring": 851,
-    "totalSignatureAccounts": 837,
-    "signatureWithProm": 526
+    "totalMonitoring": 855,
+    "totalSignatureAccounts": 838,
+    "signatureWithProm": 528
   }
 };

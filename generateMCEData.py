@@ -567,7 +567,10 @@ def match_data(monitoring_data, contracts):
     # (most-recent case = delete) is >= the enabled monitor count, the
     # account has been fully offboarded — drop it from Non-SIG ProM
     # Leveraged. This ONLY affects the non-signature set.
-    deleted_by_eid, cases_file = load_deleted_jobs_by_eid()
+    # GUS delete-case exclusion DISABLED (Sep 2026): UTDP files are now shared
+    # directly, so offboarded/deleted jobs no longer appear in the export —
+    # there is nothing stale to exclude. (Logic kept below but never runs.)
+    deleted_by_eid, cases_file = {}, None
     if cases_file:
         excluded = []
         kept = []
