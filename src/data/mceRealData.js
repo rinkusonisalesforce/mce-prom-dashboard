@@ -12,7 +12,7 @@ export const mceSummaryStats = {
   "totalSignatureTenants": 1023,
   "promEnabledTenants": 858,
   "signatureNotLeveraged": 322,
-  "nonSignatureWithProm": 52,
+  "nonSignatureWithProm": 51,
   "totalAlerts": 2590,
   "signatureTenantsLeveraged": 571,
   "signatureTenantsNotLeveraged": 452
@@ -9533,18 +9533,6 @@ export const mceLeverageAccounts = [
     "isLeveraged": true,
     "hasMonitoring": true,
     "reason": "Signature Contract Expired"
-  },
-  {
-    "accountName": "Raley's",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M524007107",
-      "M524007108"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 524007107 in SupportBot)"
   },
   {
     "accountName": "UNIONBANK OF THE PHILIPPINES",
