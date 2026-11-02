@@ -12,7 +12,7 @@ export const mceSummaryStats = {
   "totalSignatureTenants": 1033,
   "promEnabledTenants": 878,
   "signatureNotLeveraged": 317,
-  "nonSignatureWithProm": 51,
+  "nonSignatureWithProm": 50,
   "totalAlerts": 2639,
   "signatureTenantsLeveraged": 584,
   "signatureTenantsNotLeveraged": 449
@@ -9438,17 +9438,6 @@ export const mceLeverageAccounts = [
     "isLeveraged": true,
     "hasMonitoring": true,
     "reason": "Signature Contract Expired"
-  },
-  {
-    "accountName": "Nintendo",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M7226027"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 7226027 in SupportBot)"
   },
   {
     "accountName": "Gocompare.com",
