@@ -12,7 +12,7 @@ export const mceSummaryStats = {
   "totalSignatureTenants": 1033,
   "promEnabledTenants": 883,
   "signatureNotLeveraged": 314,
-  "nonSignatureWithProm": 49,
+  "nonSignatureWithProm": 48,
   "totalAlerts": 2650,
   "signatureTenantsLeveraged": 587,
   "signatureTenantsNotLeveraged": 446
@@ -9941,17 +9941,6 @@ export const mceLeverageAccounts = [
     "isLeveraged": true,
     "hasMonitoring": true,
     "reason": "Signature Contract Expired"
-  },
-  {
-    "accountName": "VURVillageHotels",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M536008407"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 536008407 in SupportBot)"
   }
 ];
 
