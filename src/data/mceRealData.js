@@ -1,5 +1,5 @@
 // MCE (Marketing Cloud Engagement) Proactive Monitoring Data
-// Auto-generated on 2026-10-30
+// Auto-generated on 2026-11-06
 // Source: UTDP Exports + Org62 Service Contracts
 
 // ============================================================================
@@ -8,14 +8,14 @@
 
 export const mceSummaryStats = {
   "totalSignatureAccounts": 858,
-  "signatureWithProm": 541,
+  "signatureWithProm": 544,
   "totalSignatureTenants": 1033,
-  "promEnabledTenants": 878,
-  "signatureNotLeveraged": 317,
-  "nonSignatureWithProm": 50,
-  "totalAlerts": 2639,
-  "signatureTenantsLeveraged": 584,
-  "signatureTenantsNotLeveraged": 449
+  "promEnabledTenants": 883,
+  "signatureNotLeveraged": 314,
+  "nonSignatureWithProm": 49,
+  "totalAlerts": 2650,
+  "signatureTenantsLeveraged": 587,
+  "signatureTenantsNotLeveraged": 446
 };
 
 // ============================================================================
@@ -220,6 +220,15 @@ export const mceMonthlyGrowth = [
     "signatureTenants": 1033,
     "tenantsLeveragingProm": 584,
     "tenantsNotLeveraged": 449
+  },
+  {
+    "month": "Nov 6, 2026",
+    "signatureAccounts": 858,
+    "accountsLeveragingProm": 544,
+    "accountsNotLeveraged": 314,
+    "signatureTenants": 1033,
+    "tenantsLeveragingProm": 587,
+    "tenantsNotLeveraged": 446
   }
 ];
 
@@ -3224,6 +3233,17 @@ export const mceLeverageAccounts = [
     "reason": null
   },
   {
+    "accountName": "Iren Ambiente",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "510001509"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true,
+    "reason": null
+  },
+  {
     "accountName": "Iren Mercato",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
@@ -4317,17 +4337,6 @@ export const mceLeverageAccounts = [
     "reason": null
   },
   {
-    "accountName": "Penn Medicine",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": true,
-    "eids": [
-      "100024741"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": null
-  },
-  {
     "accountName": "Penn State World Campus & Graduate School",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
@@ -4772,6 +4781,17 @@ export const mceLeverageAccounts = [
     "eids": [
       "7201658",
       "7201658"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true,
+    "reason": null
+  },
+  {
+    "accountName": "Retail Finance International Holdings,Inc.",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "100019518"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -5742,6 +5762,17 @@ export const mceLeverageAccounts = [
     "reason": null
   },
   {
+    "accountName": "The University of Texas M. D. Anderson Cancer Center",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "534005477"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true,
+    "reason": null
+  },
+  {
     "accountName": "The Vanguard Group, Inc.",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
@@ -6254,6 +6285,18 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [
       "7213559"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true,
+    "reason": null
+  },
+  {
+    "accountName": "VUR Village Trading No.1 Limited",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [
+      "536008000",
+      "536008000"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -8217,15 +8260,6 @@ export const mceLeverageAccounts = [
     "reason": null
   },
   {
-    "accountName": "Iren Ambiente",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": true,
-    "eids": [],
-    "isLeveraged": false,
-    "hasMonitoring": false,
-    "reason": null
-  },
-  {
     "accountName": "Isabel Marant",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
@@ -8658,6 +8692,15 @@ export const mceLeverageAccounts = [
     "reason": null
   },
   {
+    "accountName": "Penn Medicine",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false,
+    "reason": null
+  },
+  {
     "accountName": "Pet Supplies Plus",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
@@ -8767,15 +8810,6 @@ export const mceLeverageAccounts = [
   },
   {
     "accountName": "Randstad Marketing Cloud new",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": true,
-    "eids": [],
-    "isLeveraged": false,
-    "hasMonitoring": false,
-    "reason": null
-  },
-  {
-    "accountName": "Retail Finance International Holdings,Inc.",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [],
@@ -9171,15 +9205,6 @@ export const mceLeverageAccounts = [
     "reason": null
   },
   {
-    "accountName": "The University of Texas M. D. Anderson Cancer Center",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": true,
-    "eids": [],
-    "isLeveraged": false,
-    "hasMonitoring": false,
-    "reason": null
-  },
-  {
     "accountName": "Tinker Federal Credit Union (Marketing/Mulesoft)",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
@@ -9298,15 +9323,6 @@ export const mceLeverageAccounts = [
   },
   {
     "accountName": "Vocus Group Limited",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": true,
-    "eids": [],
-    "isLeveraged": false,
-    "hasMonitoring": false,
-    "reason": null
-  },
-  {
-    "accountName": "VUR Village Trading No.1 Limited",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
     "eids": [],
@@ -9434,17 +9450,6 @@ export const mceLeverageAccounts = [
     "isSignature": false,
     "eids": [
       "E6186287"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "Signature Contract Expired"
-  },
-  {
-    "accountName": "Gocompare.com",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7269357"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -9750,17 +9755,6 @@ export const mceLeverageAccounts = [
     "reason": "No Signature Contract"
   },
   {
-    "accountName": "Gocompare",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "E7269357"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "Signature Contract Expired"
-  },
-  {
     "accountName": "Highmark",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
@@ -9947,6 +9941,17 @@ export const mceLeverageAccounts = [
     "isLeveraged": true,
     "hasMonitoring": true,
     "reason": "Signature Contract Expired"
+  },
+  {
+    "accountName": "VURVillageHotels",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": false,
+    "eids": [
+      "M536008407"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true,
+    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 536008407 in SupportBot)"
   }
 ];
 
@@ -9955,7 +9960,7 @@ export const mceLeverageAccounts = [
 // ============================================================================
 
 export const dataMetadata = {
-  "lastUpdated": "2026-10-30",
+  "lastUpdated": "2026-11-06",
   "dataSource": {
     "monitoring": "UTDP Exports (CSV files)",
     "contracts": "/Users/rinku.soni/prom-signature-extension/data/Contracts_23October2026.xlsx",
@@ -9963,8 +9968,8 @@ export const dataMetadata = {
   },
   "generationScript": "generateMCEData.py",
   "stats": {
-    "totalMonitoring": 878,
+    "totalMonitoring": 883,
     "totalSignatureAccounts": 858,
-    "signatureWithProm": 541
+    "signatureWithProm": 544
   }
 };

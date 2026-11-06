@@ -1,17 +1,7 @@
 name: Deploy MCE ProM Dashboard
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'src/**'
-      - 'public/**'
-      - 'index.html'
-      - 'vite.config.js'
-      - 'package.json'
-
-  # Allow manual trigger from GitHub Actions tab
+  # Auto-deploy on push disabled — run manually from Actions tab only
   workflow_dispatch:
 
 jobs:
