@@ -12,7 +12,7 @@ export const mceSummaryStats = {
   "totalSignatureTenants": 1033,
   "promEnabledTenants": 894,
   "signatureNotLeveraged": 315,
-  "nonSignatureWithProm": 49,
+  "nonSignatureWithProm": 48,
   "totalAlerts": 2664,
   "signatureTenantsLeveraged": 586,
   "signatureTenantsNotLeveraged": 447
@@ -9772,18 +9772,6 @@ export const mceLeverageAccounts = [
     "isLeveraged": true,
     "hasMonitoring": true,
     "reason": "No Signature Contract"
-  },
-  {
-    "accountName": "Experiencias_Xcaret_Parques_SAPI_de_CV",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": false,
-    "eids": [
-      "M7329010",
-      "M7329008"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 7329010 in SupportBot)"
   },
   {
     "accountName": "ForresterResearch",
