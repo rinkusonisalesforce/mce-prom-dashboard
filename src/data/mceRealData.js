@@ -1,5 +1,5 @@
 // MCE (Marketing Cloud Engagement) Proactive Monitoring Data
-// Auto-generated on 2026-11-06
+// Auto-generated on 2026-11-13
 // Source: UTDP Exports + Org62 Service Contracts
 
 // ============================================================================
@@ -8,14 +8,14 @@
 
 export const mceSummaryStats = {
   "totalSignatureAccounts": 858,
-  "signatureWithProm": 544,
+  "signatureWithProm": 543,
   "totalSignatureTenants": 1033,
-  "promEnabledTenants": 883,
-  "signatureNotLeveraged": 314,
-  "nonSignatureWithProm": 48,
-  "totalAlerts": 2650,
-  "signatureTenantsLeveraged": 587,
-  "signatureTenantsNotLeveraged": 446
+  "promEnabledTenants": 894,
+  "signatureNotLeveraged": 315,
+  "nonSignatureWithProm": 49,
+  "totalAlerts": 2664,
+  "signatureTenantsLeveraged": 586,
+  "signatureTenantsNotLeveraged": 447
 };
 
 // ============================================================================
@@ -24,6 +24,7 @@ export const mceSummaryStats = {
 
 export const mceMonthlyGrowth = [
   {
+    "date": "2026-04-06",
     "month": "Apr 6, 2026",
     "signatureAccounts": 789,
     "accountsLeveragingProm": 457,
@@ -33,6 +34,7 @@ export const mceMonthlyGrowth = [
     "tenantsNotLeveraged": 460
   },
   {
+    "date": "2026-06-07",
     "month": "Jun 7, 2026",
     "signatureAccounts": 789,
     "accountsLeveragingProm": 481,
@@ -42,6 +44,7 @@ export const mceMonthlyGrowth = [
     "tenantsNotLeveraged": 436
   },
   {
+    "date": "2026-06-22",
     "month": "Jun 22, 2026",
     "signatureAccounts": 789,
     "accountsLeveragingProm": 491,
@@ -51,6 +54,7 @@ export const mceMonthlyGrowth = [
     "tenantsNotLeveraged": 428
   },
   {
+    "date": "2026-06-29",
     "month": "Jun 29, 2026",
     "signatureAccounts": 790,
     "accountsLeveragingProm": 493,
@@ -60,6 +64,7 @@ export const mceMonthlyGrowth = [
     "tenantsNotLeveraged": 424
   },
   {
+    "date": "2026-07-08",
     "month": "Jul 8, 2026",
     "signatureAccounts": 791,
     "accountsLeveragingProm": 496,
@@ -69,6 +74,7 @@ export const mceMonthlyGrowth = [
     "tenantsNotLeveraged": 422
   },
   {
+    "date": "2026-07-10",
     "month": "Jul 10, 2026",
     "signatureAccounts": 794,
     "accountsLeveragingProm": 497,
@@ -78,6 +84,7 @@ export const mceMonthlyGrowth = [
     "tenantsNotLeveraged": 424
   },
   {
+    "date": "2026-07-20",
     "month": "Jul 20, 2026",
     "signatureAccounts": 797,
     "accountsLeveragingProm": 501,
@@ -87,6 +94,7 @@ export const mceMonthlyGrowth = [
     "tenantsNotLeveraged": 424
   },
   {
+    "date": "2026-07-24",
     "month": "Jul 24, 2026",
     "signatureAccounts": 800,
     "accountsLeveragingProm": 503,
@@ -96,6 +104,7 @@ export const mceMonthlyGrowth = [
     "tenantsNotLeveraged": 424
   },
   {
+    "date": "2026-07-31",
     "month": "Jul 31, 2026",
     "signatureAccounts": 814,
     "accountsLeveragingProm": 505,
@@ -105,6 +114,7 @@ export const mceMonthlyGrowth = [
     "tenantsNotLeveraged": 437
   },
   {
+    "date": "2026-08-07",
     "month": "Aug 7, 2026",
     "signatureAccounts": 816,
     "accountsLeveragingProm": 509,
@@ -114,6 +124,7 @@ export const mceMonthlyGrowth = [
     "tenantsNotLeveraged": 435
   },
   {
+    "date": "2026-08-14",
     "month": "Aug 14, 2026",
     "signatureAccounts": 825,
     "accountsLeveragingProm": 514,
@@ -123,6 +134,7 @@ export const mceMonthlyGrowth = [
     "tenantsNotLeveraged": 441
   },
   {
+    "date": "2026-08-21",
     "month": "Aug 21, 2026",
     "signatureAccounts": 821,
     "accountsLeveragingProm": 510,
@@ -132,6 +144,7 @@ export const mceMonthlyGrowth = [
     "tenantsNotLeveraged": 442
   },
   {
+    "date": "2026-08-28",
     "month": "Aug 28, 2026",
     "signatureAccounts": 823,
     "accountsLeveragingProm": 517,
@@ -141,6 +154,7 @@ export const mceMonthlyGrowth = [
     "tenantsNotLeveraged": 437
   },
   {
+    "date": "2026-09-04",
     "month": "Sep 4, 2026",
     "signatureAccounts": 831,
     "accountsLeveragingProm": 521,
@@ -150,6 +164,7 @@ export const mceMonthlyGrowth = [
     "tenantsNotLeveraged": 441
   },
   {
+    "date": "2026-09-11",
     "month": "Sep 11, 2026",
     "signatureAccounts": 837,
     "accountsLeveragingProm": 526,
@@ -159,6 +174,7 @@ export const mceMonthlyGrowth = [
     "tenantsNotLeveraged": 442
   },
   {
+    "date": "2026-09-18",
     "month": "Sep 18, 2026",
     "signatureAccounts": 838,
     "accountsLeveragingProm": 528,
@@ -168,6 +184,7 @@ export const mceMonthlyGrowth = [
     "tenantsNotLeveraged": 442
   },
   {
+    "date": "2026-09-25",
     "month": "Sep 25, 2026",
     "signatureAccounts": 845,
     "accountsLeveragingProm": 522,
@@ -177,6 +194,7 @@ export const mceMonthlyGrowth = [
     "tenantsNotLeveraged": 456
   },
   {
+    "date": "2026-10-02",
     "month": "Oct 2, 2026",
     "signatureAccounts": 845,
     "accountsLeveragingProm": 535,
@@ -186,6 +204,7 @@ export const mceMonthlyGrowth = [
     "tenantsNotLeveraged": 440
   },
   {
+    "date": "2026-10-09",
     "month": "Oct 9, 2026",
     "signatureAccounts": 851,
     "accountsLeveragingProm": 529,
@@ -195,6 +214,7 @@ export const mceMonthlyGrowth = [
     "tenantsNotLeveraged": 452
   },
   {
+    "date": "2026-10-16",
     "month": "Oct 16, 2026",
     "signatureAccounts": 855,
     "accountsLeveragingProm": 535,
@@ -204,6 +224,7 @@ export const mceMonthlyGrowth = [
     "tenantsNotLeveraged": 452
   },
   {
+    "date": "2026-10-23",
     "month": "Oct 23, 2026",
     "signatureAccounts": 858,
     "accountsLeveragingProm": 535,
@@ -213,6 +234,7 @@ export const mceMonthlyGrowth = [
     "tenantsNotLeveraged": 456
   },
   {
+    "date": "2026-10-30",
     "month": "Oct 30, 2026",
     "signatureAccounts": 858,
     "accountsLeveragingProm": 541,
@@ -222,6 +244,7 @@ export const mceMonthlyGrowth = [
     "tenantsNotLeveraged": 449
   },
   {
+    "date": "2026-11-06",
     "month": "Nov 6, 2026",
     "signatureAccounts": 858,
     "accountsLeveragingProm": 544,
@@ -229,6 +252,16 @@ export const mceMonthlyGrowth = [
     "signatureTenants": 1033,
     "tenantsLeveragingProm": 587,
     "tenantsNotLeveraged": 446
+  },
+  {
+    "date": "2026-11-13",
+    "month": "Nov 13, 2026",
+    "signatureAccounts": 858,
+    "accountsLeveragingProm": 543,
+    "accountsNotLeveraged": 315,
+    "signatureTenants": 1033,
+    "tenantsLeveragingProm": 586,
+    "tenantsNotLeveraged": 447
   }
 ];
 
@@ -1958,18 +1991,6 @@ export const mceLeverageAccounts = [
     "isSignature": true,
     "eids": [
       "546000619"
-    ],
-    "isLeveraged": true,
-    "hasMonitoring": true,
-    "reason": null
-  },
-  {
-    "accountName": "Comporium Communications",
-    "serviceProvider": "Marketing Cloud",
-    "isSignature": true,
-    "eids": [
-      "534000686",
-      "534000686"
     ],
     "isLeveraged": true,
     "hasMonitoring": true,
@@ -7351,6 +7372,15 @@ export const mceLeverageAccounts = [
     "reason": null
   },
   {
+    "accountName": "Comporium Communications",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": true,
+    "eids": [],
+    "isLeveraged": false,
+    "hasMonitoring": false,
+    "reason": null
+  },
+  {
     "accountName": "CONFEDERACAO DAS COOPERATIVAS DO SICREDI - CONFEDERACAO SICRED",
     "serviceProvider": "Marketing Cloud",
     "isSignature": true,
@@ -9744,6 +9774,18 @@ export const mceLeverageAccounts = [
     "reason": "No Signature Contract"
   },
   {
+    "accountName": "Experiencias_Xcaret_Parques_SAPI_de_CV",
+    "serviceProvider": "Marketing Cloud",
+    "isSignature": false,
+    "eids": [
+      "M7329010",
+      "M7329008"
+    ],
+    "isLeveraged": true,
+    "hasMonitoring": true,
+    "reason": "MID unresolved (run: python3 resolve-mids.py \u2192 .mcmember 7329010 in SupportBot)"
+  },
+  {
     "accountName": "ForresterResearch",
     "serviceProvider": "Marketing Cloud",
     "isSignature": false,
@@ -9949,7 +9991,7 @@ export const mceLeverageAccounts = [
 // ============================================================================
 
 export const dataMetadata = {
-  "lastUpdated": "2026-11-06",
+  "lastUpdated": "2026-11-13",
   "dataSource": {
     "monitoring": "UTDP Exports (CSV files)",
     "contracts": "/Users/rinku.soni/prom-signature-extension/data/Contracts_23October2026.xlsx",
@@ -9957,8 +9999,8 @@ export const dataMetadata = {
   },
   "generationScript": "generateMCEData.py",
   "stats": {
-    "totalMonitoring": 883,
+    "totalMonitoring": 894,
     "totalSignatureAccounts": 858,
-    "signatureWithProm": 544
+    "signatureWithProm": 543
   }
 };
